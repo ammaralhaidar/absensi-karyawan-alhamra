@@ -30,6 +30,23 @@ export default function KioskPage() {
   const { playSuccess, playLate, playError } = useAudioFeedback();
 
   useEffect(() => {
+    const handleOnline = async () => {
+      toast.info("Koneksi pulih, menyinkronkan data...");
+      const { syncOfflineData } = await import("@/lib/offline/sync");
+      const result = await syncOfflineData();
+      if (result.synced > 0) {
+        toast.success(`${result.synced} data berhasil disinkronkan`);
+        if (navigator.serviceWorker?.controller) {
+          navigator.serviceWorker.controller.postMessage({ type: 'SYNC_OFFLINE_DATA' });
+        }
+      }
+    };
+
+    window.addEventListener("online", handleOnline);
+    return () => window.removeEventListener("online", handleOnline);
+  }, []);
+
+  useEffect(() => {
     if (scanRecordsData.length > 0) {
       setScans(scanRecordsData.slice(0, 5));
     }
@@ -77,6 +94,8 @@ export default function KioskPage() {
 
     if (isOffline) {
       setOfflineQueue((prev) => [scanRecord, ...prev]);
+      const { addToQueue } = await import("@/lib/offline/sync");
+      await addToQueue({ token, kiosk_id: "kiosk-1" });
       toast.info("Disimpan offline", {
         description: "Data akan sync saat koneksi pulih",
       });

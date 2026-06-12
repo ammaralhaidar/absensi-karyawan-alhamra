@@ -1,0 +1,598 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e1436]:
+      - generic [ref=e1437]:
+        - generic [ref=e1438]:
+          - img [ref=e1440]
+          - generic [ref=e1442]:
+            - heading "Alhamra" [level=1] [ref=e1443]
+            - paragraph [ref=e1444]: Attendance
+        - paragraph [ref=e1445]: Admin Dashboard
+      - navigation [ref=e1446]:
+        - generic [ref=e1447]:
+          - link "Dashboard" [ref=e1448] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e1449]:
+              - img [ref=e1450]
+              - generic [ref=e1455]: Dashboard
+          - link "Karyawan" [ref=e1457] [cursor=pointer]:
+            - /url: /admin/employees
+            - generic [ref=e1458]:
+              - img [ref=e1459]
+              - generic [ref=e1464]: Karyawan
+          - link "Departemen" [ref=e1465] [cursor=pointer]:
+            - /url: /admin/departments
+            - generic [ref=e1466]:
+              - img [ref=e1467]
+              - generic [ref=e1471]: Departemen
+          - link "Shift" [ref=e1472] [cursor=pointer]:
+            - /url: /admin/shifts
+            - generic [ref=e1473]:
+              - img [ref=e1474]
+              - generic [ref=e1477]: Shift
+        - generic [ref=e1478]:
+          - paragraph [ref=e1479]: Operasional
+          - generic [ref=e1480]:
+            - link "Approval" [ref=e1481] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e1482]:
+                - img [ref=e1483]
+                - generic [ref=e1486]: Approval
+            - link "Laporan" [ref=e1487] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e1488]:
+                - img [ref=e1489]
+                - generic [ref=e1491]: Laporan
+            - link "Roster" [ref=e1492] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e1493]:
+                - img [ref=e1494]
+                - generic [ref=e1497]: Roster
+            - link "Activity Log" [ref=e1499] [cursor=pointer]:
+              - /url: /admin/activity-log
+              - generic [ref=e1500]:
+                - img [ref=e1501]
+                - generic [ref=e1504]: Activity Log
+      - link "Keluar" [ref=e1506] [cursor=pointer]:
+        - /url: /
+        - button "Keluar" [ref=e1507]:
+          - img
+          - text: Keluar
+    - generic [ref=e4]:
+      - banner [ref=e1508]:
+        - generic [ref=e1510]:
+          - link "Home" [ref=e1511] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e1512]: /
+          - link "Admin" [ref=e1513] [cursor=pointer]:
+            - /url: /admin
+          - generic [ref=e1514]: /
+          - generic [ref=e1515]: Manajemen Roster
+        - generic [ref=e1516]:
+          - generic [ref=e1517]:
+            - img [ref=e1518]
+            - textbox "Cari..." [ref=e1521]
+          - button "3" [ref=e1523]:
+            - img
+            - generic [ref=e1524]: "3"
+          - generic [ref=e1525]:
+            - img [ref=e1527]
+            - generic [ref=e1530]:
+              - paragraph [ref=e1531]: Eka Wulandari
+              - generic [ref=e1532]: Admin
+      - main [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - heading "Manajemen Roster" [level=1] [ref=e10]
+              - paragraph [ref=e11]: Jadwal shift karyawan — Juni 2026
+            - generic [ref=e12]:
+              - button "Copy Bulan Lalu" [ref=e13]:
+                - img
+                - text: Copy Bulan Lalu
+              - button "Simpan Roster" [ref=e14]
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - button "Grid" [ref=e17]:
+                - img
+                - text: Grid
+              - button "Tabel" [active] [ref=e18]:
+                - img
+                - text: Tabel
+            - combobox [ref=e19]:
+              - generic: Semua Dept.
+              - img
+            - button "Weekend → Off" [ref=e21]
+            - generic [ref=e22]: 13 karyawan
+          - generic [ref=e23]:
+            - generic [ref=e25]:
+              - img [ref=e26]
+              - generic [ref=e31]:
+                - paragraph [ref=e32]: "13"
+                - paragraph [ref=e33]: Karyawan
+            - generic [ref=e35]:
+              - img [ref=e36]
+              - generic [ref=e39]:
+                - paragraph [ref=e40]: "80"
+                - paragraph [ref=e41]: Shift Pagi
+            - generic [ref=e43]:
+              - img [ref=e44]
+              - generic [ref=e47]:
+                - paragraph [ref=e48]: "56"
+                - paragraph [ref=e49]: Shift Siang
+            - generic [ref=e51]:
+              - img [ref=e52]
+              - generic [ref=e55]:
+                - paragraph [ref=e56]: "40"
+                - paragraph [ref=e57]: Shift Malam
+          - generic [ref=e58]:
+            - generic [ref=e59]: "Shift:"
+            - generic [ref=e60]: Shift Pagi
+            - generic [ref=e61]: Shift Siang
+            - generic [ref=e62]: Shift Malam
+            - generic [ref=e63]: "Off"
+            - generic [ref=e64]: "|"
+            - generic [ref=e65]: 🔴 Libur
+            - generic [ref=e66]: ⚫ Weekend
+          - generic [ref=e1543]:
+            - generic [ref=e1545]: Roster — Juni 2026
+            - table [ref=e1549]:
+              - rowgroup [ref=e1550]:
+                - row "Karyawan Dept. Default Shift 1 2 3 4 5 6 7" [ref=e1551]:
+                  - columnheader "Karyawan" [ref=e1552]
+                  - columnheader "Dept." [ref=e1553]
+                  - columnheader "Default Shift" [ref=e1554]
+                  - columnheader "1" [ref=e1555]
+                  - columnheader "2" [ref=e1556]
+                  - columnheader "3" [ref=e1557]
+                  - columnheader "4" [ref=e1558]
+                  - columnheader "5" [ref=e1559]
+                  - columnheader "6" [ref=e1560]
+                  - columnheader "7" [ref=e1561]
+              - rowgroup [ref=e1562]:
+                - row "Ahmad Fauzi Web Developer Shift Pagi" [ref=e1563]:
+                  - cell "Ahmad Fauzi" [ref=e1564]
+                  - cell "Web Developer" [ref=e1565]:
+                    - generic [ref=e1566]: Web Developer
+                  - cell "Shift Pagi" [ref=e1567]:
+                    - generic [ref=e1568]: Shift Pagi
+                  - cell [ref=e1569]:
+                    - combobox [ref=e1570]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1571]:
+                    - combobox [ref=e1572]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1573]:
+                    - combobox [ref=e1574]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1575]:
+                    - combobox [ref=e1576]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1577]:
+                    - combobox [ref=e1578]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1579]:
+                    - combobox [ref=e1580]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1581]:
+                    - combobox [ref=e1582]:
+                      - generic: "-"
+                      - img
+                - row "Budi Santoso Web Developer Shift Pagi" [ref=e1583]:
+                  - cell "Budi Santoso" [ref=e1584]
+                  - cell "Web Developer" [ref=e1585]:
+                    - generic [ref=e1586]: Web Developer
+                  - cell "Shift Pagi" [ref=e1587]:
+                    - generic [ref=e1588]: Shift Pagi
+                  - cell [ref=e1589]:
+                    - combobox [ref=e1590]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1591]:
+                    - combobox [ref=e1592]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1593]:
+                    - combobox [ref=e1594]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1595]:
+                    - combobox [ref=e1596]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1597]:
+                    - combobox [ref=e1598]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1599]:
+                    - combobox [ref=e1600]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1601]:
+                    - combobox [ref=e1602]:
+                      - generic: "-"
+                      - img
+                - row "Citra Lestari Dapur Shift Siang" [ref=e1603]:
+                  - cell "Citra Lestari" [ref=e1604]
+                  - cell "Dapur" [ref=e1605]:
+                    - generic [ref=e1606]: Dapur
+                  - cell "Shift Siang" [ref=e1607]:
+                    - generic [ref=e1608]: Shift Siang
+                  - cell [ref=e1609]:
+                    - combobox [ref=e1610]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1611]:
+                    - combobox [ref=e1612]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1613]:
+                    - combobox [ref=e1614]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1615]:
+                    - combobox [ref=e1616]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1617]:
+                    - combobox [ref=e1618]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1619]:
+                    - combobox [ref=e1620]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1621]:
+                    - combobox [ref=e1622]:
+                      - generic: "-"
+                      - img
+                - row "Dedi Pratama Security Shift Malam" [ref=e1623]:
+                  - cell "Dedi Pratama" [ref=e1624]
+                  - cell "Security" [ref=e1625]:
+                    - generic [ref=e1626]: Security
+                  - cell "Shift Malam" [ref=e1627]:
+                    - generic [ref=e1628]: Shift Malam
+                  - cell [ref=e1629]:
+                    - combobox [ref=e1630]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1631]:
+                    - combobox [ref=e1632]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1633]:
+                    - combobox [ref=e1634]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1635]:
+                    - combobox [ref=e1636]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1637]:
+                    - combobox [ref=e1638]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1639]:
+                    - combobox [ref=e1640]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1641]:
+                    - combobox [ref=e1642]:
+                      - generic: "-"
+                      - img
+                - row "Fajar Hidayat Web Developer Shift Pagi" [ref=e1643]:
+                  - cell "Fajar Hidayat" [ref=e1644]
+                  - cell "Web Developer" [ref=e1645]:
+                    - generic [ref=e1646]: Web Developer
+                  - cell "Shift Pagi" [ref=e1647]:
+                    - generic [ref=e1648]: Shift Pagi
+                  - cell [ref=e1649]:
+                    - combobox [ref=e1650]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1651]:
+                    - combobox [ref=e1652]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1653]:
+                    - combobox [ref=e1654]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1655]:
+                    - combobox [ref=e1656]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1657]:
+                    - combobox [ref=e1658]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1659]:
+                    - combobox [ref=e1660]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1661]:
+                    - combobox [ref=e1662]:
+                      - generic: S
+                      - img
+                - row "Gita Ananda Dapur Shift Siang" [ref=e1663]:
+                  - cell "Gita Ananda" [ref=e1664]
+                  - cell "Dapur" [ref=e1665]:
+                    - generic [ref=e1666]: Dapur
+                  - cell "Shift Siang" [ref=e1667]:
+                    - generic [ref=e1668]: Shift Siang
+                  - cell [ref=e1669]:
+                    - combobox [ref=e1670]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1671]:
+                    - combobox [ref=e1672]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1673]:
+                    - combobox [ref=e1674]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1675]:
+                    - combobox [ref=e1676]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1677]:
+                    - combobox [ref=e1678]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1679]:
+                    - combobox [ref=e1680]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1681]:
+                    - combobox [ref=e1682]:
+                      - generic: S
+                      - img
+                - row "Hadi Wijaya Security Shift Malam" [ref=e1683]:
+                  - cell "Hadi Wijaya" [ref=e1684]
+                  - cell "Security" [ref=e1685]:
+                    - generic [ref=e1686]: Security
+                  - cell "Shift Malam" [ref=e1687]:
+                    - generic [ref=e1688]: Shift Malam
+                  - cell [ref=e1689]:
+                    - combobox [ref=e1690]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1691]:
+                    - combobox [ref=e1692]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1693]:
+                    - combobox [ref=e1694]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1695]:
+                    - combobox [ref=e1696]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1697]:
+                    - combobox [ref=e1698]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1699]:
+                    - combobox [ref=e1700]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1701]:
+                    - combobox [ref=e1702]:
+                      - generic: S
+                      - img
+                - row "Indah Permata Web Developer Shift Pagi" [ref=e1703]:
+                  - cell "Indah Permata" [ref=e1704]
+                  - cell "Web Developer" [ref=e1705]:
+                    - generic [ref=e1706]: Web Developer
+                  - cell "Shift Pagi" [ref=e1707]:
+                    - generic [ref=e1708]: Shift Pagi
+                  - cell [ref=e1709]:
+                    - combobox [ref=e1710]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1711]:
+                    - combobox [ref=e1712]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1713]:
+                    - combobox [ref=e1714]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1715]:
+                    - combobox [ref=e1716]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1717]:
+                    - combobox [ref=e1718]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1719]:
+                    - combobox [ref=e1720]:
+                      - generic: S
+                      - img
+                  - cell [ref=e1721]:
+                    - combobox [ref=e1722]:
+                      - generic: S
+                      - img
+                - row "Joko Suryanto Dapur Shift Siang" [ref=e1723]:
+                  - cell "Joko Suryanto" [ref=e1724]
+                  - cell "Dapur" [ref=e1725]:
+                    - generic [ref=e1726]: Dapur
+                  - cell "Shift Siang" [ref=e1727]:
+                    - generic [ref=e1728]: Shift Siang
+                  - cell [ref=e1729]:
+                    - combobox [ref=e1730]:
+                      - generic: L
+                      - img
+                  - cell [ref=e1731]:
+                    - combobox [ref=e1732]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1733]:
+                    - combobox [ref=e1734]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1735]:
+                    - combobox [ref=e1736]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1737]:
+                    - combobox [ref=e1738]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1739]:
+                    - combobox [ref=e1740]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1741]:
+                    - combobox [ref=e1742]:
+                      - generic: "-"
+                      - img
+                - row "Kartika Sari Web Developer Shift Pagi" [ref=e1743]:
+                  - cell "Kartika Sari" [ref=e1744]
+                  - cell "Web Developer" [ref=e1745]:
+                    - generic [ref=e1746]: Web Developer
+                  - cell "Shift Pagi" [ref=e1747]:
+                    - generic [ref=e1748]: Shift Pagi
+                  - cell [ref=e1749]:
+                    - combobox [ref=e1750]:
+                      - generic: L
+                      - img
+                  - cell [ref=e1751]:
+                    - combobox [ref=e1752]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1753]:
+                    - combobox [ref=e1754]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1755]:
+                    - combobox [ref=e1756]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1757]:
+                    - combobox [ref=e1758]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1759]:
+                    - combobox [ref=e1760]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1761]:
+                    - combobox [ref=e1762]:
+                      - generic: "-"
+                      - img
+                - row "Lukman Hakim Dapur Shift Siang" [ref=e1763]:
+                  - cell "Lukman Hakim" [ref=e1764]
+                  - cell "Dapur" [ref=e1765]:
+                    - generic [ref=e1766]: Dapur
+                  - cell "Shift Siang" [ref=e1767]:
+                    - generic [ref=e1768]: Shift Siang
+                  - cell [ref=e1769]:
+                    - combobox [ref=e1770]:
+                      - generic: L
+                      - img
+                  - cell [ref=e1771]:
+                    - combobox [ref=e1772]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1773]:
+                    - combobox [ref=e1774]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1775]:
+                    - combobox [ref=e1776]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1777]:
+                    - combobox [ref=e1778]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1779]:
+                    - combobox [ref=e1780]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1781]:
+                    - combobox [ref=e1782]:
+                      - generic: "-"
+                      - img
+                - row "Nico Pratomo HR Shift Pagi" [ref=e1783]:
+                  - cell "Nico Pratomo" [ref=e1784]
+                  - cell "HR" [ref=e1785]:
+                    - generic [ref=e1786]: HR
+                  - cell "Shift Pagi" [ref=e1787]:
+                    - generic [ref=e1788]: Shift Pagi
+                  - cell [ref=e1789]:
+                    - combobox [ref=e1790]:
+                      - generic: L
+                      - img
+                  - cell [ref=e1791]:
+                    - combobox [ref=e1792]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1793]:
+                    - combobox [ref=e1794]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1795]:
+                    - combobox [ref=e1796]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1797]:
+                    - combobox [ref=e1798]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1799]:
+                    - combobox [ref=e1800]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1801]:
+                    - combobox [ref=e1802]:
+                      - generic: "-"
+                      - img
+                - row "Olivia Putri Web Developer Shift Pagi" [ref=e1803]:
+                  - cell "Olivia Putri" [ref=e1804]
+                  - cell "Web Developer" [ref=e1805]:
+                    - generic [ref=e1806]: Web Developer
+                  - cell "Shift Pagi" [ref=e1807]:
+                    - generic [ref=e1808]: Shift Pagi
+                  - cell [ref=e1809]:
+                    - combobox [ref=e1810]:
+                      - generic: L
+                      - img
+                  - cell [ref=e1811]:
+                    - combobox [ref=e1812]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1813]:
+                    - combobox [ref=e1814]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1815]:
+                    - combobox [ref=e1816]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1817]:
+                    - combobox [ref=e1818]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1819]:
+                    - combobox [ref=e1820]:
+                      - generic: "-"
+                      - img
+                  - cell [ref=e1821]:
+                    - combobox [ref=e1822]:
+                      - generic: "-"
+                      - img
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e1538] [cursor=pointer]:
+    - img [ref=e1539]
+  - alert [ref=e1542]

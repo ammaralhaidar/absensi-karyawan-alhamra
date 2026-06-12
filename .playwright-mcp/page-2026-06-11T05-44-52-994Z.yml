@@ -1,0 +1,139 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - heading "Alhamra" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Attendance
+        - paragraph [ref=e12]: Admin Dashboard
+      - navigation [ref=e13]:
+        - link "Manajemen Roster" [ref=e14] [cursor=pointer]:
+          - /url: /admin/roster
+          - generic [ref=e15]:
+            - img [ref=e16]
+            - generic [ref=e18]: Manajemen Roster
+        - link "Approval Center" [ref=e19] [cursor=pointer]:
+          - /url: /admin/approvals
+          - generic [ref=e20]:
+            - img [ref=e21]
+            - generic [ref=e24]: Approval Center
+        - link "Laporan & Export" [ref=e26] [cursor=pointer]:
+          - /url: /admin/reports
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - generic [ref=e33]: Laporan & Export
+      - link "Keluar" [ref=e35] [cursor=pointer]:
+        - /url: /
+        - button "Keluar" [ref=e36]:
+          - img
+          - text: Keluar
+    - main [ref=e37]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - heading "Approval Center" [level=1] [ref=e42]
+            - paragraph [ref=e43]: Review dan approval pengajuan cuti/izin karyawan
+          - generic [ref=e45]:
+            - img
+            - text: 3 Pending
+        - generic [ref=e46]:
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: "3"
+              - paragraph [ref=e53]: Menunggu Approval
+          - generic [ref=e55]:
+            - img [ref=e56]
+            - generic [ref=e59]:
+              - paragraph [ref=e60]: "1"
+              - paragraph [ref=e61]: Disetujui
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: "1"
+              - paragraph [ref=e70]: Ditolak
+        - generic [ref=e71]:
+          - tablist [ref=e72]:
+            - tab "Pending" [selected] [ref=e73]
+            - tab "Disetujui" [ref=e74]
+            - tab "Ditolak" [ref=e75]
+          - tabpanel "Pending" [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: Pengajuan Menunggu Approval
+                - generic [ref=e80]: Review dan berikan keputusan
+              - table [ref=e83]:
+                - rowgroup [ref=e84]:
+                  - row "Karyawan Tipe Tanggal Alasan Lampiran Aksi" [ref=e85]:
+                    - columnheader "Karyawan" [ref=e86]
+                    - columnheader "Tipe" [ref=e87]
+                    - columnheader "Tanggal" [ref=e88]
+                    - columnheader "Alasan" [ref=e89]
+                    - columnheader "Lampiran" [ref=e90]
+                    - columnheader "Aksi" [ref=e91]
+                - rowgroup [ref=e92]:
+                  - row "Ahmad Fauzi cuti tahunan 2026-06-15 - 2026-06-17 Liburan keluarga - Detail Approve Reject" [ref=e93]:
+                    - cell "Ahmad Fauzi" [ref=e94]
+                    - cell "cuti tahunan" [ref=e95]:
+                      - generic [ref=e96]: cuti tahunan
+                    - cell "2026-06-15 - 2026-06-17" [ref=e97]
+                    - cell "Liburan keluarga" [ref=e98]
+                    - cell "-" [ref=e99]:
+                      - generic [ref=e100]: "-"
+                    - cell "Detail Approve Reject" [ref=e101]:
+                      - generic [ref=e102]:
+                        - button "Detail" [ref=e103]:
+                          - img
+                          - text: Detail
+                        - button "Approve" [ref=e104]:
+                          - img
+                          - text: Approve
+                        - button "Reject" [ref=e105]:
+                          - img
+                          - text: Reject
+                  - row "Dedi Pratama izin 2026-06-20 Urusan keluarga - Detail Approve Reject" [ref=e106]:
+                    - cell "Dedi Pratama" [ref=e107]
+                    - cell "izin" [ref=e108]:
+                      - generic [ref=e109]: izin
+                    - cell "2026-06-20" [ref=e110]
+                    - cell "Urusan keluarga" [ref=e111]
+                    - cell "-" [ref=e112]:
+                      - generic [ref=e113]: "-"
+                    - cell "Detail Approve Reject" [ref=e114]:
+                      - generic [ref=e115]:
+                        - button "Detail" [ref=e116]:
+                          - img
+                          - text: Detail
+                        - button "Approve" [ref=e117]:
+                          - img
+                          - text: Approve
+                        - button "Reject" [ref=e118]:
+                          - img
+                          - text: Reject
+                  - row "Indah Permata sakit 2026-06-13 - 2026-06-14 Sakit perut Ada Detail Approve Reject" [ref=e119]:
+                    - cell "Indah Permata" [ref=e120]
+                    - cell "sakit" [ref=e121]:
+                      - generic [ref=e122]: sakit
+                    - cell "2026-06-13 - 2026-06-14" [ref=e123]
+                    - cell "Sakit perut" [ref=e124]
+                    - cell "Ada" [ref=e125]:
+                      - generic [ref=e126]:
+                        - img
+                        - text: Ada
+                    - cell "Detail Approve Reject" [ref=e127]:
+                      - generic [ref=e128]:
+                        - button "Detail" [ref=e129]:
+                          - img
+                          - text: Detail
+                        - button "Approve" [ref=e130]:
+                          - img
+                          - text: Approve
+                        - button "Reject" [ref=e131]:
+                          - img
+                          - text: Reject
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e137] [cursor=pointer]:
+    - img [ref=e138]
+  - alert [ref=e141]

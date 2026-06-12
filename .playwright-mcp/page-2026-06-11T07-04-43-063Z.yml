@@ -1,0 +1,87 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - button [ref=e3]:
+      - img
+    - main [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - heading "Manajemen Departemen" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Kelola departemen dan divisi perusahaan
+          - button "Tambah Departemen" [ref=e12]:
+            - img
+            - text: Tambah Departemen
+        - generic [ref=e13]:
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - img [ref=e18]
+              - generic [ref=e22]:
+                - button [ref=e23]:
+                  - img
+                - button [ref=e24]:
+                  - img
+            - paragraph [ref=e25]: Web Developer
+            - paragraph [ref=e26]: Pengembangan dan maintenance website
+            - generic [ref=e27]:
+              - img [ref=e28]
+              - generic [ref=e33]: 6 karyawan
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - img [ref=e38]
+              - generic [ref=e42]:
+                - button [ref=e43]:
+                  - img
+                - button [ref=e44]:
+                  - img
+            - paragraph [ref=e45]: Dapur
+            - paragraph [ref=e46]: Produksi makanan dan minuman
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - generic [ref=e53]: 4 karyawan
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e58]
+              - generic [ref=e62]:
+                - button [ref=e63]:
+                  - img
+                - button [ref=e64]:
+                  - img
+            - paragraph [ref=e65]: Security
+            - paragraph [ref=e66]: Keamanan dan ketertiban area
+            - generic [ref=e67]:
+              - img [ref=e68]
+              - generic [ref=e73]: 3 karyawan
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - img [ref=e78]
+              - generic [ref=e82]:
+                - button [ref=e83]:
+                  - img
+                - button [ref=e84]:
+                  - img
+            - paragraph [ref=e85]: HR
+            - paragraph [ref=e86]: Human Resources dan administrasi
+            - generic [ref=e87]:
+              - img [ref=e88]
+              - generic [ref=e93]: 2 karyawan
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - img [ref=e124]
+              - generic [ref=e128]:
+                - button [ref=e129]:
+                  - img
+                - button [ref=e130]:
+                  - img
+            - paragraph [ref=e131]: Marketing
+            - paragraph [ref=e132]: Divisi pemasaran dan promosi
+            - generic [ref=e133]:
+              - img [ref=e134]
+              - generic [ref=e139]: 0 karyawan
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e140]:
+        - img [ref=e142]
+        - generic [ref=e146]: Departemen berhasil ditambahkan
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]:
+    - img [ref=e100]
+  - alert [ref=e103]

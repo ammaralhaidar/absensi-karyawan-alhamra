@@ -1,0 +1,1969 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - button [ref=e3]:
+      - img
+    - main [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - heading "Manajemen Roster" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Jadwal shift karyawan — Juni 2026
+          - generic [ref=e12]:
+            - button "Copy Bulan Lalu" [ref=e13]:
+              - img
+              - text: Copy Bulan Lalu
+            - button "Simpan Roster" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - button "Grid" [ref=e17]:
+              - img
+              - text: Grid
+            - button "Tabel" [ref=e18]:
+              - img
+              - text: Tabel
+          - combobox [ref=e19]:
+            - img
+          - combobox [ref=e20]
+          - button "Weekend → Off" [ref=e21]
+          - generic [ref=e22]: 13 karyawan
+        - generic [ref=e23]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - generic [ref=e31]:
+              - paragraph [ref=e32]: "13"
+              - paragraph [ref=e33]: Karyawan
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e39]:
+              - paragraph [ref=e40]: "80"
+              - paragraph [ref=e41]: Shift Pagi
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - generic [ref=e47]:
+              - paragraph [ref=e48]: "56"
+              - paragraph [ref=e49]: Shift Siang
+          - generic [ref=e51]:
+            - img [ref=e52]
+            - generic [ref=e55]:
+              - paragraph [ref=e56]: "40"
+              - paragraph [ref=e57]: Shift Malam
+        - generic [ref=e58]:
+          - generic [ref=e59]: "Shift:"
+          - generic [ref=e60]: Shift Pagi
+          - generic [ref=e61]: Shift Siang
+          - generic [ref=e62]: Shift Malam
+          - generic [ref=e63]: "Off"
+          - generic [ref=e64]: "|"
+          - generic [ref=e65]: 🔴 Libur
+          - generic [ref=e66]: ⚫ Weekend
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: Karyawan
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - paragraph [ref=e73]: "1"
+                - paragraph [ref=e74]: Sn
+              - generic [ref=e75]:
+                - paragraph [ref=e76]: "2"
+                - paragraph [ref=e77]: Sl
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: "3"
+                - paragraph [ref=e80]: Rb
+              - generic [ref=e81]:
+                - paragraph [ref=e82]: "4"
+                - paragraph [ref=e83]: Km
+              - generic [ref=e84]:
+                - paragraph [ref=e85]: "5"
+                - paragraph [ref=e86]: Jm
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: "6"
+                - paragraph [ref=e89]: Sb
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "7"
+                - paragraph [ref=e92]: Mg
+              - generic [ref=e93]:
+                - paragraph [ref=e94]: "8"
+                - paragraph [ref=e95]: Sn
+              - generic [ref=e96]:
+                - paragraph [ref=e97]: "9"
+                - paragraph [ref=e98]: Sl
+              - generic [ref=e99]:
+                - paragraph [ref=e100]: "10"
+                - paragraph [ref=e101]: Rb
+              - generic [ref=e102]:
+                - paragraph [ref=e103]: "11"
+                - paragraph [ref=e104]: Km
+              - generic [ref=e105]:
+                - paragraph [ref=e106]: "12"
+                - paragraph [ref=e107]: Jm
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: "13"
+                - paragraph [ref=e110]: Sb
+              - generic [ref=e111]:
+                - paragraph [ref=e112]: "14"
+                - paragraph [ref=e113]: Mg
+              - generic [ref=e114]:
+                - paragraph [ref=e115]: "15"
+                - paragraph [ref=e116]: Sn
+              - generic [ref=e117]:
+                - paragraph [ref=e118]: "16"
+                - paragraph [ref=e119]: Sl
+              - generic [ref=e120]:
+                - paragraph [ref=e121]: "17"
+                - paragraph [ref=e122]: Rb
+              - generic [ref=e123]:
+                - paragraph [ref=e124]: "18"
+                - paragraph [ref=e125]: Km
+              - generic [ref=e126]:
+                - paragraph [ref=e127]: "19"
+                - paragraph [ref=e128]: Jm
+              - generic [ref=e129]:
+                - paragraph [ref=e130]: "20"
+                - paragraph [ref=e131]: Sb
+              - generic [ref=e132]:
+                - paragraph [ref=e133]: "21"
+                - paragraph [ref=e134]: Mg
+              - generic [ref=e135]:
+                - paragraph [ref=e136]: "22"
+                - paragraph [ref=e137]: Sn
+              - generic [ref=e138]:
+                - paragraph [ref=e139]: "23"
+                - paragraph [ref=e140]: Sl
+              - generic [ref=e141]:
+                - paragraph [ref=e142]: "24"
+                - paragraph [ref=e143]: Rb
+              - generic [ref=e144]:
+                - paragraph [ref=e145]: "25"
+                - paragraph [ref=e146]: Km
+              - generic [ref=e147]:
+                - paragraph [ref=e148]: "26"
+                - paragraph [ref=e149]: Jm
+              - generic [ref=e150]:
+                - paragraph [ref=e151]: "27"
+                - paragraph [ref=e152]: Sb
+              - generic [ref=e153]:
+                - paragraph [ref=e154]: "28"
+                - paragraph [ref=e155]: Mg
+              - generic [ref=e156]:
+                - paragraph [ref=e157]: "29"
+                - paragraph [ref=e158]: Sn
+              - generic [ref=e159]:
+                - paragraph [ref=e160]: "30"
+                - paragraph [ref=e161]: Sl
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - paragraph [ref=e164]: Ahmad Fauzi
+              - paragraph [ref=e165]: Web Developer
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - combobox [ref=e168] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e169]
+              - generic [ref=e171]:
+                - combobox [ref=e172] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e173]
+              - generic [ref=e174]:
+                - combobox [ref=e175] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e176]
+              - generic [ref=e177]:
+                - combobox [ref=e178] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e179]
+              - generic [ref=e180]:
+                - combobox [ref=e181] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e182]
+              - generic [ref=e183]:
+                - combobox [ref=e184] [cursor=pointer]:
+                  - img
+                - combobox [ref=e185]
+              - generic [ref=e186]:
+                - combobox [ref=e187] [cursor=pointer]:
+                  - img
+                - combobox [ref=e188]
+              - generic [ref=e189]:
+                - combobox [ref=e190] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e191]
+              - generic [ref=e193]:
+                - combobox [ref=e194] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e195]
+              - generic [ref=e197]:
+                - combobox [ref=e198] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e199]
+              - generic [ref=e200]:
+                - combobox [ref=e201] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e202]
+              - generic [ref=e203]:
+                - combobox [ref=e204] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e205]
+              - generic [ref=e206]:
+                - combobox [ref=e207] [cursor=pointer]:
+                  - img
+                - combobox [ref=e208]
+              - generic [ref=e209]:
+                - combobox [ref=e210] [cursor=pointer]:
+                  - img
+                - combobox [ref=e211]
+              - generic [ref=e212]:
+                - combobox [ref=e213] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e214]
+              - generic [ref=e215]:
+                - combobox [ref=e216] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e217]
+              - generic [ref=e218]:
+                - combobox [ref=e219] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e220]
+              - generic [ref=e221]:
+                - combobox [ref=e222] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e223]
+              - generic [ref=e224]:
+                - combobox [ref=e225] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e226]
+              - generic [ref=e227]:
+                - combobox [ref=e228] [cursor=pointer]:
+                  - img
+                - combobox [ref=e229]
+              - generic [ref=e230]:
+                - combobox [ref=e231] [cursor=pointer]:
+                  - img
+                - combobox [ref=e232]
+              - generic [ref=e233]:
+                - combobox [ref=e234] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e235]
+              - generic [ref=e236]:
+                - combobox [ref=e237] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e238]
+              - generic [ref=e239]:
+                - combobox [ref=e240] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e241]
+              - generic [ref=e242]:
+                - combobox [ref=e243] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e244]
+              - generic [ref=e245]:
+                - combobox [ref=e246] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e247]
+              - generic [ref=e248]:
+                - combobox [ref=e249] [cursor=pointer]:
+                  - img
+                - combobox [ref=e250]
+              - generic [ref=e251]:
+                - combobox [ref=e252] [cursor=pointer]:
+                  - img
+                - combobox [ref=e253]
+              - generic [ref=e254]:
+                - combobox [ref=e255] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e256]
+              - generic [ref=e257]:
+                - combobox [ref=e258] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e259]
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - paragraph [ref=e262]: Budi Santoso
+              - paragraph [ref=e263]: Web Developer
+            - generic [ref=e264]:
+              - generic [ref=e265]:
+                - combobox [ref=e266] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e267]
+              - generic [ref=e269]:
+                - combobox [ref=e270] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e271]
+              - generic [ref=e272]:
+                - combobox [ref=e273] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e274]
+              - generic [ref=e275]:
+                - combobox [ref=e276] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e277]
+              - generic [ref=e278]:
+                - combobox [ref=e279] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e280]
+              - generic [ref=e281]:
+                - combobox [ref=e282] [cursor=pointer]:
+                  - img
+                - combobox [ref=e283]
+              - generic [ref=e284]:
+                - combobox [ref=e285] [cursor=pointer]:
+                  - img
+                - combobox [ref=e286]
+              - generic [ref=e287]:
+                - combobox [ref=e288] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e289]
+              - generic [ref=e291]:
+                - combobox [ref=e292] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e293]
+              - generic [ref=e295]:
+                - combobox [ref=e296] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e297]
+              - generic [ref=e298]:
+                - combobox [ref=e299] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e300]
+              - generic [ref=e301]:
+                - combobox [ref=e302] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e303]
+              - generic [ref=e304]:
+                - combobox [ref=e305] [cursor=pointer]:
+                  - img
+                - combobox [ref=e306]
+              - generic [ref=e307]:
+                - combobox [ref=e308] [cursor=pointer]:
+                  - img
+                - combobox [ref=e309]
+              - generic [ref=e310]:
+                - combobox [ref=e311] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e312]
+              - generic [ref=e313]:
+                - combobox [ref=e314] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e315]
+              - generic [ref=e316]:
+                - combobox [ref=e317] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e318]
+              - generic [ref=e319]:
+                - combobox [ref=e320] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e321]
+              - generic [ref=e322]:
+                - combobox [ref=e323] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e324]
+              - generic [ref=e325]:
+                - combobox [ref=e326] [cursor=pointer]:
+                  - img
+                - combobox [ref=e327]
+              - generic [ref=e328]:
+                - combobox [ref=e329] [cursor=pointer]:
+                  - img
+                - combobox [ref=e330]
+              - generic [ref=e331]:
+                - combobox [ref=e332] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e333]
+              - generic [ref=e334]:
+                - combobox [ref=e335] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e336]
+              - generic [ref=e337]:
+                - combobox [ref=e338] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e339]
+              - generic [ref=e340]:
+                - combobox [ref=e341] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e342]
+              - generic [ref=e343]:
+                - combobox [ref=e344] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e345]
+              - generic [ref=e346]:
+                - combobox [ref=e347] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e348]
+              - generic [ref=e349]:
+                - combobox [ref=e350] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e351]
+              - generic [ref=e352]:
+                - combobox [ref=e353] [cursor=pointer]:
+                  - img
+                - combobox [ref=e354]
+              - generic [ref=e355]:
+                - combobox [ref=e356] [cursor=pointer]:
+                  - img
+                - combobox [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - paragraph [ref=e360]: Citra Lestari
+              - paragraph [ref=e361]: Dapur
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - combobox [ref=e364] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e365]
+              - generic [ref=e367]:
+                - combobox [ref=e368] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e369]
+              - generic [ref=e370]:
+                - combobox [ref=e371] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e372]
+              - generic [ref=e373]:
+                - combobox [ref=e374] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e375]
+              - generic [ref=e376]:
+                - combobox [ref=e377] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e378]
+              - generic [ref=e379]:
+                - combobox [ref=e380] [cursor=pointer]:
+                  - img
+                - combobox [ref=e381]
+              - generic [ref=e382]:
+                - combobox [ref=e383] [cursor=pointer]:
+                  - img
+                - combobox [ref=e384]
+              - generic [ref=e385]:
+                - combobox [ref=e386] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e387]
+              - generic [ref=e389]:
+                - combobox [ref=e390] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e391]
+              - generic [ref=e393]:
+                - combobox [ref=e394] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e395]
+              - generic [ref=e396]:
+                - combobox [ref=e397] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e398]
+              - generic [ref=e399]:
+                - combobox [ref=e400] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e401]
+              - generic [ref=e402]:
+                - combobox [ref=e403] [cursor=pointer]:
+                  - img
+                - combobox [ref=e404]
+              - generic [ref=e405]:
+                - combobox [ref=e406] [cursor=pointer]:
+                  - img
+                - combobox [ref=e407]
+              - generic [ref=e408]:
+                - combobox [ref=e409] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e410]
+              - generic [ref=e411]:
+                - combobox [ref=e412] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e413]
+              - generic [ref=e414]:
+                - combobox [ref=e415] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e416]
+              - generic [ref=e417]:
+                - combobox [ref=e418] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e419]
+              - generic [ref=e420]:
+                - combobox [ref=e421] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e422]
+              - generic [ref=e423]:
+                - combobox [ref=e424] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e425]
+              - generic [ref=e426]:
+                - combobox [ref=e427] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e428]
+              - generic [ref=e429]:
+                - combobox [ref=e430] [cursor=pointer]:
+                  - img
+                - combobox [ref=e431]
+              - generic [ref=e432]:
+                - combobox [ref=e433] [cursor=pointer]:
+                  - img
+                - combobox [ref=e434]
+              - generic [ref=e435]:
+                - combobox [ref=e436] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e437]
+              - generic [ref=e438]:
+                - combobox [ref=e439] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e440]
+              - generic [ref=e441]:
+                - combobox [ref=e442] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e443]
+              - generic [ref=e444]:
+                - combobox [ref=e445] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e446]
+              - generic [ref=e447]:
+                - combobox [ref=e448] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e449]
+              - generic [ref=e450]:
+                - combobox [ref=e451] [cursor=pointer]:
+                  - img
+                - combobox [ref=e452]
+              - generic [ref=e453]:
+                - combobox [ref=e454] [cursor=pointer]:
+                  - img
+                - combobox [ref=e455]
+          - generic [ref=e456]:
+            - generic [ref=e457]:
+              - paragraph [ref=e458]: Dedi Pratama
+              - paragraph [ref=e459]: Security
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - combobox [ref=e462] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e463]
+              - generic [ref=e465]:
+                - combobox [ref=e466] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e467]
+              - generic [ref=e468]:
+                - combobox [ref=e469] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e470]
+              - generic [ref=e471]:
+                - combobox [ref=e472] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e473]
+              - generic [ref=e474]:
+                - combobox [ref=e475] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e476]
+              - generic [ref=e477]:
+                - combobox [ref=e478] [cursor=pointer]:
+                  - img
+                - combobox [ref=e479]
+              - generic [ref=e480]:
+                - combobox [ref=e481] [cursor=pointer]:
+                  - img
+                - combobox [ref=e482]
+              - generic [ref=e483]:
+                - combobox [ref=e484] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e485]
+              - generic [ref=e487]:
+                - combobox [ref=e488] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e489]
+              - generic [ref=e491]:
+                - combobox [ref=e492] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e493]
+              - generic [ref=e494]:
+                - combobox [ref=e495] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e496]
+              - generic [ref=e497]:
+                - combobox [ref=e498] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e499]
+              - generic [ref=e500]:
+                - combobox [ref=e501] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e502]
+              - generic [ref=e503]:
+                - combobox [ref=e504] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e505]
+              - generic [ref=e506]:
+                - combobox [ref=e507] [cursor=pointer]:
+                  - img
+                - combobox [ref=e508]
+              - generic [ref=e509]:
+                - combobox [ref=e510] [cursor=pointer]:
+                  - img
+                - combobox [ref=e511]
+              - generic [ref=e512]:
+                - combobox [ref=e513] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e514]
+              - generic [ref=e515]:
+                - combobox [ref=e516] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e517]
+              - generic [ref=e518]:
+                - combobox [ref=e519] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e520]
+              - generic [ref=e521]:
+                - combobox [ref=e522] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e523]
+              - generic [ref=e524]:
+                - combobox [ref=e525] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e526]
+              - generic [ref=e527]:
+                - combobox [ref=e528] [cursor=pointer]:
+                  - img
+                - combobox [ref=e529]
+              - generic [ref=e530]:
+                - combobox [ref=e531] [cursor=pointer]:
+                  - img
+                - combobox [ref=e532]
+              - generic [ref=e533]:
+                - combobox [ref=e534] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e535]
+              - generic [ref=e536]:
+                - combobox [ref=e537] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e538]
+              - generic [ref=e539]:
+                - combobox [ref=e540] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e541]
+              - generic [ref=e542]:
+                - combobox [ref=e543] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e544]
+              - generic [ref=e545]:
+                - combobox [ref=e546] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e547]
+              - generic [ref=e548]:
+                - combobox [ref=e549] [cursor=pointer]:
+                  - img
+                - combobox [ref=e550]
+              - generic [ref=e551]:
+                - combobox [ref=e552] [cursor=pointer]:
+                  - img
+                - combobox [ref=e553]
+          - generic [ref=e554]:
+            - generic [ref=e555]:
+              - paragraph [ref=e556]: Fajar Hidayat
+              - paragraph [ref=e557]: Web Developer
+            - generic [ref=e558]:
+              - generic [ref=e559]:
+                - combobox [ref=e560] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e561]
+              - generic [ref=e563]:
+                - combobox [ref=e564] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e565]
+              - generic [ref=e566]:
+                - combobox [ref=e567] [cursor=pointer]:
+                  - img
+                - combobox [ref=e568]
+              - generic [ref=e569]:
+                - combobox [ref=e570] [cursor=pointer]:
+                  - img
+                - combobox [ref=e571]
+              - generic [ref=e572]:
+                - combobox [ref=e573] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e574]
+              - generic [ref=e575]:
+                - combobox [ref=e576] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e577]
+              - generic [ref=e578]:
+                - combobox [ref=e579] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e580]
+              - generic [ref=e581]:
+                - combobox [ref=e582] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e583]
+              - generic [ref=e585]:
+                - combobox [ref=e586] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e587]
+              - generic [ref=e589]:
+                - combobox [ref=e590] [cursor=pointer]:
+                  - img
+                - combobox [ref=e591]
+              - generic [ref=e592]:
+                - combobox [ref=e593] [cursor=pointer]:
+                  - img
+                - combobox [ref=e594]
+              - generic [ref=e595]:
+                - combobox [ref=e596] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e597]
+              - generic [ref=e598]:
+                - combobox [ref=e599] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e600]
+              - generic [ref=e601]:
+                - combobox [ref=e602] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e603]
+              - generic [ref=e604]:
+                - combobox [ref=e605] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e606]
+              - generic [ref=e607]:
+                - combobox [ref=e608] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e609]
+              - generic [ref=e610]:
+                - combobox [ref=e611] [cursor=pointer]:
+                  - img
+                - combobox [ref=e612]
+              - generic [ref=e613]:
+                - combobox [ref=e614] [cursor=pointer]:
+                  - img
+                - combobox [ref=e615]
+              - generic [ref=e616]:
+                - combobox [ref=e617] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e618]
+              - generic [ref=e619]:
+                - combobox [ref=e620] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e621]
+              - generic [ref=e622]:
+                - combobox [ref=e623] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e624]
+              - generic [ref=e625]:
+                - combobox [ref=e626] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e627]
+              - generic [ref=e628]:
+                - combobox [ref=e629] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e630]
+              - generic [ref=e631]:
+                - combobox [ref=e632] [cursor=pointer]:
+                  - img
+                - combobox [ref=e633]
+              - generic [ref=e634]:
+                - combobox [ref=e635] [cursor=pointer]:
+                  - img
+                - combobox [ref=e636]
+              - generic [ref=e637]:
+                - combobox [ref=e638] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e639]
+              - generic [ref=e640]:
+                - combobox [ref=e641] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e642]
+              - generic [ref=e643]:
+                - combobox [ref=e644] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e645]
+              - generic [ref=e646]:
+                - combobox [ref=e647] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e648]
+              - generic [ref=e649]:
+                - combobox [ref=e650] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e651]
+          - generic [ref=e652]:
+            - generic [ref=e653]:
+              - paragraph [ref=e654]: Gita Ananda
+              - paragraph [ref=e655]: Dapur
+            - generic [ref=e656]:
+              - generic [ref=e657]:
+                - combobox [ref=e658] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e659]
+              - generic [ref=e661]:
+                - combobox [ref=e662] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e663]
+              - generic [ref=e664]:
+                - combobox [ref=e665] [cursor=pointer]:
+                  - img
+                - combobox [ref=e666]
+              - generic [ref=e667]:
+                - combobox [ref=e668] [cursor=pointer]:
+                  - img
+                - combobox [ref=e669]
+              - generic [ref=e670]:
+                - combobox [ref=e671] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e672]
+              - generic [ref=e673]:
+                - combobox [ref=e674] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e675]
+              - generic [ref=e676]:
+                - combobox [ref=e677] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e678]
+              - generic [ref=e679]:
+                - combobox [ref=e680] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e681]
+              - generic [ref=e683]:
+                - combobox [ref=e684] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e685]
+              - generic [ref=e687]:
+                - combobox [ref=e688] [cursor=pointer]:
+                  - img
+                - combobox [ref=e689]
+              - generic [ref=e690]:
+                - combobox [ref=e691] [cursor=pointer]:
+                  - img
+                - combobox [ref=e692]
+              - generic [ref=e693]:
+                - combobox [ref=e694] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e695]
+              - generic [ref=e696]:
+                - combobox [ref=e697] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e698]
+              - generic [ref=e699]:
+                - combobox [ref=e700] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e701]
+              - generic [ref=e702]:
+                - combobox [ref=e703] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e704]
+              - generic [ref=e705]:
+                - combobox [ref=e706] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e707]
+              - generic [ref=e708]:
+                - combobox [ref=e709] [cursor=pointer]:
+                  - img
+                - combobox [ref=e710]
+              - generic [ref=e711]:
+                - combobox [ref=e712] [cursor=pointer]:
+                  - img
+                - combobox [ref=e713]
+              - generic [ref=e714]:
+                - combobox [ref=e715] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e716]
+              - generic [ref=e717]:
+                - combobox [ref=e718] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e719]
+              - generic [ref=e720]:
+                - combobox [ref=e721] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e722]
+              - generic [ref=e723]:
+                - combobox [ref=e724] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e725]
+              - generic [ref=e726]:
+                - combobox [ref=e727] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e728]
+              - generic [ref=e729]:
+                - combobox [ref=e730] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e731]
+              - generic [ref=e732]:
+                - combobox [ref=e733] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e734]
+              - generic [ref=e735]:
+                - combobox [ref=e736] [cursor=pointer]:
+                  - img
+                - combobox [ref=e737]
+              - generic [ref=e738]:
+                - combobox [ref=e739] [cursor=pointer]:
+                  - img
+                - combobox [ref=e740]
+              - generic [ref=e741]:
+                - combobox [ref=e742] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e743]
+              - generic [ref=e744]:
+                - combobox [ref=e745] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e746]
+              - generic [ref=e747]:
+                - combobox [ref=e748] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e749]
+          - generic [ref=e750]:
+            - generic [ref=e751]:
+              - paragraph [ref=e752]: Hadi Wijaya
+              - paragraph [ref=e753]: Security
+            - generic [ref=e754]:
+              - generic [ref=e755]:
+                - combobox [ref=e756] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e757]
+              - generic [ref=e759]:
+                - combobox [ref=e760] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e761]
+              - generic [ref=e762]:
+                - combobox [ref=e763] [cursor=pointer]:
+                  - img
+                - combobox [ref=e764]
+              - generic [ref=e765]:
+                - combobox [ref=e766] [cursor=pointer]:
+                  - img
+                - combobox [ref=e767]
+              - generic [ref=e768]:
+                - combobox [ref=e769] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e770]
+              - generic [ref=e771]:
+                - combobox [ref=e772] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e773]
+              - generic [ref=e774]:
+                - combobox [ref=e775] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e776]
+              - generic [ref=e777]:
+                - combobox [ref=e778] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e779]
+              - generic [ref=e781]:
+                - combobox [ref=e782] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e783]
+              - generic [ref=e785]:
+                - combobox [ref=e786] [cursor=pointer]:
+                  - img
+                - combobox [ref=e787]
+              - generic [ref=e788]:
+                - combobox [ref=e789] [cursor=pointer]:
+                  - img
+                - combobox [ref=e790]
+              - generic [ref=e791]:
+                - combobox [ref=e792] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e793]
+              - generic [ref=e794]:
+                - combobox [ref=e795] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e796]
+              - generic [ref=e797]:
+                - combobox [ref=e798] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e799]
+              - generic [ref=e800]:
+                - combobox [ref=e801] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e802]
+              - generic [ref=e803]:
+                - combobox [ref=e804] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e805]
+              - generic [ref=e806]:
+                - combobox [ref=e807] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e808]
+              - generic [ref=e809]:
+                - combobox [ref=e810] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e811]
+              - generic [ref=e812]:
+                - combobox [ref=e813] [cursor=pointer]:
+                  - img
+                - combobox [ref=e814]
+              - generic [ref=e815]:
+                - combobox [ref=e816] [cursor=pointer]:
+                  - img
+                - combobox [ref=e817]
+              - generic [ref=e818]:
+                - combobox [ref=e819] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e820]
+              - generic [ref=e821]:
+                - combobox [ref=e822] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e823]
+              - generic [ref=e824]:
+                - combobox [ref=e825] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e826]
+              - generic [ref=e827]:
+                - combobox [ref=e828] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e829]
+              - generic [ref=e830]:
+                - combobox [ref=e831] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e832]
+              - generic [ref=e833]:
+                - combobox [ref=e834] [cursor=pointer]:
+                  - img
+                - combobox [ref=e835]
+              - generic [ref=e836]:
+                - combobox [ref=e837] [cursor=pointer]:
+                  - img
+                - combobox [ref=e838]
+              - generic [ref=e839]:
+                - combobox [ref=e840] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e841]
+              - generic [ref=e842]:
+                - combobox [ref=e843] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e844]
+              - generic [ref=e845]:
+                - combobox [ref=e846] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e847]
+          - generic [ref=e848]:
+            - generic [ref=e849]:
+              - paragraph [ref=e850]: Indah Permata
+              - paragraph [ref=e851]: Web Developer
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - combobox [ref=e854] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e855]
+              - generic [ref=e857]:
+                - combobox [ref=e858] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e859]
+              - generic [ref=e860]:
+                - combobox [ref=e861] [cursor=pointer]:
+                  - img
+                - combobox [ref=e862]
+              - generic [ref=e863]:
+                - combobox [ref=e864] [cursor=pointer]:
+                  - img
+                - combobox [ref=e865]
+              - generic [ref=e866]:
+                - combobox [ref=e867] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e868]
+              - generic [ref=e869]:
+                - combobox [ref=e870] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e871]
+              - generic [ref=e872]:
+                - combobox [ref=e873] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e874]
+              - generic [ref=e875]:
+                - combobox [ref=e876] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e877]
+              - generic [ref=e879]:
+                - combobox [ref=e880] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e881]
+              - generic [ref=e883]:
+                - combobox [ref=e884] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e885]
+              - generic [ref=e886]:
+                - combobox [ref=e887] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e888]
+              - generic [ref=e889]:
+                - combobox [ref=e890] [cursor=pointer]:
+                  - img
+                - combobox [ref=e891]
+              - generic [ref=e892]:
+                - combobox [ref=e893] [cursor=pointer]:
+                  - img
+                - combobox [ref=e894]
+              - generic [ref=e895]:
+                - combobox [ref=e896] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e897]
+              - generic [ref=e898]:
+                - combobox [ref=e899] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e900]
+              - generic [ref=e901]:
+                - combobox [ref=e902] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e903]
+              - generic [ref=e904]:
+                - combobox [ref=e905] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e906]
+              - generic [ref=e907]:
+                - combobox [ref=e908] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e909]
+              - generic [ref=e910]:
+                - combobox [ref=e911] [cursor=pointer]:
+                  - img
+                - combobox [ref=e912]
+              - generic [ref=e913]:
+                - combobox [ref=e914] [cursor=pointer]:
+                  - img
+                - combobox [ref=e915]
+              - generic [ref=e916]:
+                - combobox [ref=e917] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e918]
+              - generic [ref=e919]:
+                - combobox [ref=e920] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e921]
+              - generic [ref=e922]:
+                - combobox [ref=e923] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e924]
+              - generic [ref=e925]:
+                - combobox [ref=e926] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e927]
+              - generic [ref=e928]:
+                - combobox [ref=e929] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e930]
+              - generic [ref=e931]:
+                - combobox [ref=e932] [cursor=pointer]:
+                  - img
+                - combobox [ref=e933]
+              - generic [ref=e934]:
+                - combobox [ref=e935] [cursor=pointer]:
+                  - img
+                - combobox [ref=e936]
+              - generic [ref=e937]:
+                - combobox [ref=e938] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e939]
+              - generic [ref=e940]:
+                - combobox [ref=e941] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e942]
+              - generic [ref=e943]:
+                - combobox [ref=e944] [cursor=pointer]:
+                  - generic: S
+                  - img
+                - combobox [ref=e945]
+          - generic [ref=e946]:
+            - generic [ref=e947]:
+              - paragraph [ref=e948]: Joko Suryanto
+              - paragraph [ref=e949]: Dapur
+            - generic [ref=e950]:
+              - generic [ref=e951]:
+                - combobox [ref=e952] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e953]
+              - generic [ref=e955]:
+                - combobox [ref=e956] [cursor=pointer]:
+                  - img
+                - combobox [ref=e957]
+              - generic [ref=e958]:
+                - combobox [ref=e959] [cursor=pointer]:
+                  - img
+                - combobox [ref=e960]
+              - generic [ref=e961]:
+                - combobox [ref=e962] [cursor=pointer]:
+                  - img
+                - combobox [ref=e963]
+              - generic [ref=e964]:
+                - combobox [ref=e965] [cursor=pointer]:
+                  - img
+                - combobox [ref=e966]
+              - generic [ref=e967]:
+                - combobox [ref=e968] [cursor=pointer]:
+                  - img
+                - combobox [ref=e969]
+              - generic [ref=e970]:
+                - combobox [ref=e971] [cursor=pointer]:
+                  - img
+                - combobox [ref=e972]
+              - generic [ref=e973]:
+                - combobox [ref=e974] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e975]
+              - generic [ref=e977]:
+                - combobox [ref=e978] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e979]
+              - generic [ref=e981]:
+                - combobox [ref=e982] [cursor=pointer]:
+                  - img
+                - combobox [ref=e983]
+              - generic [ref=e984]:
+                - combobox [ref=e985] [cursor=pointer]:
+                  - img
+                - combobox [ref=e986]
+              - generic [ref=e987]:
+                - combobox [ref=e988] [cursor=pointer]:
+                  - img
+                - combobox [ref=e989]
+              - generic [ref=e990]:
+                - combobox [ref=e991] [cursor=pointer]:
+                  - img
+                - combobox [ref=e992]
+              - generic [ref=e993]:
+                - combobox [ref=e994] [cursor=pointer]:
+                  - img
+                - combobox [ref=e995]
+              - generic [ref=e996]:
+                - combobox [ref=e997] [cursor=pointer]:
+                  - img
+                - combobox [ref=e998]
+              - generic [ref=e999]:
+                - combobox [ref=e1000] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1001]
+              - generic [ref=e1002]:
+                - combobox [ref=e1003] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1004]
+              - generic [ref=e1005]:
+                - combobox [ref=e1006] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1007]
+              - generic [ref=e1008]:
+                - combobox [ref=e1009] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1010]
+              - generic [ref=e1011]:
+                - combobox [ref=e1012] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1013]
+              - generic [ref=e1014]:
+                - combobox [ref=e1015] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1016]
+              - generic [ref=e1017]:
+                - combobox [ref=e1018] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1019]
+              - generic [ref=e1020]:
+                - combobox [ref=e1021] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1022]
+              - generic [ref=e1023]:
+                - combobox [ref=e1024] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1025]
+              - generic [ref=e1026]:
+                - combobox [ref=e1027] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1028]
+              - generic [ref=e1029]:
+                - combobox [ref=e1030] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1031]
+              - generic [ref=e1032]:
+                - combobox [ref=e1033] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1034]
+              - generic [ref=e1035]:
+                - combobox [ref=e1036] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1037]
+              - generic [ref=e1038]:
+                - combobox [ref=e1039] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1040]
+              - generic [ref=e1041]:
+                - combobox [ref=e1042] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1043]
+          - generic [ref=e1044]:
+            - generic [ref=e1045]:
+              - paragraph [ref=e1046]: Kartika Sari
+              - paragraph [ref=e1047]: Web Developer
+            - generic [ref=e1048]:
+              - generic [ref=e1049]:
+                - combobox [ref=e1050] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1051]
+              - generic [ref=e1053]:
+                - combobox [ref=e1054] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1055]
+              - generic [ref=e1056]:
+                - combobox [ref=e1057] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1058]
+              - generic [ref=e1059]:
+                - combobox [ref=e1060] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1061]
+              - generic [ref=e1062]:
+                - combobox [ref=e1063] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1064]
+              - generic [ref=e1065]:
+                - combobox [ref=e1066] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1067]
+              - generic [ref=e1068]:
+                - combobox [ref=e1069] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1070]
+              - generic [ref=e1071]:
+                - combobox [ref=e1072] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1073]
+              - generic [ref=e1075]:
+                - combobox [ref=e1076] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1077]
+              - generic [ref=e1079]:
+                - combobox [ref=e1080] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1081]
+              - generic [ref=e1082]:
+                - combobox [ref=e1083] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1084]
+              - generic [ref=e1085]:
+                - combobox [ref=e1086] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1087]
+              - generic [ref=e1088]:
+                - combobox [ref=e1089] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1090]
+              - generic [ref=e1091]:
+                - combobox [ref=e1092] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1093]
+              - generic [ref=e1094]:
+                - combobox [ref=e1095] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1096]
+              - generic [ref=e1097]:
+                - combobox [ref=e1098] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1099]
+              - generic [ref=e1100]:
+                - combobox [ref=e1101] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1102]
+              - generic [ref=e1103]:
+                - combobox [ref=e1104] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1105]
+              - generic [ref=e1106]:
+                - combobox [ref=e1107] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1108]
+              - generic [ref=e1109]:
+                - combobox [ref=e1110] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1111]
+              - generic [ref=e1112]:
+                - combobox [ref=e1113] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1114]
+              - generic [ref=e1115]:
+                - combobox [ref=e1116] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1117]
+              - generic [ref=e1118]:
+                - combobox [ref=e1119] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1120]
+              - generic [ref=e1121]:
+                - combobox [ref=e1122] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1123]
+              - generic [ref=e1124]:
+                - combobox [ref=e1125] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1126]
+              - generic [ref=e1127]:
+                - combobox [ref=e1128] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1129]
+              - generic [ref=e1130]:
+                - combobox [ref=e1131] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1132]
+              - generic [ref=e1133]:
+                - combobox [ref=e1134] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1135]
+              - generic [ref=e1136]:
+                - combobox [ref=e1137] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1138]
+              - generic [ref=e1139]:
+                - combobox [ref=e1140] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1141]
+          - generic [ref=e1142]:
+            - generic [ref=e1143]:
+              - paragraph [ref=e1144]: Lukman Hakim
+              - paragraph [ref=e1145]: Dapur
+            - generic [ref=e1146]:
+              - generic [ref=e1147]:
+                - combobox [ref=e1148] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1149]
+              - generic [ref=e1151]:
+                - combobox [ref=e1152] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1153]
+              - generic [ref=e1154]:
+                - combobox [ref=e1155] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1156]
+              - generic [ref=e1157]:
+                - combobox [ref=e1158] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1159]
+              - generic [ref=e1160]:
+                - combobox [ref=e1161] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1162]
+              - generic [ref=e1163]:
+                - combobox [ref=e1164] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1165]
+              - generic [ref=e1166]:
+                - combobox [ref=e1167] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1168]
+              - generic [ref=e1169]:
+                - combobox [ref=e1170] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1171]
+              - generic [ref=e1173]:
+                - combobox [ref=e1174] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1175]
+              - generic [ref=e1177]:
+                - combobox [ref=e1178] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1179]
+              - generic [ref=e1180]:
+                - combobox [ref=e1181] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1182]
+              - generic [ref=e1183]:
+                - combobox [ref=e1184] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1185]
+              - generic [ref=e1186]:
+                - combobox [ref=e1187] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1188]
+              - generic [ref=e1189]:
+                - combobox [ref=e1190] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1191]
+              - generic [ref=e1192]:
+                - combobox [ref=e1193] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1194]
+              - generic [ref=e1195]:
+                - combobox [ref=e1196] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1197]
+              - generic [ref=e1198]:
+                - combobox [ref=e1199] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1200]
+              - generic [ref=e1201]:
+                - combobox [ref=e1202] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1203]
+              - generic [ref=e1204]:
+                - combobox [ref=e1205] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1206]
+              - generic [ref=e1207]:
+                - combobox [ref=e1208] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1209]
+              - generic [ref=e1210]:
+                - combobox [ref=e1211] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1212]
+              - generic [ref=e1213]:
+                - combobox [ref=e1214] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1215]
+              - generic [ref=e1216]:
+                - combobox [ref=e1217] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1218]
+              - generic [ref=e1219]:
+                - combobox [ref=e1220] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1221]
+              - generic [ref=e1222]:
+                - combobox [ref=e1223] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1224]
+              - generic [ref=e1225]:
+                - combobox [ref=e1226] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1227]
+              - generic [ref=e1228]:
+                - combobox [ref=e1229] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1230]
+              - generic [ref=e1231]:
+                - combobox [ref=e1232] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1233]
+              - generic [ref=e1234]:
+                - combobox [ref=e1235] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1236]
+              - generic [ref=e1237]:
+                - combobox [ref=e1238] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1239]
+          - generic [ref=e1240]:
+            - generic [ref=e1241]:
+              - paragraph [ref=e1242]: Nico Pratomo
+              - paragraph [ref=e1243]: HR
+            - generic [ref=e1244]:
+              - generic [ref=e1245]:
+                - combobox [ref=e1246] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1247]
+              - generic [ref=e1249]:
+                - combobox [ref=e1250] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1251]
+              - generic [ref=e1252]:
+                - combobox [ref=e1253] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1254]
+              - generic [ref=e1255]:
+                - combobox [ref=e1256] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1257]
+              - generic [ref=e1258]:
+                - combobox [ref=e1259] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1260]
+              - generic [ref=e1261]:
+                - combobox [ref=e1262] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1263]
+              - generic [ref=e1264]:
+                - combobox [ref=e1265] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1266]
+              - generic [ref=e1267]:
+                - combobox [ref=e1268] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1269]
+              - generic [ref=e1271]:
+                - combobox [ref=e1272] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1273]
+              - generic [ref=e1275]:
+                - combobox [ref=e1276] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1277]
+              - generic [ref=e1278]:
+                - combobox [ref=e1279] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1280]
+              - generic [ref=e1281]:
+                - combobox [ref=e1282] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1283]
+              - generic [ref=e1284]:
+                - combobox [ref=e1285] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1286]
+              - generic [ref=e1287]:
+                - combobox [ref=e1288] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1289]
+              - generic [ref=e1290]:
+                - combobox [ref=e1291] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1292]
+              - generic [ref=e1293]:
+                - combobox [ref=e1294] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1295]
+              - generic [ref=e1296]:
+                - combobox [ref=e1297] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1298]
+              - generic [ref=e1299]:
+                - combobox [ref=e1300] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1301]
+              - generic [ref=e1302]:
+                - combobox [ref=e1303] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1304]
+              - generic [ref=e1305]:
+                - combobox [ref=e1306] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1307]
+              - generic [ref=e1308]:
+                - combobox [ref=e1309] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1310]
+              - generic [ref=e1311]:
+                - combobox [ref=e1312] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1313]
+              - generic [ref=e1314]:
+                - combobox [ref=e1315] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1316]
+              - generic [ref=e1317]:
+                - combobox [ref=e1318] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1319]
+              - generic [ref=e1320]:
+                - combobox [ref=e1321] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1322]
+              - generic [ref=e1323]:
+                - combobox [ref=e1324] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1325]
+              - generic [ref=e1326]:
+                - combobox [ref=e1327] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1328]
+              - generic [ref=e1329]:
+                - combobox [ref=e1330] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1331]
+              - generic [ref=e1332]:
+                - combobox [ref=e1333] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1334]
+              - generic [ref=e1335]:
+                - combobox [ref=e1336] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1337]
+          - generic [ref=e1338]:
+            - generic [ref=e1339]:
+              - paragraph [ref=e1340]: Olivia Putri
+              - paragraph [ref=e1341]: Web Developer
+            - generic [ref=e1342]:
+              - generic [ref=e1343]:
+                - combobox [ref=e1344] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1345]
+              - generic [ref=e1347]:
+                - combobox [ref=e1348] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1349]
+              - generic [ref=e1350]:
+                - combobox [ref=e1351] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1352]
+              - generic [ref=e1353]:
+                - combobox [ref=e1354] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1355]
+              - generic [ref=e1356]:
+                - combobox [ref=e1357] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1358]
+              - generic [ref=e1359]:
+                - combobox [ref=e1360] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1361]
+              - generic [ref=e1362]:
+                - combobox [ref=e1363] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1364]
+              - generic [ref=e1365]:
+                - combobox [ref=e1366] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1367]
+              - generic [ref=e1369]:
+                - combobox [ref=e1370] [cursor=pointer]:
+                  - generic: L
+                  - img
+                - combobox [ref=e1371]
+              - generic [ref=e1373]:
+                - combobox [ref=e1374] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1375]
+              - generic [ref=e1376]:
+                - combobox [ref=e1377] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1378]
+              - generic [ref=e1379]:
+                - combobox [ref=e1380] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1381]
+              - generic [ref=e1382]:
+                - combobox [ref=e1383] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1384]
+              - generic [ref=e1385]:
+                - combobox [ref=e1386] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1387]
+              - generic [ref=e1388]:
+                - combobox [ref=e1389] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1390]
+              - generic [ref=e1391]:
+                - combobox [ref=e1392] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1393]
+              - generic [ref=e1394]:
+                - combobox [ref=e1395] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1396]
+              - generic [ref=e1397]:
+                - combobox [ref=e1398] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1399]
+              - generic [ref=e1400]:
+                - combobox [ref=e1401] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1402]
+              - generic [ref=e1403]:
+                - combobox [ref=e1404] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1405]
+              - generic [ref=e1406]:
+                - combobox [ref=e1407] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1408]
+              - generic [ref=e1409]:
+                - combobox [ref=e1410] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1411]
+              - generic [ref=e1412]:
+                - combobox [ref=e1413] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1414]
+              - generic [ref=e1415]:
+                - combobox [ref=e1416] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1417]
+              - generic [ref=e1418]:
+                - combobox [ref=e1419] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1420]
+              - generic [ref=e1421]:
+                - combobox [ref=e1422] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1423]
+              - generic [ref=e1424]:
+                - combobox [ref=e1425] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1426]
+              - generic [ref=e1427]:
+                - combobox [ref=e1428] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1429]
+              - generic [ref=e1430]:
+                - combobox [ref=e1431] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1432]
+              - generic [ref=e1433]:
+                - combobox [ref=e1434] [cursor=pointer]:
+                  - img
+                - combobox [ref=e1435]
+  - region "Notifications alt+T"

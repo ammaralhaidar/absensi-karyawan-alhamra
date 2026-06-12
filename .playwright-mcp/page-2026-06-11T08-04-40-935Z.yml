@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e404]:
+    - banner [ref=e405]:
+      - generic [ref=e406]:
+        - generic [ref=e407]:
+          - img [ref=e409]
+          - generic [ref=e411]:
+            - heading "Alhamra" [level=1] [ref=e412]
+            - paragraph [ref=e413]: Attendance
+        - button [ref=e414]:
+          - img
+    - main [ref=e415]:
+      - generic [ref=e416]:
+        - img [ref=e418]
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - generic [ref=e427]: AF
+            - generic [ref=e428]:
+              - paragraph [ref=e429]: Ahmad Fauzi
+              - paragraph [ref=e430]: Web Developer
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - img
+              - text: Web Developer
+            - generic [ref=e433]:
+              - img
+              - text: Shift Pagi
+            - generic [ref=e434]: Aktif
+        - generic [ref=e437]:
+          - generic [ref=e438]: Shift Hari Ini
+          - generic [ref=e439]:
+            - img
+            - text: Shift Pagi
+            - generic [ref=e440]: 08:00 - 17:00
+        - generic [ref=e441]:
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - img [ref=e444]
+              - text: QR Code Absensi
+            - generic [ref=e450]: Tunjukkan QR Code ini ke scanner Kiosk
+          - generic [ref=e451]:
+            - generic [ref=e454]:
+              - img [ref=e455]
+              - paragraph [ref=e461]: QR akan di-generate di Fase Backend
+              - generic [ref=e462]: Ahmad Fauzi
+            - generic [ref=e463]:
+              - generic [ref=e464]:
+                - generic [ref=e465]:
+                  - img [ref=e466]
+                  - text: "Refresh dalam:"
+                - generic [ref=e471]: 30s
+              - progressbar [ref=e472]
+        - button "Refresh Manual" [ref=e475]:
+          - img
+          - text: Refresh Manual
+        - generic [ref=e476]:
+          - generic [ref=e478]:
+            - img [ref=e479]
+            - text: Status Absensi Hari Ini
+          - generic [ref=e482]:
+            - generic [ref=e483]:
+              - generic [ref=e484]:
+                - img [ref=e485]
+                - generic [ref=e488]: Check-in
+              - generic [ref=e489]:
+                - generic [ref=e490]: 08:05
+                - generic [ref=e491]:
+                  - img
+                  - text: Tepat Waktu
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - img [ref=e494]
+                - generic [ref=e497]: Check-out
+              - generic [ref=e499]: 17:10
+        - generic [ref=e500]:
+          - link "Ajukan Izin" [ref=e501] [cursor=pointer]:
+            - /url: /leaves
+            - button "Ajukan Izin" [ref=e502]:
+              - img
+              - generic [ref=e503]: Ajukan Izin
+          - button "Riwayat" [disabled]:
+            - img
+            - generic: Riwayat
+    - navigation [ref=e504]:
+      - generic [ref=e505]:
+        - link "QR Code" [ref=e506] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e507]
+          - generic [ref=e513]: QR Code
+        - link "Izin" [ref=e514] [cursor=pointer]:
+          - /url: /leaves
+          - img [ref=e515]
+          - generic [ref=e517]: Izin
+        - link "Profil" [ref=e518] [cursor=pointer]:
+          - /url: /profile
+          - img [ref=e519]
+          - generic [ref=e522]: Profil
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e288] [cursor=pointer]:
+    - img [ref=e289]
+  - alert [ref=e292]

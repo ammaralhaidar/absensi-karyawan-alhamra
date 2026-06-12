@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - heading "Alhamra" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Attendance
+        - paragraph [ref=e12]: Admin Dashboard
+      - navigation [ref=e13]:
+        - link "Manajemen Roster" [ref=e14] [cursor=pointer]:
+          - /url: /admin/roster
+          - generic [ref=e15]:
+            - img [ref=e16]
+            - generic [ref=e18]: Manajemen Roster
+        - link "Approval Center" [ref=e20] [cursor=pointer]:
+          - /url: /admin/approvals
+          - generic [ref=e21]:
+            - img [ref=e22]
+            - generic [ref=e25]: Approval Center
+        - link "Laporan & Export" [ref=e26] [cursor=pointer]:
+          - /url: /admin/reports
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - generic [ref=e33]: Laporan & Export
+      - link "Keluar" [ref=e35] [cursor=pointer]:
+        - /url: /
+        - button "Keluar" [ref=e36]:
+          - img
+          - text: Keluar
+    - main [ref=e37]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - heading "Manajemen Roster" [level=1] [ref=e42]
+            - paragraph [ref=e43]: Jadwal shift karyawan per departemen
+          - generic [ref=e44]:
+            - button "Bulan Sebelumnya" [ref=e45]:
+              - img
+              - text: Bulan Sebelumnya
+            - generic [ref=e46]:
+              - img [ref=e47]
+              - generic [ref=e49]: Juni 2026
+            - button "Bulan Berikutnya" [ref=e50]:
+              - text: Bulan Berikutnya
+              - img
+        - generic [ref=e51]:
+          - generic [ref=e52]: "Filter Departemen:"
+          - button "Semua" [ref=e53]
+          - button "Web Developer" [ref=e54]
+          - button "Dapur" [ref=e55]
+          - button "Security" [ref=e56]
+          - button "HR" [ref=e57]
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: "10"
+              - paragraph [ref=e68]: Total Karyawan
+          - generic [ref=e70]:
+            - img [ref=e71]
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: "6"
+              - paragraph [ref=e76]: Shift Pagi
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: "2"
+              - paragraph [ref=e84]: Shift Siang
+          - generic [ref=e86]:
+            - img [ref=e87]
+            - generic [ref=e90]:
+              - paragraph [ref=e91]: "2"
+              - paragraph [ref=e92]: Shift Malam
+        - generic [ref=e93]:
+          - button "Copy dari Bulan Sebelumnya" [ref=e94]:
+            - img
+            - text: Copy dari Bulan Sebelumnya
+          - button "Bulk Update" [ref=e95]:
+            - img
+            - text: Bulk Update
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: Roster Karyawan
+            - generic [ref=e99]: Jadwal shift untuk Juni 2026
+          - table [ref=e102]:
+            - rowgroup [ref=e103]:
+              - row "Nama Karyawan Departemen Shift Default 1 2 3 4 5 6 7" [ref=e104]:
+                - columnheader "Nama Karyawan" [ref=e105]
+                - columnheader "Departemen" [ref=e106]
+                - columnheader "Shift Default" [ref=e107]
+                - columnheader "1" [ref=e108]
+                - columnheader "2" [ref=e109]
+                - columnheader "3" [ref=e110]
+                - columnheader "4" [ref=e111]
+                - columnheader "5" [ref=e112]
+                - columnheader "6" [ref=e113]
+                - columnheader "7" [ref=e114]
+            - rowgroup [ref=e115]:
+              - row "Ahmad Fauzi Web Developer Shift Pagi S S S S S S S" [ref=e116]:
+                - cell "Ahmad Fauzi" [ref=e117]
+                - cell "Web Developer" [ref=e118]:
+                  - generic [ref=e119]: Web Developer
+                - cell "Shift Pagi" [ref=e120]:
+                  - generic [ref=e121]: Shift Pagi
+                - cell "S" [ref=e122]:
+                  - generic [ref=e123]: S
+                - cell "S" [ref=e124]:
+                  - generic [ref=e125]: S
+                - cell "S" [ref=e126]:
+                  - generic [ref=e127]: S
+                - cell "S" [ref=e128]:
+                  - generic [ref=e129]: S
+                - cell "S" [ref=e130]:
+                  - generic [ref=e131]: S
+                - cell "S" [ref=e132]:
+                  - generic [ref=e133]: S
+                - cell "S" [ref=e134]:
+                  - generic [ref=e135]: S
+              - row "Budi Santoso Web Developer Shift Pagi S S S S S S S" [ref=e136]:
+                - cell "Budi Santoso" [ref=e137]
+                - cell "Web Developer" [ref=e138]:
+                  - generic [ref=e139]: Web Developer
+                - cell "Shift Pagi" [ref=e140]:
+                  - generic [ref=e141]: Shift Pagi
+                - cell "S" [ref=e142]:
+                  - generic [ref=e143]: S
+                - cell "S" [ref=e144]:
+                  - generic [ref=e145]: S
+                - cell "S" [ref=e146]:
+                  - generic [ref=e147]: S
+                - cell "S" [ref=e148]:
+                  - generic [ref=e149]: S
+                - cell "S" [ref=e150]:
+                  - generic [ref=e151]: S
+                - cell "S" [ref=e152]:
+                  - generic [ref=e153]: S
+                - cell "S" [ref=e154]:
+                  - generic [ref=e155]: S
+              - row "Citra Lestari Dapur Shift Siang S S S S S S S" [ref=e156]:
+                - cell "Citra Lestari" [ref=e157]
+                - cell "Dapur" [ref=e158]:
+                  - generic [ref=e159]: Dapur
+                - cell "Shift Siang" [ref=e160]:
+                  - generic [ref=e161]: Shift Siang
+                - cell "S" [ref=e162]:
+                  - generic [ref=e163]: S
+                - cell "S" [ref=e164]:
+                  - generic [ref=e165]: S
+                - cell "S" [ref=e166]:
+                  - generic [ref=e167]: S
+                - cell "S" [ref=e168]:
+                  - generic [ref=e169]: S
+                - cell "S" [ref=e170]:
+                  - generic [ref=e171]: S
+                - cell "S" [ref=e172]:
+                  - generic [ref=e173]: S
+                - cell "S" [ref=e174]:
+                  - generic [ref=e175]: S
+              - row "Dedi Pratama Security Shift Malam S S S S S S S" [ref=e176]:
+                - cell "Dedi Pratama" [ref=e177]
+                - cell "Security" [ref=e178]:
+                  - generic [ref=e179]: Security
+                - cell "Shift Malam" [ref=e180]:
+                  - generic [ref=e181]: Shift Malam
+                - cell "S" [ref=e182]:
+                  - generic [ref=e183]: S
+                - cell "S" [ref=e184]:
+                  - generic [ref=e185]: S
+                - cell "S" [ref=e186]:
+                  - generic [ref=e187]: S
+                - cell "S" [ref=e188]:
+                  - generic [ref=e189]: S
+                - cell "S" [ref=e190]:
+                  - generic [ref=e191]: S
+                - cell "S" [ref=e192]:
+                  - generic [ref=e193]: S
+                - cell "S" [ref=e194]:
+                  - generic [ref=e195]: S
+              - row "Eka Wulandari HR Shift Pagi S S S S S S S" [ref=e196]:
+                - cell "Eka Wulandari" [ref=e197]
+                - cell "HR" [ref=e198]:
+                  - generic [ref=e199]: HR
+                - cell "Shift Pagi" [ref=e200]:
+                  - generic [ref=e201]: Shift Pagi
+                - cell "S" [ref=e202]:
+                  - generic [ref=e203]: S
+                - cell "S" [ref=e204]:
+                  - generic [ref=e205]: S
+                - cell "S" [ref=e206]:
+                  - generic [ref=e207]: S
+                - cell "S" [ref=e208]:
+                  - generic [ref=e209]: S
+                - cell "S" [ref=e210]:
+                  - generic [ref=e211]: S
+                - cell "S" [ref=e212]:
+                  - generic [ref=e213]: S
+                - cell "S" [ref=e214]:
+                  - generic [ref=e215]: S
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e221] [cursor=pointer]:
+    - img [ref=e222]
+  - alert [ref=e225]

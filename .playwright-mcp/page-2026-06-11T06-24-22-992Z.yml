@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - heading "Kiosk Scanner" [level=1] [ref=e12]
+          - paragraph [ref=e13]: Alhamra Attendance
+      - generic [ref=e14]:
+        - generic [ref=e128]: 13.24.22
+        - generic [ref=e15]:
+          - img
+          - generic [ref=e16]: Online
+        - button [ref=e17]:
+          - img
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e28]:
+          - img [ref=e183]
+          - paragraph [ref=e35]: Scanner Siap
+          - paragraph [ref=e36]: Klik tombol di bawah untuk simulasi scan
+        - button "Simulasi Scan" [ref=e189]:
+          - img
+          - text: Simulasi Scan
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "5 Scan Terakhir" [level=2] [ref=e41]:
+            - img [ref=e42]
+            - text: 5 Scan Terakhir
+          - generic [ref=e45]: "5"
+        - generic [ref=e46]:
+          - generic [ref=e193]:
+            - generic [ref=e195]:
+              - paragraph [ref=e196]: Joko Suryanto
+              - generic [ref=e197]:
+                - generic [ref=e198]:
+                  - img [ref=e199]
+                  - text: 06:24
+                - generic [ref=e202]: Masuk
+            - img [ref=e204]
+          - generic [ref=e159]:
+            - generic [ref=e161]:
+              - paragraph [ref=e162]: Hadi Wijaya
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - img [ref=e165]
+                  - text: 06:23
+                - generic [ref=e168]: Pulang
+            - img [ref=e170]
+          - generic [ref=e50]:
+            - generic [ref=e52]:
+              - paragraph [ref=e53]: Ahmad Fauzi
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - img [ref=e56]
+                  - text: 08:05
+                - generic [ref=e59]: Masuk
+            - img [ref=e61]
+          - generic [ref=e66]:
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: Budi Santoso
+              - generic [ref=e70]:
+                - generic [ref=e71]:
+                  - img [ref=e72]
+                  - text: 08:25
+                - generic [ref=e75]: Masuk
+            - img [ref=e77]
+          - generic [ref=e83]:
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: Citra Lestari
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - img [ref=e89]
+                  - text: 12:00
+                - generic [ref=e92]: Masuk
+            - img [ref=e94]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e134] [cursor=pointer]:
+    - img [ref=e135]
+  - alert [ref=e138]

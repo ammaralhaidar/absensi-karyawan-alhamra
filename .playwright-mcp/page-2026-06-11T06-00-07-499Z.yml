@@ -1,0 +1,117 @@
+- generic:
+  - generic:
+    - banner:
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - heading [level=1]: Alhamra
+            - paragraph: Attendance
+        - link:
+          - /url: /
+          - button:
+            - img
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=1]: Pengajuan Izin
+            - paragraph: Riwayat pengajuan cuti, sakit, dan izin
+          - button:
+            - img
+            - text: Ajukan
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "3"
+              - paragraph: Pending
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "1"
+              - paragraph: Disetujui
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "1"
+              - paragraph: Ditolak
+        - generic:
+          - tablist:
+            - tab: Semua
+            - tab: Pending
+            - tab [selected]: Disetujui
+            - tab: Ditolak
+          - tabpanel:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: CL
+                    - generic:
+                      - paragraph: Citra Lestari
+                  - generic: 2026-06-12
+                - generic:
+                  - generic:
+                    - img
+                    - text: Disetujui
+    - navigation:
+      - generic:
+        - link:
+          - /url: /dashboard
+          - img
+          - generic: QR Code
+        - link:
+          - /url: /leaves
+          - img
+          - generic: Izin
+        - link:
+          - /url: /profile
+          - img
+          - generic: Profil
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e58] [cursor=pointer]:
+    - img [ref=e59]
+  - alert
+  - dialog "Ajukan Cuti / Izin" [ref=e111]:
+    - heading "Ajukan Cuti / Izin" [level=2] [ref=e113]
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - text: Tipe Pengajuan
+          - generic [ref=e117]: "*"
+        - combobox [active] [ref=e118]:
+          - generic: Pilih tipe
+          - img
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - text: Rentang Tanggal
+          - generic [ref=e121]: "*"
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - text: Mulai
+            - generic [ref=e124]:
+              - img
+              - textbox [ref=e125]
+          - generic [ref=e126]:
+            - text: Selesai
+            - generic [ref=e127]:
+              - img
+              - textbox [ref=e128]
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - text: Alasan
+          - generic [ref=e131]: "*"
+        - textbox "Jelaskan alasan pengajuan (min. 10 karakter)..." [ref=e132]
+        - paragraph [ref=e133]: 0/10 karakter minimum
+      - generic [ref=e134]:
+        - button "Batal" [ref=e135]
+        - button "Kirim Pengajuan" [disabled]
+    - button "Close" [ref=e136]:
+      - img
+      - generic [ref=e137]: Close

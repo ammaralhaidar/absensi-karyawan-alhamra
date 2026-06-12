@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - button [ref=e3]:
+      - img
+    - main [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - heading "Manajemen Shift" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Atur jam kerja dan toleransi keterlambatan
+          - button "Tambah Shift" [ref=e12]:
+            - img
+            - text: Tambah Shift
+        - generic [ref=e13]:
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - generic [ref=e17]:
+                - img [ref=e18]
+                - generic [ref=e21]:
+                  - img
+                  - text: Default
+              - generic [ref=e22]:
+                - button [ref=e23]:
+                  - img
+                - button [ref=e24]:
+                  - img
+            - paragraph [ref=e25]: Shift Pagi
+            - generic [ref=e26]:
+              - generic [ref=e27]:
+                - paragraph [ref=e28]: 08:00
+                - paragraph [ref=e29]: Masuk
+              - generic [ref=e31]:
+                - paragraph [ref=e32]: 17:00
+                - paragraph [ref=e33]: Pulang
+              - generic [ref=e35]:
+                - paragraph [ref=e36]: 15 mnt
+                - paragraph [ref=e37]: Toleransi
+            - generic [ref=e38]:
+              - img [ref=e39]
+              - generic [ref=e44]: 8 karyawan
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - img [ref=e49]
+                - button "Set Default" [ref=e52]:
+                  - img
+                  - text: Set Default
+              - generic [ref=e53]:
+                - button [ref=e54]:
+                  - img
+                - button [ref=e55]:
+                  - img
+            - paragraph [ref=e56]: Shift Siang
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - paragraph [ref=e59]: 12:00
+                - paragraph [ref=e60]: Masuk
+              - generic [ref=e62]:
+                - paragraph [ref=e63]: 21:00
+                - paragraph [ref=e64]: Pulang
+              - generic [ref=e66]:
+                - paragraph [ref=e67]: 10 mnt
+                - paragraph [ref=e68]: Toleransi
+            - generic [ref=e69]:
+              - img [ref=e70]
+              - generic [ref=e75]: 4 karyawan
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - img [ref=e80]
+                - button "Set Default" [ref=e83]:
+                  - img
+                  - text: Set Default
+              - generic [ref=e84]:
+                - button [ref=e85]:
+                  - img
+                - button [ref=e86]:
+                  - img
+            - paragraph [ref=e87]: Shift Malam
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: 20:00
+                - paragraph [ref=e91]: Masuk
+              - generic [ref=e93]:
+                - paragraph [ref=e94]: 05:00
+                - paragraph [ref=e95]: Pulang
+              - generic [ref=e97]:
+                - paragraph [ref=e98]: 10 mnt
+                - paragraph [ref=e99]: Toleransi
+            - generic [ref=e100]:
+              - img [ref=e101]
+              - generic [ref=e106]: 3 karyawan
+  - region "Notifications alt+T"
+  - alert [ref=e107]

@@ -1,0 +1,138 @@
+- generic:
+  - generic:
+    - button:
+      - img
+    - generic:
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Approval Center
+                - paragraph: Review dan approval pengajuan cuti/izin karyawan
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "0"
+                    - paragraph: Pending
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "4"
+                    - paragraph: Disetujui
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "1"
+                    - paragraph: Ditolak
+            - generic:
+              - generic:
+                - img
+                - textbox:
+                  - /placeholder: Cari nama atau alasan...
+              - combobox:
+                - generic: Semua Tipe
+                - img
+            - generic:
+              - tablist:
+                - tab: Pending (0)
+                - tab [selected]: Disetujui (4)
+                - tab: Ditolak (1)
+              - tabpanel:
+                - generic:
+                  - generic:
+                    - generic: Riwayat Disetujui
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - columnheader: Karyawan
+                              - columnheader: Tipe
+                              - columnheader: Tanggal
+                              - columnheader: Aksi
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - button: Indah Permata
+                              - cell:
+                                - generic: Sakit
+                              - cell: 2026-06-13 - 2026-06-14
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                  - generic: Disetujui
+                            - row:
+                              - cell:
+                                - button: Citra Lestari
+                              - cell:
+                                - generic: Sakit
+                              - cell: 2026-06-12
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                  - generic: Disetujui
+                            - row:
+                              - cell:
+                                - button: Ahmad Fauzi
+                              - cell:
+                                - generic: Cuti Tahunan
+                              - cell: 2026-06-15 - 2026-06-17
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                  - generic: Disetujui
+                            - row:
+                              - cell:
+                                - button: Dedi Pratama
+                              - cell:
+                                - generic: Izin
+                              - cell: 2026-06-20
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                  - generic: Disetujui
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e112] [cursor=pointer]:
+    - img [ref=e113]
+  - alert
+  - dialog "Detail Pengajuan" [ref=e189]:
+    - heading "Detail Pengajuan" [level=2] [ref=e191]
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - img [ref=e195]
+        - generic [ref=e198]:
+          - paragraph [ref=e199]: Indah Permata
+          - generic [ref=e200]: Disetujui
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - img [ref=e203]
+          - generic [ref=e206]: Tipe
+          - generic [ref=e207]: Sakit
+        - generic [ref=e208]:
+          - img [ref=e209]
+          - generic [ref=e211]: Tanggal
+          - generic [ref=e212]: 2026-06-13 - 2026-06-14
+        - generic [ref=e213]:
+          - img [ref=e214]
+          - generic [ref=e217]: Diajukan
+          - generic [ref=e218]: 2026-06-12
+        - generic [ref=e219]:
+          - img [ref=e220]
+          - generic [ref=e222]: Lampiran
+          - generic [ref=e223]: Ada lampiran
+      - generic [ref=e224]:
+        - paragraph [ref=e225]: Alasan
+        - paragraph [ref=e226]: Sakit perut
+    - button "Close" [active] [ref=e227]:
+      - img
+      - generic [ref=e228]: Close

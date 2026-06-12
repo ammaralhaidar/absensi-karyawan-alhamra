@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - heading "Alhamra" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Attendance
+        - link [ref=e12] [cursor=pointer]:
+          - /url: /
+          - button [ref=e13]:
+            - img
+    - main [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e20]
+            - generic [ref=e23]:
+              - heading "Ahmad Fauzi" [level=2] [ref=e24]
+              - generic [ref=e25]:
+                - img [ref=e26]
+                - text: Web Developer
+          - generic [ref=e30]:
+            - generic [ref=e31]: "Shift Hari Ini:"
+            - generic [ref=e32]: Shift Pagi
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - img [ref=e36]
+              - text: QR Code Absensi
+            - generic [ref=e42]: Tunjukkan QR Code ini ke scanner Kiosk
+          - generic [ref=e43]:
+            - generic [ref=e46]:
+              - img [ref=e47]
+              - paragraph [ref=e53]: QR Code akan di-generate di Fase 3
+            - generic [ref=e54]:
+              - generic [ref=e55]:
+                - generic [ref=e56]:
+                  - img [ref=e57]
+                  - text: "Auto-refresh dalam:"
+                - generic [ref=e62]: 25 detik
+              - progressbar [ref=e63]
+              - paragraph [ref=e65]: QR Code berlaku 30 detik
+        - generic [ref=e66]:
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - text: Status Absensi Hari Ini
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - paragraph [ref=e75]: Check-in
+                - paragraph [ref=e76]: 08:05
+              - generic [ref=e77]: Tepat Waktu
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - paragraph [ref=e80]: Check-out
+                - paragraph [ref=e81]: "-"
+              - generic [ref=e82]: Belum
+    - navigation [ref=e83]:
+      - generic [ref=e84]:
+        - link "QR Code" [ref=e85] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e86]
+          - generic [ref=e92]: QR Code
+        - link "Izin" [ref=e93] [cursor=pointer]:
+          - /url: /leaves
+          - img [ref=e94]
+          - generic [ref=e96]: Izin
+        - link "Profil" [ref=e97] [cursor=pointer]:
+          - /url: /
+          - img [ref=e98]
+          - generic [ref=e101]: Profil
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e107] [cursor=pointer]:
+    - img [ref=e108]

@@ -1,0 +1,43 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - heading "Kiosk Scanner" [level=1] [ref=e12]
+          - paragraph [ref=e13]: Alhamra Attendance
+      - generic [ref=e14]:
+        - generic [ref=e49]: 13.33.54
+        - generic [ref=e15]:
+          - img
+          - generic [ref=e16]: Online
+        - button [ref=e17]:
+          - img
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e28]:
+          - img [ref=e69]
+          - paragraph [ref=e35]: Scanning...
+          - paragraph [ref=e36]: Arahkan QR Code ke area ini
+        - button "Sedang Scan..." [active] [ref=e78]:
+          - img
+          - text: Sedang Scan...
+      - generic [ref=e39]:
+        - button "📴 Mode Offline — Simpan Lokal" [ref=e50]
+        - generic [ref=e42]:
+          - img [ref=e44]
+          - paragraph [ref=e47]: Belum ada scan
+          - paragraph [ref=e48]: Klik Simulasi Scan untuk memulai
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: Mode Offline aktif
+          - generic [ref=e54]: Scan disimpan lokal (IndexedDB simulation)
+      - listitem [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: Mode Offline aktif
+          - generic [ref=e58]: Scan disimpan lokal (IndexedDB simulation)
+  - button "Open Next.js Dev Tools" [ref=e64] [cursor=pointer]:
+    - img [ref=e65]
+  - alert [ref=e68]

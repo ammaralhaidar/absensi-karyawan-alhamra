@@ -1,0 +1,60 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e43]:
+    - banner [ref=e44]:
+      - generic [ref=e45]:
+        - img [ref=e47]
+        - generic [ref=e52]:
+          - heading "Kiosk Scanner" [level=1] [ref=e53]
+          - paragraph [ref=e54]: Alhamra Attendance
+      - generic [ref=e55]:
+        - generic [ref=e56]: 15.40.22
+        - generic [ref=e57]:
+          - img
+          - generic [ref=e58]: Online
+        - button [ref=e59]:
+          - img
+        - button [ref=e60]:
+          - img
+    - generic [ref=e62]:
+      - generic [ref=e64]:
+        - generic [ref=e71]:
+          - img [ref=e183]
+          - paragraph [ref=e78]: Scanner Siap
+          - paragraph [ref=e79]: Klik tombol di bawah untuk simulasi scan
+        - button "Simulasi Scan" [ref=e189]:
+          - img
+          - text: Simulasi Scan
+      - generic [ref=e82]:
+        - button "🟢 Mode Online — Sync Otomatis" [ref=e84]
+        - generic [ref=e85]:
+          - generic [ref=e193]:
+            - generic [ref=e195]:
+              - paragraph [ref=e196]: Lukman Hakim
+              - generic [ref=e197]:
+                - generic [ref=e198]:
+                  - img [ref=e199]
+                  - text: 08:40
+                - generic [ref=e202]: Masuk
+            - img [ref=e204]
+          - generic [ref=e159]:
+            - generic [ref=e161]:
+              - paragraph [ref=e162]: Gita Ananda
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - img [ref=e165]
+                  - text: 08:39
+                - generic [ref=e168]: Masuk
+            - img [ref=e170]
+          - generic [ref=e123]:
+            - generic [ref=e125]:
+              - paragraph [ref=e126]: Dedi Pratama
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - img [ref=e129]
+                  - text: 08:39
+                - generic [ref=e132]: Pulang
+            - img [ref=e134]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]
+  - alert [ref=e42]

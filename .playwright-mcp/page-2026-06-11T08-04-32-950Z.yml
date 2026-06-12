@@ -1,0 +1,36 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e324]:
+    - banner [ref=e325]:
+      - generic [ref=e326]:
+        - img [ref=e328]
+        - generic [ref=e333]:
+          - heading "Kiosk Scanner" [level=1] [ref=e334]
+          - paragraph [ref=e335]: Alhamra Attendance
+      - generic [ref=e336]:
+        - generic [ref=e337]: 15.04.32
+        - generic [ref=e338]:
+          - img
+          - generic [ref=e339]: Online
+        - button [ref=e340]:
+          - img
+        - button [ref=e341]:
+          - img
+    - generic [ref=e343]:
+      - generic [ref=e345]:
+        - generic [ref=e352]:
+          - img [ref=e353]
+          - paragraph [ref=e359]: Scanner Siap
+          - paragraph [ref=e360]: Klik tombol di bawah untuk simulasi scan
+        - button "Simulasi Scan" [ref=e362]:
+          - img
+          - text: Simulasi Scan
+      - generic [ref=e363]:
+        - button "🟢 Mode Online — Sync Otomatis" [ref=e365]
+        - generic [ref=e366]:
+          - img [ref=e368]
+          - paragraph [ref=e371]: Belum ada scan
+          - paragraph [ref=e372]: Klik Simulasi Scan untuk memulai
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e288] [cursor=pointer]:
+    - img [ref=e289]
+  - alert [ref=e292]

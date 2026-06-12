@@ -1,0 +1,165 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - heading "Alhamra" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Attendance
+        - paragraph [ref=e12]: Admin Dashboard
+      - navigation [ref=e13]:
+        - generic [ref=e14]:
+          - link "Dashboard" [ref=e15] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e16]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - link "Karyawan" [ref=e24] [cursor=pointer]:
+            - /url: /admin/employees
+            - generic [ref=e25]:
+              - img [ref=e26]
+              - generic [ref=e31]: Karyawan
+          - link "Departemen" [ref=e32] [cursor=pointer]:
+            - /url: /admin/departments
+            - generic [ref=e33]:
+              - img [ref=e34]
+              - generic [ref=e38]: Departemen
+          - link "Shift" [ref=e39] [cursor=pointer]:
+            - /url: /admin/shifts
+            - generic [ref=e40]:
+              - img [ref=e41]
+              - generic [ref=e44]: Shift
+        - generic [ref=e45]:
+          - paragraph [ref=e46]: Operasional
+          - generic [ref=e47]:
+            - link "Approval" [ref=e48] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e49]:
+                - img [ref=e50]
+                - generic [ref=e53]: Approval
+            - link "Laporan" [ref=e54] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e55]:
+                - img [ref=e56]
+                - generic [ref=e58]: Laporan
+            - link "Roster" [ref=e59] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e60]:
+                - img [ref=e61]
+                - generic [ref=e64]: Roster
+            - link "Activity Log" [ref=e65] [cursor=pointer]:
+              - /url: /admin/activity-log
+              - generic [ref=e66]:
+                - img [ref=e67]
+                - generic [ref=e70]: Activity Log
+      - button "Keluar" [ref=e73]:
+        - img
+        - text: Keluar
+    - generic [ref=e74]:
+      - banner [ref=e75]:
+        - generic [ref=e77]:
+          - link "Home" [ref=e78] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e79]: /
+          - link "Admin" [ref=e80] [cursor=pointer]:
+            - /url: /admin
+          - generic [ref=e81]: /
+          - generic [ref=e82]: Activity Log
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - img [ref=e85]
+            - textbox "Cari..." [ref=e88]
+          - button "3" [ref=e90]:
+            - img
+            - generic [ref=e91]: "3"
+          - generic [ref=e92]:
+            - img [ref=e94]
+            - generic [ref=e97]:
+              - paragraph [ref=e98]: Eka Wulandari
+              - generic [ref=e99]: Admin
+            - button [ref=e100]:
+              - img
+      - main [ref=e101]:
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - heading "Activity Log" [level=1] [ref=e105]
+            - paragraph [ref=e106]: Riwayat aktivitas sistem dan admin
+          - generic [ref=e107]:
+            - generic [ref=e109]: Semua Aktivitas
+            - table [ref=e113]:
+              - rowgroup [ref=e114]:
+                - row "Waktu Tipe User Deskripsi" [ref=e115]:
+                  - columnheader "Waktu" [ref=e116]
+                  - columnheader "Tipe" [ref=e117]
+                  - columnheader "User" [ref=e118]
+                  - columnheader "Deskripsi" [ref=e119]
+              - rowgroup [ref=e120]:
+                - row "11 Jun, 08.05 Scan Kiosk 1 Ahmad Fauzi scan masuk tepat waktu" [ref=e121]:
+                  - cell "11 Jun, 08.05" [ref=e122]
+                  - cell "Scan" [ref=e123]:
+                    - generic [ref=e124]:
+                      - img
+                      - text: Scan
+                  - cell "Kiosk 1" [ref=e125]
+                  - cell "Ahmad Fauzi scan masuk tepat waktu" [ref=e126]
+                - row "11 Jun, 07.30 Pengajuan Citra Lestari Citra Lestari mengajukan cuti sakit" [ref=e127]:
+                  - cell "11 Jun, 07.30" [ref=e128]
+                  - cell "Pengajuan" [ref=e129]:
+                    - generic [ref=e130]:
+                      - img
+                      - text: Pengajuan
+                  - cell "Citra Lestari" [ref=e131]
+                  - cell "Citra Lestari mengajukan cuti sakit" [ref=e132]
+                - row "11 Jun, 09.00 Approval Eka Wulandari Cuti sakit Citra Lestari disetujui" [ref=e133]:
+                  - cell "11 Jun, 09.00" [ref=e134]
+                  - cell "Approval" [ref=e135]:
+                    - generic [ref=e136]:
+                      - img
+                      - text: Approval
+                  - cell "Eka Wulandari" [ref=e137]
+                  - cell "Cuti sakit Citra Lestari disetujui" [ref=e138]
+                - row "10 Jun, 14.30 Update Eka Wulandari Indah Permata diupdate ke Shift Pagi" [ref=e139]:
+                  - cell "10 Jun, 14.30" [ref=e140]
+                  - cell "Update" [ref=e141]:
+                    - generic [ref=e142]:
+                      - img
+                      - text: Update
+                  - cell "Eka Wulandari" [ref=e143]
+                  - cell "Indah Permata diupdate ke Shift Pagi" [ref=e144]
+                - row "11 Jun, 08.25 Scan Kiosk 1 Budi Santoso scan masuk terlambat" [ref=e145]:
+                  - cell "11 Jun, 08.25" [ref=e146]
+                  - cell "Scan" [ref=e147]:
+                    - generic [ref=e148]:
+                      - img
+                      - text: Scan
+                  - cell "Kiosk 1" [ref=e149]
+                  - cell "Budi Santoso scan masuk terlambat" [ref=e150]
+                - row "9 Jun, 10.00 Pengajuan Dedi Pratama Dedi Pratama mengajukan izin" [ref=e151]:
+                  - cell "9 Jun, 10.00" [ref=e152]
+                  - cell "Pengajuan" [ref=e153]:
+                    - generic [ref=e154]:
+                      - img
+                      - text: Pengajuan
+                  - cell "Dedi Pratama" [ref=e155]
+                  - cell "Dedi Pratama mengajukan izin" [ref=e156]
+                - row "8 Jun, 13.00 Approval Eka Wulandari Cuti Fajar Hidayat ditolak" [ref=e157]:
+                  - cell "8 Jun, 13.00" [ref=e158]
+                  - cell "Approval" [ref=e159]:
+                    - generic [ref=e160]:
+                      - img
+                      - text: Approval
+                  - cell "Eka Wulandari" [ref=e161]
+                  - cell "Cuti Fajar Hidayat ditolak" [ref=e162]
+                - row "5 Jun, 09.00 Update Eka Wulandari Joko Suryanto ditambahkan ke Dapur" [ref=e163]:
+                  - cell "5 Jun, 09.00" [ref=e164]
+                  - cell "Update" [ref=e165]:
+                    - generic [ref=e166]:
+                      - img
+                      - text: Update
+                  - cell "Eka Wulandari" [ref=e167]
+                  - cell "Joko Suryanto ditambahkan ke Dapur" [ref=e168]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e174] [cursor=pointer]:
+    - img [ref=e175]
+  - alert [ref=e178]

@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - heading "Kiosk Scanner" [level=1] [ref=e12]
+          - paragraph [ref=e13]: Alhamra Attendance
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - img
+          - generic [ref=e16]: Online
+        - button [ref=e17]:
+          - img
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - paragraph [ref=e35]: Arahkan QR Code ke kamera
+          - paragraph [ref=e36]: Scanner aktif - menunggu scan...
+        - button "Simulasi Scan" [ref=e38]:
+          - img
+          - text: Simulasi Scan
+      - generic [ref=e39]:
+        - heading "5 Scan Terakhir" [level=2] [ref=e41]:
+          - img [ref=e42]
+          - text: 5 Scan Terakhir
+        - generic [ref=e45]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Ahmad Fauzi
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - text: 08:05
+              - generic [ref=e56]: Masuk
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Budi Santoso
+            - generic [ref=e63]:
+              - img [ref=e64]
+              - text: 08:25
+              - generic [ref=e67]: Masuk
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: Citra Lestari
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - text: 12:00
+              - generic [ref=e78]: Masuk
+          - generic [ref=e83]:
+            - paragraph [ref=e84]: Dedi Pratama
+            - generic [ref=e85]:
+              - img [ref=e86]
+              - text: 20:00
+              - generic [ref=e89]: Masuk
+          - generic [ref=e94]:
+            - paragraph [ref=e95]: Eka Wulandari
+            - generic [ref=e96]:
+              - img [ref=e97]
+              - text: 08:00
+              - generic [ref=e100]: Masuk
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e106] [cursor=pointer]:
+    - img [ref=e107]

@@ -1,0 +1,430 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - img [ref=e18]
+          - generic [ref=e20]:
+            - heading "Alhamra" [level=1] [ref=e21]
+            - paragraph [ref=e22]: Attendance
+        - paragraph [ref=e23]: Admin Dashboard
+      - navigation [ref=e24]:
+        - generic [ref=e25]:
+          - link "Dashboard" [ref=e26] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e27]:
+              - img [ref=e28]
+              - generic [ref=e33]: Dashboard
+          - link "Karyawan" [ref=e35] [cursor=pointer]:
+            - /url: /admin/employees
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - generic [ref=e42]: Karyawan
+          - link "Departemen" [ref=e44] [cursor=pointer]:
+            - /url: /admin/departments
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - generic [ref=e50]: Departemen
+          - link "Shift" [ref=e51] [cursor=pointer]:
+            - /url: /admin/shifts
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - generic [ref=e56]: Shift
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: Operasional
+          - generic [ref=e59]:
+            - link "Approval" [ref=e60] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e61]:
+                - img [ref=e62]
+                - generic [ref=e65]: Approval
+            - link "Laporan" [ref=e66] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e67]:
+                - img [ref=e68]
+                - generic [ref=e70]: Laporan
+            - link "Roster" [ref=e71] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e72]:
+                - img [ref=e73]
+                - generic [ref=e76]: Roster
+            - link "Activity Log" [ref=e77] [cursor=pointer]:
+              - /url: /admin/activity-log
+              - generic [ref=e78]:
+                - img [ref=e79]
+                - generic [ref=e82]: Activity Log
+      - button "Keluar" [ref=e84]:
+        - img
+        - text: Keluar
+    - generic [ref=e85]:
+      - banner [ref=e86]:
+        - generic [ref=e88]:
+          - link "Home" [ref=e89] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e90]: /
+          - link "Admin" [ref=e91] [cursor=pointer]:
+            - /url: /admin
+          - generic [ref=e92]: /
+          - generic [ref=e93]: Manajemen Karyawan
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - textbox "Cari..." [ref=e99]
+          - button "3" [ref=e101]:
+            - img
+            - generic [ref=e102]: "3"
+          - generic [ref=e103]:
+            - img [ref=e105]
+            - generic [ref=e108]:
+              - paragraph [ref=e109]: Eka Wulandari
+              - generic [ref=e110]: Admin
+            - button [ref=e111]:
+              - img
+      - main [ref=e112]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - heading "Manajemen Karyawan" [level=1] [ref=e117]
+              - paragraph [ref=e118]: Kelola data karyawan dan status keaktifan
+            - generic [ref=e119]:
+              - button "Import" [ref=e120]:
+                - img
+                - text: Import
+              - button "Tambah Karyawan" [ref=e121]:
+                - img
+                - text: Tambah Karyawan
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - img [ref=e124]
+              - textbox "Cari nama, NIK, atau departemen..." [ref=e127]
+            - combobox [ref=e128]:
+              - generic: Semua Dept.
+              - img
+            - combobox [ref=e129]:
+              - generic: Semua Status
+              - img
+            - generic [ref=e130]: 15 karyawan
+          - generic [ref=e131]:
+            - generic [ref=e133]: Daftar Karyawan
+            - table [ref=e137]:
+              - rowgroup [ref=e138]:
+                - row "# Nama NIK Dept. Shift Role Status Aksi" [ref=e139]:
+                  - columnheader "#" [ref=e140]
+                  - columnheader "Nama" [ref=e141] [cursor=pointer]:
+                    - generic [ref=e142]:
+                      - text: Nama
+                      - img [ref=e143]
+                  - columnheader "NIK" [ref=e146]
+                  - columnheader "Dept." [ref=e147] [cursor=pointer]:
+                    - generic [ref=e148]:
+                      - text: Dept.
+                      - img [ref=e149]
+                  - columnheader "Shift" [ref=e152]
+                  - columnheader "Role" [ref=e153]
+                  - columnheader "Status" [ref=e154]
+                  - columnheader "Aksi" [ref=e155]
+              - rowgroup [ref=e156]:
+                - row "1 Ahmad Fauzi 890001 Web Developer Shift Pagi Karyawan Aktif" [ref=e157]:
+                  - cell "1" [ref=e158]
+                  - cell "Ahmad Fauzi" [ref=e159]
+                  - cell "890001" [ref=e160]
+                  - cell "Web Developer" [ref=e161]:
+                    - generic [ref=e162]: Web Developer
+                  - cell "Shift Pagi" [ref=e163]:
+                    - generic [ref=e164]: Shift Pagi
+                  - cell "Karyawan" [ref=e165]:
+                    - generic [ref=e166]: Karyawan
+                  - cell "Aktif" [ref=e167]:
+                    - generic [ref=e168]: Aktif
+                  - cell [ref=e169]:
+                    - generic [ref=e170]:
+                      - button [ref=e171]:
+                        - img
+                      - button [ref=e172]:
+                        - img
+                      - button [ref=e173]:
+                        - img
+                - row "2 Budi Santoso 890002 Web Developer Shift Pagi Karyawan Aktif" [ref=e174]:
+                  - cell "2" [ref=e175]
+                  - cell "Budi Santoso" [ref=e176]
+                  - cell "890002" [ref=e177]
+                  - cell "Web Developer" [ref=e178]:
+                    - generic [ref=e179]: Web Developer
+                  - cell "Shift Pagi" [ref=e180]:
+                    - generic [ref=e181]: Shift Pagi
+                  - cell "Karyawan" [ref=e182]:
+                    - generic [ref=e183]: Karyawan
+                  - cell "Aktif" [ref=e184]:
+                    - generic [ref=e185]: Aktif
+                  - cell [ref=e186]:
+                    - generic [ref=e187]:
+                      - button [ref=e188]:
+                        - img
+                      - button [ref=e189]:
+                        - img
+                      - button [ref=e190]:
+                        - img
+                - row "3 Citra Lestari 890003 Dapur Shift Siang Karyawan Aktif" [ref=e191]:
+                  - cell "3" [ref=e192]
+                  - cell "Citra Lestari" [ref=e193]
+                  - cell "890003" [ref=e194]
+                  - cell "Dapur" [ref=e195]:
+                    - generic [ref=e196]: Dapur
+                  - cell "Shift Siang" [ref=e197]:
+                    - generic [ref=e198]: Shift Siang
+                  - cell "Karyawan" [ref=e199]:
+                    - generic [ref=e200]: Karyawan
+                  - cell "Aktif" [ref=e201]:
+                    - generic [ref=e202]: Aktif
+                  - cell [ref=e203]:
+                    - generic [ref=e204]:
+                      - button [ref=e205]:
+                        - img
+                      - button [ref=e206]:
+                        - img
+                      - button [ref=e207]:
+                        - img
+                - row "4 Dedi Pratama 890004 Security Shift Malam Karyawan Aktif" [ref=e208]:
+                  - cell "4" [ref=e209]
+                  - cell "Dedi Pratama" [ref=e210]
+                  - cell "890004" [ref=e211]
+                  - cell "Security" [ref=e212]:
+                    - generic [ref=e213]: Security
+                  - cell "Shift Malam" [ref=e214]:
+                    - generic [ref=e215]: Shift Malam
+                  - cell "Karyawan" [ref=e216]:
+                    - generic [ref=e217]: Karyawan
+                  - cell "Aktif" [ref=e218]:
+                    - generic [ref=e219]: Aktif
+                  - cell [ref=e220]:
+                    - generic [ref=e221]:
+                      - button [ref=e222]:
+                        - img
+                      - button [ref=e223]:
+                        - img
+                      - button [ref=e224]:
+                        - img
+                - row "5 Eka Wulandari 890005 HR Shift Pagi Admin Aktif" [ref=e225]:
+                  - cell "5" [ref=e226]
+                  - cell "Eka Wulandari" [ref=e227]
+                  - cell "890005" [ref=e228]
+                  - cell "HR" [ref=e229]:
+                    - generic [ref=e230]: HR
+                  - cell "Shift Pagi" [ref=e231]:
+                    - generic [ref=e232]: Shift Pagi
+                  - cell "Admin" [ref=e233]:
+                    - generic [ref=e234]: Admin
+                  - cell "Aktif" [ref=e235]:
+                    - generic [ref=e236]: Aktif
+                  - cell [ref=e237]:
+                    - generic [ref=e238]:
+                      - button [ref=e239]:
+                        - img
+                      - button [ref=e240]:
+                        - img
+                      - button [ref=e241]:
+                        - img
+                - row "6 Fajar Hidayat 890006 Web Developer Shift Pagi Karyawan Aktif" [ref=e242]:
+                  - cell "6" [ref=e243]
+                  - cell "Fajar Hidayat" [ref=e244]
+                  - cell "890006" [ref=e245]
+                  - cell "Web Developer" [ref=e246]:
+                    - generic [ref=e247]: Web Developer
+                  - cell "Shift Pagi" [ref=e248]:
+                    - generic [ref=e249]: Shift Pagi
+                  - cell "Karyawan" [ref=e250]:
+                    - generic [ref=e251]: Karyawan
+                  - cell "Aktif" [ref=e252]:
+                    - generic [ref=e253]: Aktif
+                  - cell [ref=e254]:
+                    - generic [ref=e255]:
+                      - button [ref=e256]:
+                        - img
+                      - button [ref=e257]:
+                        - img
+                      - button [ref=e258]:
+                        - img
+                - row "7 Gita Ananda 890007 Dapur Shift Siang Karyawan Aktif" [ref=e259]:
+                  - cell "7" [ref=e260]
+                  - cell "Gita Ananda" [ref=e261]
+                  - cell "890007" [ref=e262]
+                  - cell "Dapur" [ref=e263]:
+                    - generic [ref=e264]: Dapur
+                  - cell "Shift Siang" [ref=e265]:
+                    - generic [ref=e266]: Shift Siang
+                  - cell "Karyawan" [ref=e267]:
+                    - generic [ref=e268]: Karyawan
+                  - cell "Aktif" [ref=e269]:
+                    - generic [ref=e270]: Aktif
+                  - cell [ref=e271]:
+                    - generic [ref=e272]:
+                      - button [ref=e273]:
+                        - img
+                      - button [ref=e274]:
+                        - img
+                      - button [ref=e275]:
+                        - img
+                - row "8 Hadi Wijaya 890008 Security Shift Malam Kiosk Aktif" [ref=e276]:
+                  - cell "8" [ref=e277]
+                  - cell "Hadi Wijaya" [ref=e278]
+                  - cell "890008" [ref=e279]
+                  - cell "Security" [ref=e280]:
+                    - generic [ref=e281]: Security
+                  - cell "Shift Malam" [ref=e282]:
+                    - generic [ref=e283]: Shift Malam
+                  - cell "Kiosk" [ref=e284]:
+                    - generic [ref=e285]: Kiosk
+                  - cell "Aktif" [ref=e286]:
+                    - generic [ref=e287]: Aktif
+                  - cell [ref=e288]:
+                    - generic [ref=e289]:
+                      - button [ref=e290]:
+                        - img
+                      - button [ref=e291]:
+                        - img
+                      - button [ref=e292]:
+                        - img
+                - row "9 Indah Permata 890009 Web Developer Shift Pagi Karyawan Aktif" [ref=e293]:
+                  - cell "9" [ref=e294]
+                  - cell "Indah Permata" [ref=e295]
+                  - cell "890009" [ref=e296]
+                  - cell "Web Developer" [ref=e297]:
+                    - generic [ref=e298]: Web Developer
+                  - cell "Shift Pagi" [ref=e299]:
+                    - generic [ref=e300]: Shift Pagi
+                  - cell "Karyawan" [ref=e301]:
+                    - generic [ref=e302]: Karyawan
+                  - cell "Aktif" [ref=e303]:
+                    - generic [ref=e304]: Aktif
+                  - cell [ref=e305]:
+                    - generic [ref=e306]:
+                      - button [ref=e307]:
+                        - img
+                      - button [ref=e308]:
+                        - img
+                      - button [ref=e309]:
+                        - img
+                - row "10 Joko Suryanto 890010 Dapur Shift Siang Karyawan Aktif" [ref=e310]:
+                  - cell "10" [ref=e311]
+                  - cell "Joko Suryanto" [ref=e312]
+                  - cell "890010" [ref=e313]
+                  - cell "Dapur" [ref=e314]:
+                    - generic [ref=e315]: Dapur
+                  - cell "Shift Siang" [ref=e316]:
+                    - generic [ref=e317]: Shift Siang
+                  - cell "Karyawan" [ref=e318]:
+                    - generic [ref=e319]: Karyawan
+                  - cell "Aktif" [ref=e320]:
+                    - generic [ref=e321]: Aktif
+                  - cell [ref=e322]:
+                    - generic [ref=e323]:
+                      - button [ref=e324]:
+                        - img
+                      - button [ref=e325]:
+                        - img
+                      - button [ref=e326]:
+                        - img
+                - row "11 Kartika Sari 890011 Web Developer Shift Pagi Karyawan Aktif" [ref=e327]:
+                  - cell "11" [ref=e328]
+                  - cell "Kartika Sari" [ref=e329]
+                  - cell "890011" [ref=e330]
+                  - cell "Web Developer" [ref=e331]:
+                    - generic [ref=e332]: Web Developer
+                  - cell "Shift Pagi" [ref=e333]:
+                    - generic [ref=e334]: Shift Pagi
+                  - cell "Karyawan" [ref=e335]:
+                    - generic [ref=e336]: Karyawan
+                  - cell "Aktif" [ref=e337]:
+                    - generic [ref=e338]: Aktif
+                  - cell [ref=e339]:
+                    - generic [ref=e340]:
+                      - button [ref=e341]:
+                        - img
+                      - button [ref=e342]:
+                        - img
+                      - button [ref=e343]:
+                        - img
+                - row "12 Lukman Hakim 890012 Dapur Shift Siang Karyawan Aktif" [ref=e344]:
+                  - cell "12" [ref=e345]
+                  - cell "Lukman Hakim" [ref=e346]
+                  - cell "890012" [ref=e347]
+                  - cell "Dapur" [ref=e348]:
+                    - generic [ref=e349]: Dapur
+                  - cell "Shift Siang" [ref=e350]:
+                    - generic [ref=e351]: Shift Siang
+                  - cell "Karyawan" [ref=e352]:
+                    - generic [ref=e353]: Karyawan
+                  - cell "Aktif" [ref=e354]:
+                    - generic [ref=e355]: Aktif
+                  - cell [ref=e356]:
+                    - generic [ref=e357]:
+                      - button [ref=e358]:
+                        - img
+                      - button [ref=e359]:
+                        - img
+                      - button [ref=e360]:
+                        - img
+                - row "13 Maya Dewi 890013 Security Shift Malam Karyawan Nonaktif" [ref=e361]:
+                  - cell "13" [ref=e362]
+                  - cell "Maya Dewi" [ref=e363]
+                  - cell "890013" [ref=e364]
+                  - cell "Security" [ref=e365]:
+                    - generic [ref=e366]: Security
+                  - cell "Shift Malam" [ref=e367]:
+                    - generic [ref=e368]: Shift Malam
+                  - cell "Karyawan" [ref=e369]:
+                    - generic [ref=e370]: Karyawan
+                  - cell "Nonaktif" [ref=e371]:
+                    - generic [ref=e372]: Nonaktif
+                  - cell [ref=e373]:
+                    - generic [ref=e374]:
+                      - button [ref=e375]:
+                        - img
+                      - button [ref=e376]:
+                        - img
+                      - button [ref=e377]:
+                        - img
+                - row "14 Nico Pratomo 890014 HR Shift Pagi Karyawan Aktif" [ref=e378]:
+                  - cell "14" [ref=e379]
+                  - cell "Nico Pratomo" [ref=e380]
+                  - cell "890014" [ref=e381]
+                  - cell "HR" [ref=e382]:
+                    - generic [ref=e383]: HR
+                  - cell "Shift Pagi" [ref=e384]:
+                    - generic [ref=e385]: Shift Pagi
+                  - cell "Karyawan" [ref=e386]:
+                    - generic [ref=e387]: Karyawan
+                  - cell "Aktif" [ref=e388]:
+                    - generic [ref=e389]: Aktif
+                  - cell [ref=e390]:
+                    - generic [ref=e391]:
+                      - button [ref=e392]:
+                        - img
+                      - button [ref=e393]:
+                        - img
+                      - button [ref=e394]:
+                        - img
+                - row "15 Olivia Putri 890015 Web Developer Shift Pagi Karyawan Aktif" [ref=e395]:
+                  - cell "15" [ref=e396]
+                  - cell "Olivia Putri" [ref=e397]
+                  - cell "890015" [ref=e398]
+                  - cell "Web Developer" [ref=e399]:
+                    - generic [ref=e400]: Web Developer
+                  - cell "Shift Pagi" [ref=e401]:
+                    - generic [ref=e402]: Shift Pagi
+                  - cell "Karyawan" [ref=e403]:
+                    - generic [ref=e404]: Karyawan
+                  - cell "Aktif" [ref=e405]:
+                    - generic [ref=e406]: Aktif
+                  - cell [ref=e407]:
+                    - generic [ref=e408]:
+                      - button [ref=e409]:
+                        - img
+                      - button [ref=e410]:
+                        - img
+                      - button [ref=e411]:
+                        - img
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e9] [cursor=pointer]:
+    - img [ref=e10]
+  - alert [ref=e13]

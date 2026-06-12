@@ -1,0 +1,229 @@
+- generic:
+  - generic:
+    - button [expanded]:
+      - img
+    - generic:
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Dashboard
+              - paragraph: Ringkasan kehadiran dan aktivitas hari ini
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - paragraph: "10"
+                    - paragraph: Total Karyawan
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - paragraph: "3"
+                    - paragraph: Pending Approval
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - paragraph: "5"
+                    - paragraph: Hadir Hari Ini
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - paragraph: "3"
+                    - paragraph: Shift Aktif
+            - generic:
+              - link:
+                - /url: /admin/employees
+                - generic:
+                  - img
+                  - generic: Karyawan
+              - link:
+                - /url: /admin/approvals
+                - generic:
+                  - img
+                  - generic: Approval
+              - link:
+                - /url: /admin/reports
+                - generic:
+                  - img
+                  - generic: Laporan
+              - link:
+                - /url: /admin/roster
+                - generic:
+                  - img
+                  - generic: Roster
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Aktivitas Terbaru
+                  - link:
+                    - /url: /admin/activity-log
+                    - button:
+                      - text: Lihat semua
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Ahmad Fauzi scan masuk tepat waktu
+                      - generic:
+                        - generic: Kiosk 1
+                        - generic: •
+                        - generic: Scan
+                    - generic: 5 jam lalu
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Citra Lestari mengajukan cuti sakit
+                      - generic:
+                        - generic: Citra Lestari
+                        - generic: •
+                        - generic: Pengajuan
+                    - generic: 6 jam lalu
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Cuti sakit Citra Lestari disetujui
+                      - generic:
+                        - generic: Eka Wulandari
+                        - generic: •
+                        - generic: Approval
+                    - generic: 4 jam lalu
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Indah Permata diupdate ke Shift Pagi
+                      - generic:
+                        - generic: Eka Wulandari
+                        - generic: •
+                        - generic: Update
+                    - generic: 23 jam lalu
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - paragraph: Budi Santoso scan masuk terlambat
+                      - generic:
+                        - generic: Kiosk 1
+                        - generic: •
+                        - generic: Scan
+                    - generic: 5 jam lalu
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                    - text: Kehadiran per Departemen
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Web Developer
+                        - generic: 5 org
+                      - generic: 4/5
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Dapur
+                        - generic: 3 org
+                      - generic: 2/3
+                    - generic:
+                      - generic: "Sakit: 1"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Security
+                        - generic: 2 org
+                      - generic: 2/2
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: HR
+                        - generic: 1 org
+                      - generic: 1/1
+  - region "Notifications alt+T"
+  - generic [ref=e194] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e195]:
+      - img [ref=e196]
+    - generic [ref=e318]:
+      - button "Open issues overlay" [ref=e319]:
+        - generic [ref=e320]:
+          - generic [ref=e321]: "0"
+          - generic [ref=e322]: "1"
+        - generic [ref=e323]: Issue
+      - button "Collapse issues badge" [ref=e324]:
+        - img [ref=e325]
+  - alert
+  - dialog [ref=e328]:
+    - generic [ref=e329]:
+      - generic [ref=e330]:
+        - generic [ref=e331]:
+          - img [ref=e333]
+          - generic [ref=e335]:
+            - heading "Alhamra" [level=1] [ref=e336]
+            - paragraph [ref=e337]: Attendance
+        - button [expanded] [active] [ref=e338]:
+          - img
+      - navigation [ref=e339]:
+        - generic [ref=e340]:
+          - link "Dashboard" [ref=e341] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e342]:
+              - img [ref=e343]
+              - generic [ref=e348]: Dashboard
+          - link "Karyawan" [ref=e350] [cursor=pointer]:
+            - /url: /admin/employees
+            - generic [ref=e351]:
+              - img [ref=e352]
+              - generic [ref=e357]: Karyawan
+          - link "Departemen" [ref=e358] [cursor=pointer]:
+            - /url: /admin/departments
+            - generic [ref=e359]:
+              - img [ref=e360]
+              - generic [ref=e364]: Departemen
+          - link "Shift" [ref=e365] [cursor=pointer]:
+            - /url: /admin/shifts
+            - generic [ref=e366]:
+              - img [ref=e367]
+              - generic [ref=e370]: Shift
+        - generic [ref=e371]:
+          - paragraph [ref=e372]: Operasional
+          - generic [ref=e373]:
+            - link "Approval" [ref=e374] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e375]:
+                - img [ref=e376]
+                - generic [ref=e379]: Approval
+            - link "Laporan" [ref=e380] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e381]:
+                - img [ref=e382]
+                - generic [ref=e384]: Laporan
+            - link "Roster" [ref=e385] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e386]:
+                - img [ref=e387]
+                - generic [ref=e390]: Roster
+            - link "Activity Log" [ref=e391] [cursor=pointer]:
+              - /url: /admin/activity-log
+              - generic [ref=e392]:
+                - img [ref=e393]
+                - generic [ref=e396]: Activity Log
+      - link "Keluar" [ref=e398] [cursor=pointer]:
+        - /url: /
+        - button "Keluar" [ref=e399]:
+          - img
+          - text: Keluar
+    - button "Close" [ref=e400]:
+      - img
+      - generic [ref=e401]: Close

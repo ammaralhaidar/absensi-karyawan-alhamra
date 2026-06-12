@@ -1,0 +1,174 @@
+- generic:
+  - generic:
+    - banner:
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - heading [level=1]: Alhamra
+            - paragraph: Attendance
+        - link:
+          - /url: /
+          - button:
+            - img
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=1]: Pengajuan Izin
+            - paragraph: Riwayat pengajuan cuti, sakit, dan izin
+          - button:
+            - img
+            - text: Ajukan
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "3"
+              - paragraph: Pending
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "1"
+              - paragraph: Disetujui
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "1"
+              - paragraph: Ditolak
+        - generic:
+          - tablist:
+            - tab [selected]: Semua
+            - tab: Pending
+            - tab: Disetujui
+            - tab: Ditolak
+          - tabpanel:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: AF
+                    - generic:
+                      - paragraph: Ahmad Fauzi
+                  - generic: 2026-06-15 - 2026-06-17
+                - generic:
+                  - generic:
+                    - img
+                    - text: Pending
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: CL
+                    - generic:
+                      - paragraph: Citra Lestari
+                  - generic: 2026-06-12
+                - generic:
+                  - generic:
+                    - img
+                    - text: Disetujui
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: DP
+                    - generic:
+                      - paragraph: Dedi Pratama
+                  - generic: 2026-06-20
+                - generic:
+                  - generic:
+                    - img
+                    - text: Pending
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: FH
+                    - generic:
+                      - paragraph: Fajar Hidayat
+                  - generic: 2026-06-25 - 2026-06-28
+                - generic:
+                  - generic:
+                    - img
+                    - text: Ditolak
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: IP
+                    - generic:
+                      - paragraph: Indah Permata
+                  - generic: 2026-06-13 - 2026-06-14
+                - generic:
+                  - generic:
+                    - img
+                    - text: Pending
+    - navigation:
+      - generic:
+        - link:
+          - /url: /dashboard
+          - img
+          - generic: QR Code
+        - link:
+          - /url: /leaves
+          - img
+          - generic: Izin
+        - link:
+          - /url: /profile
+          - img
+          - generic: Profil
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e58] [cursor=pointer]:
+    - img [ref=e59]
+  - alert
+  - dialog:
+    - generic:
+      - heading [level=2]: Ajukan Cuti / Izin
+    - generic:
+      - generic:
+        - generic:
+          - text: Tipe Pengajuan
+          - generic: "*"
+        - combobox [expanded]:
+          - generic: Pilih tipe
+          - img
+      - generic:
+        - generic:
+          - text: Rentang Tanggal
+          - generic: "*"
+        - generic:
+          - generic:
+            - text: Mulai
+            - generic:
+              - img
+              - textbox
+          - generic:
+            - text: Selesai
+            - generic:
+              - img
+              - textbox
+      - generic:
+        - generic:
+          - text: Alasan
+          - generic: "*"
+        - textbox:
+          - /placeholder: Jelaskan alasan pengajuan (min. 10 karakter)...
+        - paragraph: 0/10 karakter minimum
+      - generic:
+        - button: Batal
+        - button [disabled]: Kirim Pengajuan
+    - button:
+      - img
+      - generic: Close
+  - listbox [ref=e250]:
+    - option "Cuti Tahunan" [active] [ref=e251]:
+      - generic [ref=e252]: Cuti Tahunan
+    - option "Sakit" [ref=e253]:
+      - generic [ref=e254]: Sakit
+    - option "Izin" [ref=e255]:
+      - generic [ref=e256]: Izin

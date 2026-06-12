@@ -1,0 +1,544 @@
+- generic:
+  - generic:
+    - button:
+      - img
+    - generic:
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Manajemen Roster
+                - paragraph: Jadwal shift karyawan — Juni 2026
+              - generic:
+                - button:
+                  - img
+                  - text: Copy Bulan Lalu
+                - button: Simpan Roster
+            - generic:
+              - generic:
+                - button:
+                  - img
+                  - text: Grid
+                - button:
+                  - img
+                  - text: Tabel
+              - combobox:
+                - generic: Semua Dept.
+                - img
+              - button: Weekend → Off
+              - generic: 13 karyawan
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "13"
+                    - paragraph: Karyawan
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "80"
+                    - paragraph: Shift Pagi
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "56"
+                    - paragraph: Shift Siang
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "40"
+                    - paragraph: Shift Malam
+            - generic:
+              - generic: "Shift:"
+              - generic: Shift Pagi
+              - generic: Shift Siang
+              - generic: Shift Malam
+              - generic: "Off"
+              - generic: "|"
+              - generic: 🔴 Libur
+              - generic: ⚫ Weekend
+            - generic:
+              - generic:
+                - generic: Roster — Juni 2026
+              - generic:
+                - generic:
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row:
+                          - columnheader: Karyawan
+                          - columnheader: Dept.
+                          - columnheader: Default Shift
+                          - columnheader: "1"
+                          - columnheader: "2"
+                          - columnheader: "3"
+                          - columnheader: "4"
+                          - columnheader: "5"
+                          - columnheader: "6"
+                          - columnheader: "7"
+                      - rowgroup:
+                        - row:
+                          - cell: Ahmad Fauzi
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Budi Santoso
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Citra Lestari
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Dedi Pratama
+                          - cell:
+                            - generic: Security
+                          - cell:
+                            - generic: Shift Malam
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Fajar Hidayat
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                        - row:
+                          - cell: Gita Ananda
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                        - row:
+                          - cell: Hadi Wijaya
+                          - cell:
+                            - generic: Security
+                          - cell:
+                            - generic: Shift Malam
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                        - row:
+                          - cell: Indah Permata
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: S
+                              - img
+                        - row:
+                          - cell: Joko Suryanto
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - combobox:
+                              - generic: L
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Kartika Sari
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - combobox:
+                              - generic: L
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Lukman Hakim
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - combobox:
+                              - generic: L
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Nico Pratomo
+                          - cell:
+                            - generic: HR
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - combobox:
+                              - generic: L
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                        - row:
+                          - cell: Olivia Putri
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - combobox:
+                              - generic: L
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+                          - cell:
+                            - combobox:
+                              - generic: "-"
+                              - img
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e1823] [cursor=pointer]:
+    - generic [ref=e1826]:
+      - text: Compiling
+      - generic [ref=e1827]:
+        - generic [ref=e1828]: .
+        - generic [ref=e1829]: .
+        - generic [ref=e1830]: .
+  - alert
+  - dialog "Copy dari Bulan Sebelumnya" [ref=e1832]:
+    - heading "Copy dari Bulan Sebelumnya" [level=2] [ref=e1834]
+    - paragraph [ref=e1835]: Salin roster Mei 2026 ke Juni 2026? Data roster saat ini akan ditimpa.
+    - generic [ref=e1836]:
+      - button "Batal" [active] [ref=e1837]
+      - button "Ya, Copy" [ref=e1838]
+    - button "Close" [ref=e1839]:
+      - img
+      - generic [ref=e1840]: Close

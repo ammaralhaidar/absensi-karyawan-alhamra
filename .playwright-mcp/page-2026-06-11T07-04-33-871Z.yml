@@ -1,0 +1,95 @@
+- generic:
+  - generic:
+    - button:
+      - img
+    - generic:
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Manajemen Departemen
+                - paragraph: Kelola departemen dan divisi perusahaan
+              - button:
+                - img
+                - text: Tambah Departemen
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                  - paragraph: Web Developer
+                  - paragraph: Pengembangan dan maintenance website
+                  - generic:
+                    - img
+                    - generic: 6 karyawan
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                  - paragraph: Dapur
+                  - paragraph: Produksi makanan dan minuman
+                  - generic:
+                    - img
+                    - generic: 4 karyawan
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                  - paragraph: Security
+                  - paragraph: Keamanan dan ketertiban area
+                  - generic:
+                    - img
+                    - generic: 3 karyawan
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                  - paragraph: HR
+                  - paragraph: Human Resources dan administrasi
+                  - generic:
+                    - img
+                    - generic: 2 karyawan
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]:
+    - img [ref=e100]
+  - alert
+  - dialog "Tambah Departemen" [ref=e105]:
+    - heading "Tambah Departemen" [level=2] [ref=e107]
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]: Nama Departemen
+        - textbox [active] [ref=e111]
+      - generic [ref=e112]:
+        - generic [ref=e113]: Deskripsi
+        - textbox [ref=e114]
+      - generic [ref=e115]:
+        - button "Batal" [ref=e116]
+        - button "Tambah" [ref=e117]
+    - button "Close" [ref=e118]:
+      - img
+      - generic [ref=e119]: Close

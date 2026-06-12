@@ -1,0 +1,196 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - heading "Alhamra" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Attendance
+        - paragraph [ref=e12]: Admin Dashboard
+      - navigation [ref=e13]:
+        - generic [ref=e14]:
+          - link "Dashboard" [ref=e15] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e16]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - link "Karyawan" [ref=e24] [cursor=pointer]:
+            - /url: /admin/employees
+            - generic [ref=e25]:
+              - img [ref=e26]
+              - generic [ref=e31]: Karyawan
+          - link "Departemen" [ref=e32] [cursor=pointer]:
+            - /url: /admin/departments
+            - generic [ref=e33]:
+              - img [ref=e34]
+              - generic [ref=e38]: Departemen
+          - link "Shift" [ref=e39] [cursor=pointer]:
+            - /url: /admin/shifts
+            - generic [ref=e40]:
+              - img [ref=e41]
+              - generic [ref=e44]: Shift
+        - generic [ref=e45]:
+          - paragraph [ref=e46]: Operasional
+          - generic [ref=e47]:
+            - link "Approval" [ref=e48] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e49]:
+                - img [ref=e50]
+                - generic [ref=e53]: Approval
+            - link "Laporan" [ref=e55] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e56]:
+                - img [ref=e57]
+                - generic [ref=e59]: Laporan
+            - link "Roster" [ref=e60] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e61]:
+                - img [ref=e62]
+                - generic [ref=e65]: Roster
+            - link "Activity Log" [ref=e66] [cursor=pointer]:
+              - /url: /admin/activity-log
+              - generic [ref=e67]:
+                - img [ref=e68]
+                - generic [ref=e71]: Activity Log
+      - button "Keluar" [ref=e73]:
+        - img
+        - text: Keluar
+    - generic [ref=e74]:
+      - banner [ref=e75]:
+        - generic [ref=e77]:
+          - link "Home" [ref=e78] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e79]: /
+          - link "Admin" [ref=e80] [cursor=pointer]:
+            - /url: /admin
+          - generic [ref=e81]: /
+          - generic [ref=e82]: Approval Center
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - img [ref=e85]
+            - textbox "Cari..." [ref=e88]
+          - button "3" [ref=e90]:
+            - img
+            - generic [ref=e91]: "3"
+          - generic [ref=e92]:
+            - img [ref=e94]
+            - generic [ref=e97]:
+              - paragraph [ref=e98]: Eka Wulandari
+              - generic [ref=e99]: Admin
+            - button [ref=e100]:
+              - img
+      - main [ref=e101]:
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - heading "Approval Center" [level=1] [ref=e106]
+              - paragraph [ref=e107]: Review dan approval pengajuan cuti/izin karyawan
+            - generic [ref=e108]:
+              - img
+              - text: 3 Pending
+          - generic [ref=e109]:
+            - generic [ref=e111]:
+              - img [ref=e112]
+              - generic [ref=e114]:
+                - paragraph [ref=e115]: "3"
+                - paragraph [ref=e116]: Pending
+            - generic [ref=e118]:
+              - img [ref=e119]
+              - generic [ref=e122]:
+                - paragraph [ref=e123]: "1"
+                - paragraph [ref=e124]: Disetujui
+            - generic [ref=e126]:
+              - img [ref=e127]
+              - generic [ref=e131]:
+                - paragraph [ref=e132]: "1"
+                - paragraph [ref=e133]: Ditolak
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - img [ref=e136]
+              - textbox "Cari nama atau alasan..." [ref=e139]
+            - combobox [ref=e140]:
+              - generic: Semua Tipe
+              - img
+          - generic [ref=e141]:
+            - tablist [ref=e142]:
+              - tab "Pending (3)" [selected] [ref=e143]
+              - tab "Disetujui (1)" [ref=e144]
+              - tab "Ditolak (1)" [ref=e145]
+            - tabpanel "Pending (3)" [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e149]: Pengajuan Menunggu Approval
+                - table [ref=e153]:
+                  - rowgroup [ref=e154]:
+                    - row "Karyawan Tipe Tanggal Alasan Lampiran Aksi" [ref=e155]:
+                      - columnheader [ref=e156]:
+                        - checkbox [ref=e157]
+                      - columnheader "Karyawan" [ref=e158]
+                      - columnheader "Tipe" [ref=e159]
+                      - columnheader "Tanggal" [ref=e160]
+                      - columnheader "Alasan" [ref=e161]
+                      - columnheader "Lampiran" [ref=e162]
+                      - columnheader "Aksi" [ref=e163]
+                  - rowgroup [ref=e164]:
+                    - row "Indah Permata Sakit 2026-06-13 - 2026-06-14 Sakit perut Ada" [ref=e165] [cursor=pointer]:
+                      - cell [ref=e166]:
+                        - checkbox [ref=e167]
+                      - cell "Indah Permata" [ref=e168]
+                      - cell "Sakit" [ref=e169]:
+                        - generic [ref=e170]: Sakit
+                      - cell "2026-06-13 - 2026-06-14" [ref=e171]
+                      - cell "Sakit perut" [ref=e172]
+                      - cell "Ada" [ref=e173]:
+                        - link "Ada" [ref=e174]:
+                          - /url: https://example.com/surat-sakit2.pdf
+                          - generic [ref=e175]:
+                            - img
+                            - text: Ada
+                      - cell [ref=e176]:
+                        - generic [ref=e177]:
+                          - button [ref=e178]:
+                            - img
+                          - button [ref=e179]:
+                            - img
+                          - button [ref=e180]:
+                            - img
+                    - row "Ahmad Fauzi Cuti Tahunan 2026-06-15 - 2026-06-17 Liburan keluarga -" [ref=e181] [cursor=pointer]:
+                      - cell [ref=e182]:
+                        - checkbox [ref=e183]
+                      - cell "Ahmad Fauzi" [ref=e184]
+                      - cell "Cuti Tahunan" [ref=e185]:
+                        - generic [ref=e186]: Cuti Tahunan
+                      - cell "2026-06-15 - 2026-06-17" [ref=e187]
+                      - cell "Liburan keluarga" [ref=e188]
+                      - cell "-" [ref=e189]:
+                        - generic [ref=e190]: "-"
+                      - cell [ref=e191]:
+                        - generic [ref=e192]:
+                          - button [ref=e193]:
+                            - img
+                          - button [ref=e194]:
+                            - img
+                          - button [ref=e195]:
+                            - img
+                    - row "Dedi Pratama Izin 2026-06-20 Urusan keluarga -" [ref=e196] [cursor=pointer]:
+                      - cell [ref=e197]:
+                        - checkbox [ref=e198]
+                      - cell "Dedi Pratama" [ref=e199]
+                      - cell "Izin" [ref=e200]:
+                        - generic [ref=e201]: Izin
+                      - cell "2026-06-20" [ref=e202]
+                      - cell "Urusan keluarga" [ref=e203]
+                      - cell "-" [ref=e204]:
+                        - generic [ref=e205]: "-"
+                      - cell [ref=e206]:
+                        - generic [ref=e207]:
+                          - button [ref=e208]:
+                            - img
+                          - button [ref=e209]:
+                            - img
+                          - button [ref=e210]:
+                            - img
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e216] [cursor=pointer]:
+    - img [ref=e217]
+  - alert [ref=e220]

@@ -1,0 +1,72 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - heading "Kiosk Scanner" [level=1] [ref=e12]
+          - paragraph [ref=e13]: Alhamra Attendance
+      - generic [ref=e14]:
+        - generic [ref=e49]: 13.34.48
+        - generic [ref=e15]:
+          - img
+          - generic [ref=e16]: Online
+        - button [ref=e17]:
+          - img
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e28]:
+          - img [ref=e133]
+          - paragraph [ref=e35]: Scanner Siap
+          - paragraph [ref=e36]: Klik tombol di bawah untuk simulasi scan
+        - button "Simulasi Scan" [ref=e139]:
+          - img
+          - text: Simulasi Scan
+      - generic [ref=e39]:
+        - button "🟢 Mode Online — Sync Otomatis" [active] [ref=e143]
+        - generic [ref=e42]:
+          - generic [ref=e156]:
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: Hadi Wijaya
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - img [ref=e162]
+                  - text: 06:34
+                - generic [ref=e165]: Masuk
+            - img [ref=e167]
+          - generic [ref=e174]:
+            - generic [ref=e176]:
+              - paragraph [ref=e177]: Hadi Wijaya
+              - generic [ref=e178]:
+                - generic [ref=e179]:
+                  - img [ref=e180]
+                  - text: 06:34
+                - generic [ref=e183]: Pulang
+            - img [ref=e185]
+          - generic [ref=e190]:
+            - generic [ref=e192]:
+              - paragraph [ref=e193]: Ahmad Fauzi
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - img [ref=e196]
+                  - text: 06:33
+                - generic [ref=e199]: Masuk
+            - img [ref=e201]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e204]:
+        - img [ref=e206]
+        - generic [ref=e209]:
+          - generic [ref=e210]: Sinkronisasi berhasil
+          - generic [ref=e211]: 3 data scan terkirim ke server
+      - listitem [ref=e145]:
+        - generic [ref=e146]:
+          - generic [ref=e147]: Mode Online aktif
+          - generic [ref=e148]: Data akan otomatis sync
+      - listitem [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: Mode Online aktif
+          - generic [ref=e152]: Data akan otomatis sync
+  - button "Open Next.js Dev Tools" [ref=e64] [cursor=pointer]:
+    - img [ref=e65]
+  - alert [ref=e68]

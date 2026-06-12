@@ -1,0 +1,30 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - heading "Alhamra" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Attendance
+        - button [ref=e12]:
+          - img
+    - main [ref=e13]
+    - navigation [ref=e33]:
+      - generic [ref=e34]:
+        - link "QR Code" [ref=e35] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e36]
+          - generic [ref=e42]: QR Code
+        - link "Izin" [ref=e43] [cursor=pointer]:
+          - /url: /leaves
+          - img [ref=e44]
+          - generic [ref=e46]: Izin
+        - link "Profil" [ref=e47] [cursor=pointer]:
+          - /url: /profile
+          - img [ref=e48]
+          - generic [ref=e51]: Profil
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e57] [cursor=pointer]:
+    - img [ref=e58]
+  - alert [ref=e61]

@@ -1,0 +1,255 @@
+- generic:
+  - generic:
+    - complementary:
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - heading [level=1]: Alhamra
+            - paragraph: Attendance
+        - paragraph: Admin Dashboard
+      - navigation:
+        - generic:
+          - link:
+            - /url: /admin
+            - generic:
+              - img
+              - generic: Dashboard
+          - link:
+            - /url: /admin/employees
+            - generic:
+              - img
+              - generic: Karyawan
+          - link:
+            - /url: /admin/departments
+            - generic:
+              - img
+              - generic: Departemen
+          - link:
+            - /url: /admin/shifts
+            - generic:
+              - img
+              - generic: Shift
+        - generic:
+          - paragraph: Operasional
+          - generic:
+            - link:
+              - /url: /admin/approvals
+              - generic:
+                - img
+                - generic: Approval
+            - link:
+              - /url: /admin/reports
+              - generic:
+                - img
+                - generic: Laporan
+            - link:
+              - /url: /admin/roster
+              - generic:
+                - img
+                - generic: Roster
+            - link:
+              - /url: /admin/activity-log
+              - generic:
+                - img
+                - generic: Activity Log
+      - generic:
+        - button:
+          - img
+          - text: Keluar
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - text: Home
+            - generic: /
+            - link:
+              - /url: /admin
+              - text: Admin
+            - generic: /
+            - generic: Approval Center
+        - generic:
+          - generic:
+            - img
+            - textbox:
+              - /placeholder: Cari...
+          - generic:
+            - button:
+              - img
+              - generic: "3"
+          - generic:
+            - generic:
+              - img
+            - generic:
+              - paragraph: Eka Wulandari
+              - generic: Admin
+            - button:
+              - img
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Approval Center
+                - paragraph: Review dan approval pengajuan cuti/izin karyawan
+              - generic:
+                - img
+                - text: 3 Pending
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "3"
+                    - paragraph: Pending
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "1"
+                    - paragraph: Disetujui
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: "1"
+                    - paragraph: Ditolak
+            - generic:
+              - generic:
+                - img
+                - textbox:
+                  - /placeholder: Cari nama atau alasan...
+              - combobox:
+                - generic: Semua Tipe
+                - img
+            - generic:
+              - tablist:
+                - tab [selected]: Pending (3)
+                - tab: Disetujui (1)
+                - tab: Ditolak (1)
+              - tabpanel:
+                - generic:
+                  - generic:
+                    - generic: Pengajuan Menunggu Approval
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - columnheader:
+                                - checkbox
+                              - columnheader: Karyawan
+                              - columnheader: Tipe
+                              - columnheader: Tanggal
+                              - columnheader: Alasan
+                              - columnheader: Lampiran
+                              - columnheader: Aksi
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - checkbox
+                              - cell: Indah Permata
+                              - cell:
+                                - generic: Sakit
+                              - cell: 2026-06-13 - 2026-06-14
+                              - cell: Sakit perut
+                              - cell:
+                                - link:
+                                  - /url: https://example.com/surat-sakit2.pdf
+                                  - generic:
+                                    - img
+                                    - text: Ada
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                  - button:
+                                    - img
+                                  - button:
+                                    - img
+                            - row:
+                              - cell:
+                                - checkbox
+                              - cell: Ahmad Fauzi
+                              - cell:
+                                - generic: Cuti Tahunan
+                              - cell: 2026-06-15 - 2026-06-17
+                              - cell: Liburan keluarga
+                              - cell:
+                                - generic: "-"
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                  - button:
+                                    - img
+                                  - button:
+                                    - img
+                            - row:
+                              - cell:
+                                - checkbox
+                              - cell: Dedi Pratama
+                              - cell:
+                                - generic: Izin
+                              - cell: 2026-06-20
+                              - cell: Urusan keluarga
+                              - cell:
+                                - generic: "-"
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                  - button:
+                                    - img
+                                  - button:
+                                    - img
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e216] [cursor=pointer]:
+    - img [ref=e217]
+  - alert
+  - dialog "Detail Pengajuan" [ref=e222]:
+    - heading "Detail Pengajuan" [level=2] [ref=e224]
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - img [ref=e228]
+        - generic [ref=e231]:
+          - paragraph [ref=e232]: Indah Permata
+          - generic [ref=e233]: Pending
+      - generic [ref=e234]:
+        - generic [ref=e235]:
+          - img [ref=e236]
+          - generic [ref=e239]: Tipe
+          - generic [ref=e240]: Sakit
+        - generic [ref=e241]:
+          - img [ref=e242]
+          - generic [ref=e244]: Tanggal
+          - generic [ref=e245]: 2026-06-13 - 2026-06-14
+        - generic [ref=e246]:
+          - img [ref=e247]
+          - generic [ref=e250]: Diajukan
+          - generic [ref=e251]: 2026-06-12
+        - generic [ref=e252]:
+          - img [ref=e253]
+          - generic [ref=e255]: Lampiran
+          - link "Lihat Lampiran" [ref=e257] [cursor=pointer]:
+            - /url: https://example.com/surat-sakit2.pdf
+            - img [ref=e258]
+            - text: Lihat Lampiran
+      - generic [ref=e262]:
+        - paragraph [ref=e263]: Alasan
+        - paragraph [ref=e264]: Sakit perut
+    - generic [ref=e265]:
+      - button "Approve" [active] [ref=e266]:
+        - img
+        - text: Approve
+      - button "Tolak" [ref=e267]:
+        - img
+        - text: Tolak
+      - button "Tutup" [ref=e268]
+    - button "Close" [ref=e269]:
+      - img
+      - generic [ref=e270]: Close

@@ -1,0 +1,481 @@
+- generic:
+  - generic:
+    - complementary:
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - heading [level=1]: Alhamra
+            - paragraph: Attendance
+        - paragraph: Admin Dashboard
+      - navigation:
+        - generic:
+          - link:
+            - /url: /admin
+            - generic:
+              - img
+              - generic: Dashboard
+          - link:
+            - /url: /admin/employees
+            - generic:
+              - img
+              - generic: Karyawan
+          - link:
+            - /url: /admin/departments
+            - generic:
+              - img
+              - generic: Departemen
+          - link:
+            - /url: /admin/shifts
+            - generic:
+              - img
+              - generic: Shift
+        - generic:
+          - paragraph: Operasional
+          - generic:
+            - link:
+              - /url: /admin/approvals
+              - generic:
+                - img
+                - generic: Approval
+            - link:
+              - /url: /admin/reports
+              - generic:
+                - img
+                - generic: Laporan
+            - link:
+              - /url: /admin/roster
+              - generic:
+                - img
+                - generic: Roster
+            - link:
+              - /url: /admin/activity-log
+              - generic:
+                - img
+                - generic: Activity Log
+      - generic:
+        - button:
+          - img
+          - text: Keluar
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - text: Home
+            - generic: /
+            - link:
+              - /url: /admin
+              - text: Admin
+            - generic: /
+            - generic: Manajemen Karyawan
+        - generic:
+          - generic:
+            - img
+            - textbox:
+              - /placeholder: Cari...
+          - generic:
+            - button:
+              - img
+              - generic: "3"
+          - generic:
+            - generic:
+              - img
+            - generic:
+              - paragraph: Eka Wulandari
+              - generic: Admin
+            - button:
+              - img
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Manajemen Karyawan
+                - paragraph: Kelola data karyawan dan status keaktifan
+              - generic:
+                - button:
+                  - img
+                  - text: Import
+                - button:
+                  - img
+                  - text: Tambah Karyawan
+            - generic:
+              - generic:
+                - img
+                - textbox:
+                  - /placeholder: Cari nama, NIK, atau departemen...
+              - combobox:
+                - generic: Semua Dept.
+                - img
+              - combobox:
+                - generic: Semua Status
+                - img
+              - generic: 15 karyawan
+            - generic:
+              - generic:
+                - generic: Daftar Karyawan
+              - generic:
+                - generic:
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row:
+                          - columnheader: "#"
+                          - columnheader:
+                            - generic:
+                              - text: Nama
+                              - img
+                          - columnheader: NIK
+                          - columnheader:
+                            - generic:
+                              - text: Dept.
+                              - img
+                          - columnheader: Shift
+                          - columnheader: Role
+                          - columnheader: Status
+                          - columnheader: Aksi
+                      - rowgroup:
+                        - row:
+                          - cell: "1"
+                          - cell: Ahmad Fauzi
+                          - cell: "890001"
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "2"
+                          - cell: Budi Santoso
+                          - cell: "890002"
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "3"
+                          - cell: Citra Lestari
+                          - cell: "890003"
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "4"
+                          - cell: Dedi Pratama
+                          - cell: "890004"
+                          - cell:
+                            - generic: Security
+                          - cell:
+                            - generic: Shift Malam
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "5"
+                          - cell: Eka Wulandari
+                          - cell: "890005"
+                          - cell:
+                            - generic: HR
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Admin
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "6"
+                          - cell: Fajar Hidayat
+                          - cell: "890006"
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "7"
+                          - cell: Gita Ananda
+                          - cell: "890007"
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "8"
+                          - cell: Hadi Wijaya
+                          - cell: "890008"
+                          - cell:
+                            - generic: Security
+                          - cell:
+                            - generic: Shift Malam
+                          - cell:
+                            - generic: Kiosk
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "9"
+                          - cell: Indah Permata
+                          - cell: "890009"
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "10"
+                          - cell: Joko Suryanto
+                          - cell: "890010"
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "11"
+                          - cell: Kartika Sari
+                          - cell: "890011"
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "12"
+                          - cell: Lukman Hakim
+                          - cell: "890012"
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: Shift Siang
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "13"
+                          - cell: Maya Dewi
+                          - cell: "890013"
+                          - cell:
+                            - generic: Security
+                          - cell:
+                            - generic: Shift Malam
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Nonaktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "14"
+                          - cell: Nico Pratomo
+                          - cell: "890014"
+                          - cell:
+                            - generic: HR
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+                        - row:
+                          - cell: "15"
+                          - cell: Olivia Putri
+                          - cell: "890015"
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: Shift Pagi
+                          - cell:
+                            - generic: Karyawan
+                          - cell:
+                            - generic: Aktif
+                          - cell:
+                            - generic:
+                              - button:
+                                - img
+                              - button:
+                                - img
+                              - button:
+                                - img
+  - region "Notifications alt+T":
+    - list:
+      - listitem:
+        - generic:
+          - img
+        - generic:
+          - generic: Template berhasil diunduh
+  - button "Open Next.js Dev Tools" [ref=e9] [cursor=pointer]:
+    - img [ref=e10]
+  - alert
+  - dialog "Import Karyawan dari CSV" [ref=e413]:
+    - heading "Import Karyawan dari CSV" [level=2] [ref=e415]
+    - generic [ref=e416]:
+      - generic [ref=e417]:
+        - heading "Langkah Import:" [level=3] [ref=e418]
+        - list [ref=e419]:
+          - listitem [ref=e420]: Download template CSV di bawah
+          - listitem [ref=e421]: Isi data karyawan (1 baris = 1 karyawan)
+          - listitem [ref=e422]: Upload file yang sudah diisi
+          - listitem [ref=e423]: Preview dan konfirmasi
+        - generic [ref=e424]:
+          - paragraph [ref=e425]:
+            - strong [ref=e426]: "Departemen valid:"
+            - text: Web Developer, Dapur, Security, HR
+          - paragraph [ref=e427]:
+            - strong [ref=e428]: "Shift valid:"
+            - text: Shift Pagi, Shift Siang, Shift Malam
+          - paragraph [ref=e429]:
+            - strong [ref=e430]: "Role valid:"
+            - text: employee, admin, kiosk_security
+      - button "Download Template CSV" [active] [ref=e431]:
+        - img
+        - text: Download Template CSV
+      - generic [ref=e432]:
+        - img [ref=e433]
+        - paragraph [ref=e436]: Drag & drop file CSV di sini
+        - paragraph [ref=e437]: atau
+        - generic [ref=e438] [cursor=pointer]: Pilih file
+    - button "Close" [ref=e439]:
+      - img
+      - generic [ref=e440]: Close

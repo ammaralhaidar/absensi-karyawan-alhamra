@@ -1,0 +1,106 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - heading "Alhamra" [level=1] [ref=e10]
+            - paragraph [ref=e11]: Attendance
+        - link [ref=e12] [cursor=pointer]:
+          - /url: /
+          - button [ref=e13]:
+            - img
+    - main [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "Pengajuan Izin" [level=1] [ref=e65]
+            - paragraph [ref=e66]: Riwayat pengajuan cuti, sakit, dan izin
+          - button "Ajukan" [ref=e67]:
+            - img
+            - text: Ajukan
+        - generic [ref=e68]:
+          - generic [ref=e70] [cursor=pointer]:
+            - img [ref=e72]
+            - paragraph [ref=e74]: "3"
+            - paragraph [ref=e75]: Pending
+          - generic [ref=e77] [cursor=pointer]:
+            - img [ref=e79]
+            - paragraph [ref=e82]: "1"
+            - paragraph [ref=e83]: Disetujui
+          - generic [ref=e85] [cursor=pointer]:
+            - img [ref=e87]
+            - paragraph [ref=e90]: "1"
+            - paragraph [ref=e91]: Ditolak
+        - generic [ref=e92]:
+          - tablist [ref=e93]:
+            - tab "Semua" [active] [selected] [ref=e94]
+            - tab "Pending" [ref=e95]
+            - tab "Disetujui" [ref=e96]
+            - tab "Ditolak" [ref=e97]
+          - tabpanel "Semua" [ref=e157]:
+            - generic [ref=e99]:
+              - generic [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]: AF
+                    - paragraph [ref=e164]: Ahmad Fauzi
+                  - generic [ref=e165]: 2026-06-15 - 2026-06-17
+                - generic [ref=e167]:
+                  - img
+                  - text: Pending
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - generic [ref=e104]: CL
+                    - paragraph [ref=e106]: Citra Lestari
+                  - generic [ref=e107]: 2026-06-12
+                - generic [ref=e109]:
+                  - img
+                  - text: Disetujui
+              - generic [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]:
+                  - generic [ref=e170]:
+                    - generic [ref=e172]: DP
+                    - paragraph [ref=e174]: Dedi Pratama
+                  - generic [ref=e175]: 2026-06-20
+                - generic [ref=e177]:
+                  - img
+                  - text: Pending
+              - generic [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]:
+                  - generic [ref=e180]:
+                    - generic [ref=e182]: FH
+                    - paragraph [ref=e184]: Fajar Hidayat
+                  - generic [ref=e185]: 2026-06-25 - 2026-06-28
+                - generic [ref=e187]:
+                  - img
+                  - text: Ditolak
+              - generic [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]:
+                  - generic [ref=e190]:
+                    - generic [ref=e192]: IP
+                    - paragraph [ref=e194]: Indah Permata
+                  - generic [ref=e195]: 2026-06-13 - 2026-06-14
+                - generic [ref=e197]:
+                  - img
+                  - text: Pending
+    - navigation [ref=e34]:
+      - generic [ref=e35]:
+        - link "QR Code" [ref=e36] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e37]
+          - generic [ref=e43]: QR Code
+        - link "Izin" [ref=e44] [cursor=pointer]:
+          - /url: /leaves
+          - img [ref=e45]
+          - generic [ref=e47]: Izin
+        - link "Profil" [ref=e48] [cursor=pointer]:
+          - /url: /profile
+          - img [ref=e49]
+          - generic [ref=e52]: Profil
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e58] [cursor=pointer]:
+    - img [ref=e59]
+  - alert [ref=e62]

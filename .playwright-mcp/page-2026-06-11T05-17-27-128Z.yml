@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - img [ref=e7]
+        - generic [ref=e9]:
+          - heading "Alhamra Attendance" [level=1] [ref=e10]
+          - paragraph [ref=e11]: Sistem Absensi Karyawan PWA
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "Selamat Datang di Alhamra Attendance" [level=2] [ref=e15]
+          - paragraph [ref=e16]: Pilih mode akses sesuai peran Anda. Sistem ini mendukung absensi via QR Code, manajemen shift, dan pengajuan cuti/izin.
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - img [ref=e21]
+              - generic [ref=e27]: Karyawan
+              - generic [ref=e28]: Akses QR Code absensi dan pengajuan cuti/izin
+            - generic [ref=e29]:
+              - link "Dashboard QR Code" [ref=e30] [cursor=pointer]:
+                - /url: /dashboard
+                - button "Dashboard QR Code" [ref=e31]:
+                  - img
+                  - text: Dashboard QR Code
+              - link "Pengajuan Cuti/Izin" [ref=e32] [cursor=pointer]:
+                - /url: /leaves
+                - button "Pengajuan Cuti/Izin" [ref=e33]:
+                  - img
+                  - text: Pengajuan Cuti/Izin
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - img [ref=e37]
+              - generic [ref=e39]: Security / Kiosk
+              - generic [ref=e40]: Scanner QR Code untuk check-in/check-out karyawan
+            - link "Buka Scanner Kiosk" [ref=e42] [cursor=pointer]:
+              - /url: /kiosk
+              - button "Buka Scanner Kiosk" [ref=e43]:
+                - img
+                - text: Buka Scanner Kiosk
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - img [ref=e47]
+              - generic [ref=e52]: Admin / HR
+              - generic [ref=e53]: Manajemen jadwal, approval, dan laporan
+            - generic [ref=e54]:
+              - link "Manajemen Roster" [ref=e55] [cursor=pointer]:
+                - /url: /admin/roster
+                - button "Manajemen Roster" [ref=e56]:
+                  - img
+                  - text: Manajemen Roster
+              - link "Approval Center" [ref=e57] [cursor=pointer]:
+                - /url: /admin/approvals
+                - button "Approval Center" [ref=e58]:
+                  - img
+                  - text: Approval Center
+              - link "Laporan & Export" [ref=e59] [cursor=pointer]:
+                - /url: /admin/reports
+                - button "Laporan & Export" [ref=e60]:
+                  - img
+                  - text: Laporan & Export
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - heading "QR Code Dinamis" [level=3] [ref=e70]
+            - paragraph [ref=e71]: QR Code auto-refresh setiap 30 detik untuk mencegah kecurangan
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - heading "Offline-First" [level=3] [ref=e77]
+            - paragraph [ref=e78]: Kiosk tetap berfungsi saat offline dengan sinkronisasi otomatis
+          - generic [ref=e79]:
+            - img [ref=e81]
+            - heading "Laporan Lengkap" [level=3] [ref=e86]
+            - paragraph [ref=e87]: Export Excel dengan rekapitulasi bulanan dan log kronologis
+    - contentinfo [ref=e88]:
+      - paragraph [ref=e90]: © 2026 Alhamra Attendance PWA. Built with Next.js & Tailwind CSS.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e96] [cursor=pointer]:
+    - img [ref=e97]
+  - alert [ref=e100]

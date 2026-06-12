@@ -1,0 +1,411 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e346]:
+      - generic [ref=e347]:
+        - generic [ref=e348]:
+          - img [ref=e350]
+          - generic [ref=e352]:
+            - heading "Alhamra" [level=1] [ref=e353]
+            - paragraph [ref=e354]: Attendance
+        - paragraph [ref=e355]: Admin Dashboard
+      - navigation [ref=e356]:
+        - generic [ref=e357]:
+          - link "Dashboard" [ref=e358] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e359]:
+              - img [ref=e360]
+              - generic [ref=e365]: Dashboard
+          - link "Karyawan" [ref=e367] [cursor=pointer]:
+            - /url: /admin/employees
+            - generic [ref=e368]:
+              - img [ref=e369]
+              - generic [ref=e374]: Karyawan
+          - link "Departemen" [ref=e375] [cursor=pointer]:
+            - /url: /admin/departments
+            - generic [ref=e376]:
+              - img [ref=e377]
+              - generic [ref=e381]: Departemen
+          - link "Shift" [ref=e382] [cursor=pointer]:
+            - /url: /admin/shifts
+            - generic [ref=e383]:
+              - img [ref=e384]
+              - generic [ref=e387]: Shift
+        - generic [ref=e388]:
+          - paragraph [ref=e389]: Operasional
+          - generic [ref=e390]:
+            - link "Approval" [ref=e391] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e392]:
+                - img [ref=e393]
+                - generic [ref=e396]: Approval
+            - link "Laporan" [ref=e397] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e398]:
+                - img [ref=e399]
+                - generic [ref=e401]: Laporan
+            - link "Roster" [ref=e403] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e404]:
+                - img [ref=e405]
+                - generic [ref=e408]: Roster
+            - link "Activity Log" [ref=e409] [cursor=pointer]:
+              - /url: /admin/activity-log
+              - generic [ref=e410]:
+                - img [ref=e411]
+                - generic [ref=e414]: Activity Log
+      - link "Keluar" [ref=e416] [cursor=pointer]:
+        - /url: /
+        - button "Keluar" [ref=e417]:
+          - img
+          - text: Keluar
+    - generic [ref=e4]:
+      - banner [ref=e418]:
+        - generic [ref=e420]:
+          - link "Home" [ref=e421] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e422]: /
+          - link "Admin" [ref=e423] [cursor=pointer]:
+            - /url: /admin
+          - generic [ref=e424]: /
+          - generic [ref=e425]: Laporan & Export
+        - generic [ref=e426]:
+          - generic [ref=e427]:
+            - img [ref=e428]
+            - textbox "Cari..." [ref=e431]
+          - button "3" [ref=e433]:
+            - img
+            - generic [ref=e434]: "3"
+          - generic [ref=e435]:
+            - img [ref=e437]
+            - generic [ref=e440]:
+              - paragraph [ref=e441]: Eka Wulandari
+              - generic [ref=e442]: Admin
+      - main [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - heading "Laporan & Export" [level=1] [ref=e10]
+              - paragraph [ref=e11]: Rekapitulasi absensi dan export ke Excel
+            - generic [ref=e12]:
+              - button "Cetak" [ref=e13]:
+                - img
+                - text: Cetak
+              - button "Download Excel" [disabled]:
+                - img
+                - text: Download Excel
+          - generic [ref=e455]:
+            - img [ref=e456]
+            - generic [ref=e459]:
+              - paragraph [ref=e460]: Mengexport...
+              - generic [ref=e464]: 20%
+          - generic [ref=e15]:
+            - combobox [ref=e16]:
+              - img
+              - generic: Juni 2026
+              - img
+            - combobox [ref=e18]:
+              - generic: Semua Departemen
+              - img
+            - generic [ref=e20]:
+              - img [ref=e21]
+              - textbox "Cari karyawan..." [ref=e24]
+            - generic [ref=e25]: 8 karyawan
+          - generic [ref=e26]:
+            - generic [ref=e28]:
+              - img [ref=e29]
+              - paragraph [ref=e32]: "82"
+              - paragraph [ref=e33]: Hadir
+            - generic [ref=e35]:
+              - img [ref=e36]
+              - paragraph [ref=e39]: "2"
+              - paragraph [ref=e40]: Sakit
+            - generic [ref=e42]:
+              - img [ref=e43]
+              - paragraph [ref=e46]: "1"
+              - paragraph [ref=e47]: Izin
+            - generic [ref=e49]:
+              - img [ref=e50]
+              - paragraph [ref=e53]: "2"
+              - paragraph [ref=e54]: Cuti
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - paragraph [ref=e60]: "1"
+              - paragraph [ref=e61]: Alpa
+            - generic [ref=e63]:
+              - img [ref=e64]
+              - paragraph [ref=e67]: "3"
+              - paragraph [ref=e68]: Terlambat
+          - generic [ref=e69]:
+            - generic [ref=e70]: "Keterangan:"
+            - generic [ref=e71]: H = Hadir
+            - generic [ref=e72]: S = Sakit
+            - generic [ref=e73]: I = Izin
+            - generic [ref=e74]: C = Cuti
+            - generic [ref=e75]: A = Alpa
+            - generic [ref=e76]: T = Terlambat
+          - generic [ref=e77]:
+            - generic [ref=e79]: Rekapitulasi Absensi - Juni 2026
+            - table [ref=e83]:
+              - rowgroup [ref=e84]:
+                - row "Nama Divisi 1 2 3 4 5 6 7 8 9 10 11 Total Jam" [ref=e85]:
+                  - columnheader "Nama" [ref=e86] [cursor=pointer]:
+                    - generic [ref=e87]:
+                      - text: Nama
+                      - img [ref=e88]
+                  - columnheader "Divisi" [ref=e91]
+                  - columnheader "1" [ref=e92]
+                  - columnheader "2" [ref=e93]
+                  - columnheader "3" [ref=e94]
+                  - columnheader "4" [ref=e95]
+                  - columnheader "5" [ref=e96]
+                  - columnheader "6" [ref=e97]
+                  - columnheader "7" [ref=e98]
+                  - columnheader "8" [ref=e99]
+                  - columnheader "9" [ref=e100]
+                  - columnheader "10" [ref=e101]
+                  - columnheader "11" [ref=e102]
+                  - columnheader "Total" [ref=e103] [cursor=pointer]:
+                    - generic [ref=e104]:
+                      - text: Total
+                      - img [ref=e105]
+                  - columnheader "Jam" [ref=e108] [cursor=pointer]:
+                    - generic [ref=e109]:
+                      - text: Jam
+                      - img [ref=e110]
+              - rowgroup [ref=e113]:
+                - row "Ahmad Fauzi Web Developer H H H H H H H H H H H 11 88h" [ref=e114]:
+                  - cell "Ahmad Fauzi" [ref=e115]:
+                    - button "Ahmad Fauzi" [ref=e116] [cursor=pointer]
+                  - cell "Web Developer" [ref=e117]:
+                    - generic [ref=e118]: Web Developer
+                  - cell "H" [ref=e119]:
+                    - generic [ref=e120]: H
+                  - cell "H" [ref=e121]:
+                    - generic [ref=e122]: H
+                  - cell "H" [ref=e123]:
+                    - generic [ref=e124]: H
+                  - cell "H" [ref=e125]:
+                    - generic [ref=e126]: H
+                  - cell "H" [ref=e127]:
+                    - generic [ref=e128]: H
+                  - cell "H" [ref=e129]:
+                    - generic [ref=e130]: H
+                  - cell "H" [ref=e131]:
+                    - generic [ref=e132]: H
+                  - cell "H" [ref=e133]:
+                    - generic [ref=e134]: H
+                  - cell "H" [ref=e135]:
+                    - generic [ref=e136]: H
+                  - cell "H" [ref=e137]:
+                    - generic [ref=e138]: H
+                  - cell "H" [ref=e139]:
+                    - generic [ref=e140]: H
+                  - cell "11" [ref=e141]
+                  - cell "88h" [ref=e142]
+                - row "Budi Santoso Web Developer H T H H H H H T H H H 11 88h" [ref=e143]:
+                  - cell "Budi Santoso" [ref=e144]:
+                    - button "Budi Santoso" [ref=e145] [cursor=pointer]
+                  - cell "Web Developer" [ref=e146]:
+                    - generic [ref=e147]: Web Developer
+                  - cell "H" [ref=e148]:
+                    - generic [ref=e149]: H
+                  - cell "T" [ref=e150]:
+                    - generic [ref=e151]: T
+                  - cell "H" [ref=e152]:
+                    - generic [ref=e153]: H
+                  - cell "H" [ref=e154]:
+                    - generic [ref=e155]: H
+                  - cell "H" [ref=e156]:
+                    - generic [ref=e157]: H
+                  - cell "H" [ref=e158]:
+                    - generic [ref=e159]: H
+                  - cell "H" [ref=e160]:
+                    - generic [ref=e161]: H
+                  - cell "T" [ref=e162]:
+                    - generic [ref=e163]: T
+                  - cell "H" [ref=e164]:
+                    - generic [ref=e165]: H
+                  - cell "H" [ref=e166]:
+                    - generic [ref=e167]: H
+                  - cell "H" [ref=e168]:
+                    - generic [ref=e169]: H
+                  - cell "11" [ref=e170]
+                  - cell "88h" [ref=e171]
+                - row "Citra Lestari Dapur H H S H H H H H H H H 10 90h" [ref=e172]:
+                  - cell "Citra Lestari" [ref=e173]:
+                    - button "Citra Lestari" [ref=e174] [cursor=pointer]
+                  - cell "Dapur" [ref=e175]:
+                    - generic [ref=e176]: Dapur
+                  - cell "H" [ref=e177]:
+                    - generic [ref=e178]: H
+                  - cell "H" [ref=e179]:
+                    - generic [ref=e180]: H
+                  - cell "S" [ref=e181]:
+                    - generic [ref=e182]: S
+                  - cell "H" [ref=e183]:
+                    - generic [ref=e184]: H
+                  - cell "H" [ref=e185]:
+                    - generic [ref=e186]: H
+                  - cell "H" [ref=e187]:
+                    - generic [ref=e188]: H
+                  - cell "H" [ref=e189]:
+                    - generic [ref=e190]: H
+                  - cell "H" [ref=e191]:
+                    - generic [ref=e192]: H
+                  - cell "H" [ref=e193]:
+                    - generic [ref=e194]: H
+                  - cell "H" [ref=e195]:
+                    - generic [ref=e196]: H
+                  - cell "H" [ref=e197]:
+                    - generic [ref=e198]: H
+                  - cell "10" [ref=e199]
+                  - cell "90h" [ref=e200]
+                - row "Dedi Pratama Security H H H H H H I H H H H 10 90h" [ref=e201]:
+                  - cell "Dedi Pratama" [ref=e202]:
+                    - button "Dedi Pratama" [ref=e203] [cursor=pointer]
+                  - cell "Security" [ref=e204]:
+                    - generic [ref=e205]: Security
+                  - cell "H" [ref=e206]:
+                    - generic [ref=e207]: H
+                  - cell "H" [ref=e208]:
+                    - generic [ref=e209]: H
+                  - cell "H" [ref=e210]:
+                    - generic [ref=e211]: H
+                  - cell "H" [ref=e212]:
+                    - generic [ref=e213]: H
+                  - cell "H" [ref=e214]:
+                    - generic [ref=e215]: H
+                  - cell "H" [ref=e216]:
+                    - generic [ref=e217]: H
+                  - cell "I" [ref=e218]:
+                    - generic [ref=e219]: I
+                  - cell "H" [ref=e220]:
+                    - generic [ref=e221]: H
+                  - cell "H" [ref=e222]:
+                    - generic [ref=e223]: H
+                  - cell "H" [ref=e224]:
+                    - generic [ref=e225]: H
+                  - cell "H" [ref=e226]:
+                    - generic [ref=e227]: H
+                  - cell "10" [ref=e228]
+                  - cell "90h" [ref=e229]
+                - row "Eka Wulandari HR H H H H C C H H H H H 9 72h" [ref=e230]:
+                  - cell "Eka Wulandari" [ref=e231]:
+                    - button "Eka Wulandari" [ref=e232] [cursor=pointer]
+                  - cell "HR" [ref=e233]:
+                    - generic [ref=e234]: HR
+                  - cell "H" [ref=e235]:
+                    - generic [ref=e236]: H
+                  - cell "H" [ref=e237]:
+                    - generic [ref=e238]: H
+                  - cell "H" [ref=e239]:
+                    - generic [ref=e240]: H
+                  - cell "H" [ref=e241]:
+                    - generic [ref=e242]: H
+                  - cell "C" [ref=e243]:
+                    - generic [ref=e244]: C
+                  - cell "C" [ref=e245]:
+                    - generic [ref=e246]: C
+                  - cell "H" [ref=e247]:
+                    - generic [ref=e248]: H
+                  - cell "H" [ref=e249]:
+                    - generic [ref=e250]: H
+                  - cell "H" [ref=e251]:
+                    - generic [ref=e252]: H
+                  - cell "H" [ref=e253]:
+                    - generic [ref=e254]: H
+                  - cell "H" [ref=e255]:
+                    - generic [ref=e256]: H
+                  - cell "9" [ref=e257]
+                  - cell "72h" [ref=e258]
+                - row "Fajar Hidayat Web Developer H H H H H H A H H H H 10 80h" [ref=e259]:
+                  - cell "Fajar Hidayat" [ref=e260]:
+                    - button "Fajar Hidayat" [ref=e261] [cursor=pointer]
+                  - cell "Web Developer" [ref=e262]:
+                    - generic [ref=e263]: Web Developer
+                  - cell "H" [ref=e264]:
+                    - generic [ref=e265]: H
+                  - cell "H" [ref=e266]:
+                    - generic [ref=e267]: H
+                  - cell "H" [ref=e268]:
+                    - generic [ref=e269]: H
+                  - cell "H" [ref=e270]:
+                    - generic [ref=e271]: H
+                  - cell "H" [ref=e272]:
+                    - generic [ref=e273]: H
+                  - cell "H" [ref=e274]:
+                    - generic [ref=e275]: H
+                  - cell "A" [ref=e276]:
+                    - generic [ref=e277]: A
+                  - cell "H" [ref=e278]:
+                    - generic [ref=e279]: H
+                  - cell "H" [ref=e280]:
+                    - generic [ref=e281]: H
+                  - cell "H" [ref=e282]:
+                    - generic [ref=e283]: H
+                  - cell "H" [ref=e284]:
+                    - generic [ref=e285]: H
+                  - cell "10" [ref=e286]
+                  - cell "80h" [ref=e287]
+                - row "Gita Ananda Dapur H H H S H H H H H H H 10 90h" [ref=e288]:
+                  - cell "Gita Ananda" [ref=e289]:
+                    - button "Gita Ananda" [ref=e290] [cursor=pointer]
+                  - cell "Dapur" [ref=e291]:
+                    - generic [ref=e292]: Dapur
+                  - cell "H" [ref=e293]:
+                    - generic [ref=e294]: H
+                  - cell "H" [ref=e295]:
+                    - generic [ref=e296]: H
+                  - cell "H" [ref=e297]:
+                    - generic [ref=e298]: H
+                  - cell "S" [ref=e299]:
+                    - generic [ref=e300]: S
+                  - cell "H" [ref=e301]:
+                    - generic [ref=e302]: H
+                  - cell "H" [ref=e303]:
+                    - generic [ref=e304]: H
+                  - cell "H" [ref=e305]:
+                    - generic [ref=e306]: H
+                  - cell "H" [ref=e307]:
+                    - generic [ref=e308]: H
+                  - cell "H" [ref=e309]:
+                    - generic [ref=e310]: H
+                  - cell "H" [ref=e311]:
+                    - generic [ref=e312]: H
+                  - cell "H" [ref=e313]:
+                    - generic [ref=e314]: H
+                  - cell "10" [ref=e315]
+                  - cell "90h" [ref=e316]
+                - row "Hadi Wijaya Security H H H H T H H H H H H 11 88h" [ref=e317]:
+                  - cell "Hadi Wijaya" [ref=e318]:
+                    - button "Hadi Wijaya" [ref=e319] [cursor=pointer]
+                  - cell "Security" [ref=e320]:
+                    - generic [ref=e321]: Security
+                  - cell "H" [ref=e322]:
+                    - generic [ref=e323]: H
+                  - cell "H" [ref=e324]:
+                    - generic [ref=e325]: H
+                  - cell "H" [ref=e326]:
+                    - generic [ref=e327]: H
+                  - cell "H" [ref=e328]:
+                    - generic [ref=e329]: H
+                  - cell "T" [ref=e330]:
+                    - generic [ref=e331]: T
+                  - cell "H" [ref=e332]:
+                    - generic [ref=e333]: H
+                  - cell "H" [ref=e334]:
+                    - generic [ref=e335]: H
+                  - cell "H" [ref=e336]:
+                    - generic [ref=e337]: H
+                  - cell "H" [ref=e338]:
+                    - generic [ref=e339]: H
+                  - cell "H" [ref=e340]:
+                    - generic [ref=e341]: H
+                  - cell "H" [ref=e342]:
+                    - generic [ref=e343]: H
+                  - cell "11" [ref=e344]
+                  - cell "88h" [ref=e345]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e448] [cursor=pointer]:
+    - img [ref=e449]
+  - alert [ref=e452]

@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - heading "Alhamra Attendance" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Sistem Absensi Karyawan
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - img [ref=e13]
+        - generic [ref=e15]: Login
+        - generic [ref=e16]: Masuk ke sistem absensi Alhamra
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: Email
+          - textbox "Email" [ref=e20]:
+            - /placeholder: nama@alhamra.com
+        - generic [ref=e21]:
+          - generic [ref=e22]: Password
+          - textbox "Password" [ref=e23]:
+            - /placeholder: ••••••••
+        - button "Masuk" [ref=e24]:
+          - img
+          - text: Masuk
+        - paragraph [ref=e25]: Demo Mode - Klik tombol di bawah untuk akses cepat
+        - generic [ref=e26]:
+          - button "Karyawan" [ref=e27]
+          - button "Security" [ref=e28]
+          - button "Admin" [ref=e29]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e35] [cursor=pointer]:
+    - img [ref=e36]
+  - alert [ref=e39]

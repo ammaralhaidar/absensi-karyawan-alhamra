@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic [ref=e13]:
+            - heading "Kiosk Scanner" [level=1] [ref=e14]
+            - paragraph [ref=e15]: Alhamra Attendance
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - img
+            - text: Online
+          - button [ref=e18]:
+            - img
+      - generic [ref=e19]:
+        - generic [ref=e26]:
+          - img [ref=e27]
+          - paragraph [ref=e33]: Arahkan QR Code ke kamera
+          - paragraph [ref=e34]: Scanner aktif - menunggu scan...
+        - button "Simulasi Scan" [ref=e36]:
+          - img
+          - text: Simulasi Scan
+    - generic [ref=e37]:
+      - heading "5 Scan Terakhir" [level=2] [ref=e39]:
+        - img [ref=e40]
+        - text: 5 Scan Terakhir
+      - generic [ref=e43]:
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Ahmad Fauzi
+          - generic [ref=e50]:
+            - img [ref=e51]
+            - text: 08:05
+            - generic [ref=e54]: Masuk
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: Budi Santoso
+          - generic [ref=e61]:
+            - img [ref=e62]
+            - text: 08:25
+            - generic [ref=e65]: Masuk
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: Citra Lestari
+          - generic [ref=e72]:
+            - img [ref=e73]
+            - text: 12:00
+            - generic [ref=e76]: Masuk
+        - generic [ref=e81]:
+          - paragraph [ref=e82]: Dedi Pratama
+          - generic [ref=e83]:
+            - img [ref=e84]
+            - text: 20:00
+            - generic [ref=e87]: Masuk
+        - generic [ref=e92]:
+          - paragraph [ref=e93]: Eka Wulandari
+          - generic [ref=e94]:
+            - img [ref=e95]
+            - text: 08:00
+            - generic [ref=e98]: Masuk
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e104] [cursor=pointer]:
+    - img [ref=e105]
+  - alert [ref=e108]

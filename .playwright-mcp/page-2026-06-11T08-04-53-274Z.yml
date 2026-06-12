@@ -1,0 +1,213 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e43]:
+    - complementary [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img [ref=e48]
+          - generic [ref=e50]:
+            - heading "Alhamra" [level=1] [ref=e51]
+            - paragraph [ref=e52]: Attendance
+        - paragraph [ref=e53]: Admin Dashboard
+      - navigation [ref=e54]:
+        - generic [ref=e55]:
+          - link "Dashboard" [ref=e56] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e57]:
+              - img [ref=e58]
+              - generic [ref=e63]: Dashboard
+          - link "Karyawan" [ref=e65] [cursor=pointer]:
+            - /url: /admin/employees
+            - generic [ref=e66]:
+              - img [ref=e67]
+              - generic [ref=e72]: Karyawan
+          - link "Departemen" [ref=e73] [cursor=pointer]:
+            - /url: /admin/departments
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - generic [ref=e79]: Departemen
+          - link "Shift" [ref=e80] [cursor=pointer]:
+            - /url: /admin/shifts
+            - generic [ref=e81]:
+              - img [ref=e82]
+              - generic [ref=e85]: Shift
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: Operasional
+          - generic [ref=e88]:
+            - link "Approval" [ref=e89] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e90]:
+                - img [ref=e91]
+                - generic [ref=e94]: Approval
+            - link "Laporan" [ref=e95] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e96]:
+                - img [ref=e97]
+                - generic [ref=e99]: Laporan
+            - link "Roster" [ref=e100] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e101]:
+                - img [ref=e102]
+                - generic [ref=e105]: Roster
+            - link "Activity Log" [ref=e106] [cursor=pointer]:
+              - /url: /admin/activity-log
+              - generic [ref=e107]:
+                - img [ref=e108]
+                - generic [ref=e111]: Activity Log
+      - button "Keluar" [ref=e113]:
+        - img
+        - text: Keluar
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - link "Home" [ref=e118] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e119]: /
+          - link "Admin" [ref=e120] [cursor=pointer]:
+            - /url: /admin
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - img [ref=e123]
+            - textbox "Cari..." [ref=e126]
+          - button "3" [ref=e128]:
+            - img
+            - generic [ref=e129]: "3"
+          - generic [ref=e130]:
+            - img [ref=e132]
+            - generic [ref=e135]:
+              - paragraph [ref=e136]: Eka Wulandari
+              - generic [ref=e137]: Admin
+            - button [ref=e138]:
+              - img
+      - main [ref=e139]:
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - heading "Dashboard" [level=1] [ref=e143]
+            - paragraph [ref=e144]: Ringkasan kehadiran dan aktivitas hari ini
+          - generic [ref=e145]:
+            - generic [ref=e147]:
+              - img [ref=e149]
+              - generic [ref=e154]:
+                - paragraph [ref=e155]: "15"
+                - paragraph [ref=e156]: Total Karyawan
+            - generic [ref=e158]:
+              - img [ref=e160]
+              - generic [ref=e162]:
+                - paragraph [ref=e163]: "3"
+                - paragraph [ref=e164]: Pending Approval
+            - generic [ref=e166]:
+              - img [ref=e168]
+              - generic [ref=e171]:
+                - paragraph [ref=e172]: "5"
+                - paragraph [ref=e173]: Hadir Hari Ini
+            - generic [ref=e175]:
+              - img [ref=e177]
+              - generic [ref=e181]:
+                - paragraph [ref=e182]: "3"
+                - paragraph [ref=e183]: Shift Aktif
+          - generic [ref=e184]:
+            - link "Karyawan" [ref=e185] [cursor=pointer]:
+              - /url: /admin/employees
+              - generic [ref=e186]:
+                - img [ref=e187]
+                - generic [ref=e192]: Karyawan
+            - link "Approval" [ref=e193] [cursor=pointer]:
+              - /url: /admin/approvals
+              - generic [ref=e194]:
+                - img [ref=e195]
+                - generic [ref=e198]: Approval
+            - link "Laporan" [ref=e199] [cursor=pointer]:
+              - /url: /admin/reports
+              - generic [ref=e200]:
+                - img [ref=e201]
+                - generic [ref=e204]: Laporan
+            - link "Roster" [ref=e205] [cursor=pointer]:
+              - /url: /admin/roster
+              - generic [ref=e206]:
+                - img [ref=e207]
+                - generic [ref=e209]: Roster
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: Aktivitas Terbaru
+                - link "Lihat semua" [ref=e214] [cursor=pointer]:
+                  - /url: /admin/activity-log
+                  - button "Lihat semua" [ref=e215]:
+                    - text: Lihat semua
+                    - img
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - img [ref=e219]
+                  - generic [ref=e224]:
+                    - paragraph [ref=e225]: Ahmad Fauzi scan masuk tepat waktu
+                    - generic [ref=e226]:
+                      - generic [ref=e227]: Kiosk 1
+                      - generic [ref=e228]: •
+                      - generic [ref=e229]: Scan
+                  - generic [ref=e230]: 6 jam lalu
+                - generic [ref=e231]:
+                  - img [ref=e233]
+                  - generic [ref=e236]:
+                    - paragraph [ref=e237]: Citra Lestari mengajukan cuti sakit
+                    - generic [ref=e238]:
+                      - generic [ref=e239]: Citra Lestari
+                      - generic [ref=e240]: •
+                      - generic [ref=e241]: Pengajuan
+                  - generic [ref=e242]: 7 jam lalu
+                - generic [ref=e243]:
+                  - img [ref=e245]
+                  - generic [ref=e248]:
+                    - paragraph [ref=e249]: Cuti sakit Citra Lestari disetujui
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: Eka Wulandari
+                      - generic [ref=e252]: •
+                      - generic [ref=e253]: Approval
+                  - generic [ref=e254]: 6 jam lalu
+                - generic [ref=e255]:
+                  - img [ref=e257]
+                  - generic [ref=e261]:
+                    - paragraph [ref=e262]: Indah Permata diupdate ke Shift Pagi
+                    - generic [ref=e263]:
+                      - generic [ref=e264]: Eka Wulandari
+                      - generic [ref=e265]: •
+                      - generic [ref=e266]: Update
+                  - generic [ref=e267]: 10 Jun
+                - generic [ref=e268]:
+                  - img [ref=e270]
+                  - generic [ref=e275]:
+                    - paragraph [ref=e276]: Budi Santoso scan masuk terlambat
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: Kiosk 1
+                      - generic [ref=e279]: •
+                      - generic [ref=e280]: Scan
+                  - generic [ref=e281]: 6 jam lalu
+            - generic [ref=e282]:
+              - generic [ref=e284]:
+                - img [ref=e285]
+                - text: Kehadiran per Departemen
+              - generic [ref=e289]:
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: Web Developer
+                    - generic [ref=e294]: 6 org
+                  - generic [ref=e295]: 5/6
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - generic [ref=e300]:
+                      - generic [ref=e301]: Dapur
+                      - generic [ref=e302]: 4 org
+                    - generic [ref=e303]: 3/4
+                  - generic [ref=e307]: "Sakit: 1"
+                - generic [ref=e309]:
+                  - generic [ref=e310]:
+                    - generic [ref=e311]: Security
+                    - generic [ref=e312]: 3 org
+                  - generic [ref=e313]: 2/3
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: HR
+                    - generic [ref=e320]: 2 org
+                  - generic [ref=e321]: 2/2
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]
+  - alert [ref=e42]

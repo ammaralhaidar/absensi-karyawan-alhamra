@@ -1,0 +1,361 @@
+- generic:
+  - generic:
+    - complementary:
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - heading [level=1]: Alhamra
+            - paragraph: Attendance
+        - paragraph: Admin Dashboard
+      - navigation:
+        - generic:
+          - link:
+            - /url: /admin
+            - generic:
+              - img
+              - generic: Dashboard
+          - link:
+            - /url: /admin/employees
+            - generic:
+              - img
+              - generic: Karyawan
+          - link:
+            - /url: /admin/departments
+            - generic:
+              - img
+              - generic: Departemen
+          - link:
+            - /url: /admin/shifts
+            - generic:
+              - img
+              - generic: Shift
+        - generic:
+          - paragraph: Operasional
+          - generic:
+            - link:
+              - /url: /admin/approvals
+              - generic:
+                - img
+                - generic: Approval
+            - link:
+              - /url: /admin/reports
+              - generic:
+                - img
+                - generic: Laporan
+            - link:
+              - /url: /admin/roster
+              - generic:
+                - img
+                - generic: Roster
+            - link:
+              - /url: /admin/activity-log
+              - generic:
+                - img
+                - generic: Activity Log
+      - generic:
+        - link:
+          - /url: /
+          - button:
+            - img
+            - text: Keluar
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - text: Home
+            - generic: /
+            - link:
+              - /url: /admin
+              - text: Admin
+            - generic: /
+            - generic: Laporan & Export
+        - generic:
+          - generic:
+            - img
+            - textbox:
+              - /placeholder: Cari...
+          - generic:
+            - button:
+              - img
+              - generic: "3"
+          - generic:
+            - generic:
+              - img
+            - generic:
+              - paragraph: Eka Wulandari
+              - generic: Admin
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Laporan & Export
+                - paragraph: Rekapitulasi absensi dan export ke Excel
+              - generic:
+                - button:
+                  - img
+                  - text: Cetak
+                - button:
+                  - img
+                  - text: Download Excel
+            - generic:
+              - combobox:
+                - img
+                - generic: Mei 2026
+                - img
+              - combobox:
+                - generic: Semua Departemen
+                - img
+              - generic:
+                - img
+                - textbox:
+                  - /placeholder: Cari karyawan...
+              - generic: 5 karyawan
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: "47"
+                  - paragraph: Hadir
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: "0"
+                  - paragraph: Sakit
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: "1"
+                  - paragraph: Izin
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: "2"
+                  - paragraph: Cuti
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: "0"
+                  - paragraph: Alpa
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: "1"
+                  - paragraph: Terlambat
+            - generic:
+              - generic: "Keterangan:"
+              - generic: H = Hadir
+              - generic: S = Sakit
+              - generic: I = Izin
+              - generic: C = Cuti
+              - generic: A = Alpa
+              - generic: T = Terlambat
+            - generic:
+              - generic:
+                - generic: Rekapitulasi Absensi - Mei 2026
+              - generic:
+                - generic:
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row:
+                          - columnheader:
+                            - generic:
+                              - text: Nama
+                              - img
+                          - columnheader: Divisi
+                          - columnheader: "1"
+                          - columnheader: "2"
+                          - columnheader: "3"
+                          - columnheader: "4"
+                          - columnheader: "5"
+                          - columnheader: "6"
+                          - columnheader: "7"
+                          - columnheader: "8"
+                          - columnheader: "9"
+                          - columnheader: "10"
+                          - columnheader:
+                            - generic:
+                              - text: Total
+                              - img
+                          - columnheader:
+                            - generic:
+                              - text: Jam
+                              - img
+                      - rowgroup:
+                        - row:
+                          - cell:
+                            - button: Ahmad Fauzi
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell: "10"
+                          - cell: 80h
+                        - row:
+                          - cell:
+                            - button: Budi Santoso
+                          - cell:
+                            - generic: Web Developer
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: T
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell: "10"
+                          - cell: 80h
+                        - row:
+                          - cell:
+                            - button: Citra Lestari
+                          - cell:
+                            - generic: Dapur
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: I
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell: "9"
+                          - cell: 81h
+                        - row:
+                          - cell:
+                            - button: Dedi Pratama
+                          - cell:
+                            - generic: Security
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: C
+                          - cell:
+                            - generic: C
+                          - cell:
+                            - generic: H
+                          - cell: "8"
+                          - cell: 72h
+                        - row:
+                          - cell:
+                            - button: Eka Wulandari
+                          - cell:
+                            - generic: HR
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell:
+                            - generic: H
+                          - cell: "10"
+                          - cell: 80h
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e448] [cursor=pointer]:
+    - img [ref=e449]
+  - alert
+  - dialog "Detail Absensi" [ref=e499]:
+    - heading "Detail Absensi" [level=2] [ref=e501]
+    - generic [ref=e502]:
+      - generic [ref=e503]:
+        - img [ref=e505]
+        - generic [ref=e508]:
+          - paragraph [ref=e509]: Ahmad Fauzi
+          - generic [ref=e510]: Web Developer
+      - generic [ref=e511]:
+        - generic [ref=e512]:
+          - paragraph [ref=e513]: "10"
+          - paragraph [ref=e514]: Hadir
+        - generic [ref=e515]:
+          - paragraph [ref=e516]: "0"
+          - paragraph [ref=e517]: Sakit
+        - generic [ref=e518]:
+          - paragraph [ref=e519]: "0"
+          - paragraph [ref=e520]: Izin
+        - generic [ref=e521]:
+          - paragraph [ref=e522]: "0"
+          - paragraph [ref=e523]: Cuti
+        - generic [ref=e524]:
+          - paragraph [ref=e525]: "0"
+          - paragraph [ref=e526]: Alpa
+        - generic [ref=e527]:
+          - paragraph [ref=e528]: "0"
+          - paragraph [ref=e529]: Terlambat
+      - generic [ref=e530]:
+        - paragraph [ref=e531]: Total Jam Kerja
+        - paragraph [ref=e532]: 80 jam
+    - button "Close" [active] [ref=e533]:
+      - img
+      - generic [ref=e534]: Close

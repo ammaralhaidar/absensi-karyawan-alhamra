@@ -1,0 +1,151 @@
+- generic:
+  - generic:
+    - banner:
+      - generic:
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - heading [level=1]: Alhamra
+            - paragraph: Attendance
+        - link:
+          - /url: /
+          - button:
+            - img
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=1]: Pengajuan Izin
+            - paragraph: Riwayat pengajuan cuti, sakit, dan izin
+          - button:
+            - img
+            - text: Ajukan
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "3"
+              - paragraph: Pending
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "1"
+              - paragraph: Disetujui
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - paragraph: "1"
+              - paragraph: Ditolak
+        - generic:
+          - tablist:
+            - tab [selected]: Semua
+            - tab: Pending
+            - tab: Disetujui
+            - tab: Ditolak
+          - tabpanel:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: AF
+                    - generic:
+                      - paragraph: Ahmad Fauzi
+                  - generic: 2026-06-15 - 2026-06-17
+                - generic:
+                  - generic:
+                    - img
+                    - text: Pending
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: CL
+                    - generic:
+                      - paragraph: Citra Lestari
+                  - generic: 2026-06-12
+                - generic:
+                  - generic:
+                    - img
+                    - text: Disetujui
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: DP
+                    - generic:
+                      - paragraph: Dedi Pratama
+                  - generic: 2026-06-20
+                - generic:
+                  - generic:
+                    - img
+                    - text: Pending
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: FH
+                    - generic:
+                      - paragraph: Fajar Hidayat
+                  - generic: 2026-06-25 - 2026-06-28
+                - generic:
+                  - generic:
+                    - img
+                    - text: Ditolak
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: IP
+                    - generic:
+                      - paragraph: Indah Permata
+                  - generic: 2026-06-13 - 2026-06-14
+                - generic:
+                  - generic:
+                    - img
+                    - text: Pending
+    - navigation:
+      - generic:
+        - link:
+          - /url: /dashboard
+          - img
+          - generic: QR Code
+        - link:
+          - /url: /leaves
+          - img
+          - generic: Izin
+        - link:
+          - /url: /profile
+          - img
+          - generic: Profil
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e58] [cursor=pointer]:
+    - img [ref=e59]
+  - alert
+  - dialog "Detail Pengajuan" [ref=e199]:
+    - heading "Detail Pengajuan" [level=2] [ref=e201]
+    - generic [ref=e202]:
+      - generic [ref=e203]:
+        - generic [ref=e205]: AF
+        - generic [ref=e206]:
+          - paragraph [ref=e207]: Ahmad Fauzi
+          - paragraph [ref=e208]: Cuti Tahunan
+      - generic [ref=e209]:
+        - generic [ref=e210]: Status
+        - generic [ref=e211]:
+          - img
+          - text: Pending
+      - generic [ref=e212]:
+        - img [ref=e213]
+        - generic [ref=e215]: 2026-06-15 - 2026-06-17
+      - generic [ref=e216]:
+        - paragraph [ref=e217]: Alasan
+        - paragraph [ref=e218]: Liburan keluarga
+      - paragraph [ref=e219]: "Diajukan: 2026-06-10"
+    - button "Close" [active] [ref=e220]:
+      - img
+      - generic [ref=e221]: Close

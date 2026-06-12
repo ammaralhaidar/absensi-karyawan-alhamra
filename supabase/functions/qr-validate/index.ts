@@ -56,17 +56,31 @@ serve(async (req) => {
     }
 
     const nowTime = new Date()
-    const shiftStart = new Date(`${nowTime.toISOString().split('T')[0]}T${shift.start_time}`)
+    const today = nowTime.toISOString().split('T')[0]
+    const shiftStart = new Date(`${today}T${shift.start_time}`)
     const lateThreshold = new Date(shiftStart.getTime() + shift.late_tolerance_minutes * 60000)
 
     const status = nowTime <= lateThreshold ? 'tepat_waktu' : 'terlambat'
+
+    const insertScan = async (scanStatus: string, scanType: string) => {
+      const { error: scanErr } = await supabase.from('scan_records').insert({
+        employee_id: employee.id,
+        employee_name: employee.name,
+        kiosk_id: kiosk_id || 'kiosk-1',
+        scanned_at: nowTime.toISOString(),
+        status: scanStatus,
+        type: scanType,
+        qr_token: token,
+      })
+      if (scanErr) console.error('scan_records insert failed:', scanErr.message)
+    }
 
     // Check existing attendance record for today
     const { data: existingLog } = await supabase
       .from('attendance_logs')
       .select('id, check_in, check_out')
       .eq('employee_id', employee.id)
-      .eq('date', nowTime.toISOString().split('T')[0])
+      .eq('date', today)
       .single()
 
     if (existingLog) {
@@ -86,15 +100,7 @@ serve(async (req) => {
         return new Response(JSON.stringify({ error: checkoutError.message }), { status: 500 })
       }
 
-      await supabase.from('scan_records').insert({
-        employee_id: employee.id,
-        employee_name: employee.name,
-        kiosk_id: kiosk_id || 'kiosk-1',
-        scanned_at: nowTime.toISOString(),
-        status: 'tepat_waktu',
-        type: 'check_out',
-        qr_token: token,
-      })
+      await insertScan('tepat_waktu', 'check_out')
 
       return new Response(JSON.stringify({
         success: true,
@@ -108,7 +114,7 @@ serve(async (req) => {
       .from('attendance_logs')
       .insert({
         employee_id: employee.id,
-        date: nowTime.toISOString().split('T')[0],
+        date: today,
         shift_id: employee.default_shift_id,
         check_in: nowTime.toISOString(),
         status_in: status,
@@ -118,15 +124,7 @@ serve(async (req) => {
       return new Response(JSON.stringify({ error: logError.message }), { status: 500 })
     }
 
-    await supabase.from('scan_records').insert({
-      employee_id: employee.id,
-      employee_name: employee.name,
-      kiosk_id: kiosk_id || 'kiosk-1',
-      scanned_at: nowTime.toISOString(),
-      status,
-      type: decodedPayload.type,
-      qr_token: token,
-    })
+    await insertScan(status, decodedPayload.type)
 
     return new Response(JSON.stringify({
       success: true,
@@ -135,7 +133,8 @@ serve(async (req) => {
       time: nowTime.toLocaleTimeString('id-ID'),
     }), { status: 200 })
 
-  } catch {
+  } catch (err) {
+    console.error('qr-validate error:', err)
     return new Response(JSON.stringify({ error: 'Invalid token format' }), { status: 400 })
   }
 })

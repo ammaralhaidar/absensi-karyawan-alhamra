@@ -1,0 +1,18 @@
+{
+  "name": "Alhamra Attendance",
+  "short_name": "Alhamra",
+  "description": "Sistem Absensi Karyawan Alhamra",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#164e7f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

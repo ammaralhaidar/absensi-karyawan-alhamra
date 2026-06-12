@@ -6,6 +6,7 @@ import { redirect } from 'next/navigation'
 
 export async function signIn(email: string, password: string) {
   const supabase = await createClient()
+  
   const { data, error } = await supabase.auth.signInWithPassword({
     email,
     password,
@@ -22,11 +23,13 @@ export async function signIn(email: string, password: string) {
     .single()
 
   if (!profile) {
-    return { error: 'Employee profile not found' }
+    await supabase.auth.signOut()
+    return { error: 'Employee profile not found. Silakan hubungi admin.' }
   }
 
+  // Force revalidation so proxy.ts + server components get fresh session
   revalidatePath('/', 'layout')
-
+  
   if (profile.role === 'admin') {
     redirect('/admin')
   } else if (profile.role === 'kiosk_security') {

@@ -38,10 +38,11 @@ export function SupabaseProvider({ children }: { children: ReactNode }) {
     if (hasInitialized.current) return;
     hasInitialized.current = true;
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      async (_event, session) => {
-        setUser(session?.user ?? null);
-        if (session?.user) {
+    const initSession = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      setUser(session?.user ?? null);
+      if (session?.user) {
+        try {
           const { data } = await supabase
             .from('employees')
             .select('id, name, role, department_id, departments(name), avatar_url')
@@ -57,6 +58,38 @@ export function SupabaseProvider({ children }: { children: ReactNode }) {
               avatar_url: data.avatar_url,
             });
           }
+        } catch {
+          // Profile fetch failed, user exists in Auth but not in employees
+        }
+      }
+      setIsLoading(false);
+    };
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(
+      async (_event, session) => {
+        setUser(session?.user ?? null);
+        if (session?.user) {
+          try {
+            const { data } = await supabase
+              .from('employees')
+              .select('id, name, role, department_id, departments(name), avatar_url')
+              .eq('auth_id', session.user.id)
+              .single();
+            if (data) {
+              setProfile({
+                id: data.id,
+                name: data.name,
+                role: data.role,
+                department_id: data.department_id,
+                department_name: Array.isArray(data.departments) ? data.departments[0]?.name ?? '' : (data.departments as unknown as { name: string })?.name ?? '',
+                avatar_url: data.avatar_url,
+              });
+            } else {
+              setProfile(null);
+            }
+          } catch {
+            setProfile(null);
+          }
         } else {
           setProfile(null);
         }
@@ -64,10 +97,7 @@ export function SupabaseProvider({ children }: { children: ReactNode }) {
       }
     );
 
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setUser(session?.user ?? null);
-      setIsLoading(false);
-    });
+    initSession();
 
     return () => subscription.unsubscribe();
   }, [supabase]);
